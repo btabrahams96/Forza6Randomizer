@@ -1,0 +1,1170 @@
+{
+ "app": "forza6-randomizer",
+ "version": 1,
+ "profileName": "Kyle",
+ "exportedAt": "2026-10-28T21:02:48.541Z",
+ "entries": [
+  {
+   "carId": "chevrolet-k-10-custom",
+   "custom": null,
+   "pi": 268,
+   "nickname": null
+  },
+  {
+   "carId": "lincoln-continental-1962",
+   "custom": null,
+   "pi": 267,
+   "nickname": null
+  },
+  {
+   "carId": "mercedes-benz-x-class",
+   "custom": null,
+   "pi": 258,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-jpn-taxi",
+   "custom": null,
+   "pi": 248,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-figaro",
+   "custom": null,
+   "pi": 234,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-crown-super-deluxe-taxi",
+   "custom": null,
+   "pi": 181,
+   "nickname": null
+  },
+  {
+   "carId": "mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+   "custom": null,
+   "pi": 166,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-patrol",
+   "custom": null,
+   "pi": 157,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-sports-800",
+   "custom": null,
+   "pi": 141,
+   "nickname": null
+  },
+  {
+   "carId": "wuling-sunshine-s",
+   "custom": null,
+   "pi": 107,
+   "nickname": null
+  },
+  {
+   "carId": "reliant-supervan-iii",
+   "custom": null,
+   "pi": 100,
+   "nickname": null
+  },
+  {
+   "carId": "peel-p50",
+   "custom": null,
+   "pi": 100,
+   "nickname": null
+  },
+  {
+   "carId": "holden-torana-a9x",
+   "custom": null,
+   "pi": 413,
+   "nickname": null
+  },
+  {
+   "carId": "subaru-legacy-rs",
+   "custom": null,
+   "pi": 406,
+   "nickname": null
+  },
+  {
+   "carId": "renault-clio-williams",
+   "custom": null,
+   "pi": 400,
+   "nickname": null
+  },
+  {
+   "carId": "honda-e",
+   "custom": null,
+   "pi": 398,
+   "nickname": null
+  },
+  {
+   "carId": "mercedes-benz-300-sl-coupe",
+   "custom": null,
+   "pi": 388,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-skyline-2000gt-r",
+   "custom": null,
+   "pi": 380,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-rx-7-gsl-se",
+   "custom": null,
+   "pi": 357,
+   "nickname": null
+  },
+  {
+   "carId": "jeep-wrangler-rubicon",
+   "custom": null,
+   "pi": 350,
+   "nickname": null
+  },
+  {
+   "carId": "autozam-az-1",
+   "custom": null,
+   "pi": 342,
+   "nickname": null
+  },
+  {
+   "carId": "ford-thunderbird",
+   "custom": null,
+   "pi": 332,
+   "nickname": null
+  },
+  {
+   "carId": "chevrolet-bel-air",
+   "custom": null,
+   "pi": 320,
+   "nickname": null
+  },
+  {
+   "carId": "honda-city-e-ii",
+   "custom": null,
+   "pi": 499,
+   "nickname": null
+  },
+  {
+   "carId": "mitsubishi-gto",
+   "custom": null,
+   "pi": 495,
+   "nickname": null
+  },
+  {
+   "carId": "eunos-cosmo",
+   "custom": null,
+   "pi": 487,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-chaser-gt-twin-turbo",
+   "custom": null,
+   "pi": 484,
+   "nickname": null
+  },
+  {
+   "carId": "dodge-charger-daytona-hemi",
+   "custom": null,
+   "pi": 479,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-prius-prime-xse-premium",
+   "custom": null,
+   "pi": 472,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-mx-5-2013",
+   "custom": null,
+   "pi": 432,
+   "nickname": null
+  },
+  {
+   "carId": "volkswagen-corrado-vr6",
+   "custom": null,
+   "pi": 426,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-4runner-trd-pro",
+   "custom": null,
+   "pi": 421,
+   "nickname": null
+  },
+  {
+   "carId": "dodge-charger-r-t",
+   "custom": null,
+   "pi": 417,
+   "nickname": null
+  },
+  {
+   "carId": "renault-5-turbo",
+   "custom": null,
+   "pi": 417,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-skyline-2000-turbo-rs",
+   "custom": null,
+   "pi": 414,
+   "nickname": null
+  },
+  {
+   "carId": "mitsubishi-lancer-evolution-iii-gsr",
+   "custom": null,
+   "pi": 517,
+   "nickname": null
+  },
+  {
+   "carId": "honda-civic-type-r-2008",
+   "custom": null,
+   "pi": 514,
+   "nickname": null
+  },
+  {
+   "carId": "ram-1500-trx",
+   "custom": null,
+   "pi": 514,
+   "nickname": null
+  },
+  {
+   "carId": "bmw-m1",
+   "custom": null,
+   "pi": 510,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-mx-5-miata-rf",
+   "custom": null,
+   "pi": 509,
+   "nickname": null
+  },
+  {
+   "carId": "renault-sport-spider",
+   "custom": null,
+   "pi": 508,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-rx-8-r3",
+   "custom": null,
+   "pi": 508,
+   "nickname": null
+  },
+  {
+   "carId": "ford-fiesta-st-2023",
+   "custom": null,
+   "pi": 500,
+   "nickname": null
+  },
+  {
+   "carId": "gmc-jimmy",
+   "custom": null,
+   "pi": 500,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-celica-gt-four-st205",
+   "custom": null,
+   "pi": 500,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-gr86",
+   "custom": null,
+   "pi": 556,
+   "nickname": null
+  },
+  {
+   "carId": "hyundai-i30-n",
+   "custom": null,
+   "pi": 553,
+   "nickname": null
+  },
+  {
+   "carId": "porsche-911-turbo-3-3",
+   "custom": null,
+   "pi": 550,
+   "nickname": null
+  },
+  {
+   "carId": "bmw-m3-1997",
+   "custom": null,
+   "pi": 549,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-skyline-gt-r-40th-anniversary",
+   "custom": null,
+   "pi": 547,
+   "nickname": null
+  },
+  {
+   "carId": "datsun-240z-5-rallye",
+   "custom": null,
+   "pi": 538,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-fairlady-z",
+   "custom": null,
+   "pi": 534,
+   "nickname": null
+  },
+  {
+   "carId": "alumicraft-class-10-race-car",
+   "custom": null,
+   "pi": 532,
+   "nickname": null
+  },
+  {
+   "carId": "mercedes-benz-g-65-amg",
+   "custom": null,
+   "pi": 530,
+   "nickname": null
+  },
+  {
+   "carId": "ford-ranger-t6-rally-raid",
+   "custom": null,
+   "pi": 530,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-supra-rz",
+   "custom": null,
+   "pi": 529,
+   "nickname": null
+  },
+  {
+   "carId": "audi-s1",
+   "custom": null,
+   "pi": 527,
+   "nickname": null
+  },
+  {
+   "carId": "subaru-impreza-22b-sti-version",
+   "custom": null,
+   "pi": 600,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-silvia-k-s-1989",
+   "custom": null,
+   "pi": 599,
+   "nickname": null
+  },
+  {
+   "carId": "audi-rs-4",
+   "custom": null,
+   "pi": 593,
+   "nickname": null
+  },
+  {
+   "carId": "maserati-ghibli-cup",
+   "custom": null,
+   "pi": 591,
+   "nickname": null
+  },
+  {
+   "carId": "lotus-elise-series-1-sport-190",
+   "custom": null,
+   "pi": 589,
+   "nickname": null
+  },
+  {
+   "carId": "lotus-elise-series-1-sport-190",
+   "custom": null,
+   "pi": 589,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-275-gtb4-spider",
+   "custom": null,
+   "pi": 579,
+   "nickname": null
+  },
+  {
+   "carId": "mitsubishi-eclipse-gsx",
+   "custom": null,
+   "pi": 571,
+   "nickname": null
+  },
+  {
+   "carId": "aston-martin-db7-gt",
+   "custom": null,
+   "pi": 566,
+   "nickname": null
+  },
+  {
+   "carId": "audi-rs-3-sportback",
+   "custom": null,
+   "pi": 565,
+   "nickname": null
+  },
+  {
+   "carId": "ford-fpv-limited-edition-pursuit-ute",
+   "custom": null,
+   "pi": 563,
+   "nickname": null
+  },
+  {
+   "carId": "porsche-911-carrera-coupe-luftauto-002",
+   "custom": null,
+   "pi": 561,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-gr-supra",
+   "custom": null,
+   "pi": 616,
+   "nickname": null
+  },
+  {
+   "carId": "ford-11-rockstar-f-150-trophy-truck",
+   "custom": null,
+   "pi": 613,
+   "nickname": null
+  },
+  {
+   "carId": "honda-nsx-r-gt",
+   "custom": null,
+   "pi": 608,
+   "nickname": null
+  },
+  {
+   "carId": "bmw-m3-2008",
+   "custom": null,
+   "pi": 608,
+   "nickname": null
+  },
+  {
+   "carId": "rivian-r1t",
+   "custom": null,
+   "pi": 607,
+   "nickname": null
+  },
+  {
+   "carId": "land-rover-range-rover-sport-svr",
+   "custom": null,
+   "pi": 604,
+   "nickname": null
+  },
+  {
+   "carId": "buick-regal-gnx",
+   "custom": null,
+   "pi": 602,
+   "nickname": null
+  },
+  {
+   "carId": "ariel-nomad",
+   "custom": null,
+   "pi": 601,
+   "nickname": null
+  },
+  {
+   "carId": "ford-f-150-raptor-r",
+   "custom": null,
+   "pi": 600,
+   "nickname": null
+  },
+  {
+   "carId": "honda-civic-type-r-2023",
+   "custom": null,
+   "pi": 600,
+   "nickname": null
+  },
+  {
+   "carId": "mitsubishi-lancer-evolution-x-gsr",
+   "custom": null,
+   "pi": 600,
+   "nickname": null
+  },
+  {
+   "carId": "porsche-718-cayman-gts",
+   "custom": null,
+   "pi": 675,
+   "nickname": null
+  },
+  {
+   "carId": "ford-mustang-dark-horse",
+   "custom": null,
+   "pi": 669,
+   "nickname": null
+  },
+  {
+   "carId": "ford-2-gt40-mk-ii",
+   "custom": null,
+   "pi": 666,
+   "nickname": null
+  },
+  {
+   "carId": "lamborghini-urus",
+   "custom": null,
+   "pi": 659,
+   "nickname": null
+  },
+  {
+   "carId": "bmw-m2-competition-coupe",
+   "custom": null,
+   "pi": 656,
+   "nickname": null
+  },
+  {
+   "carId": "bentley-continental-gt-convertible",
+   "custom": null,
+   "pi": 649,
+   "nickname": null
+  },
+  {
+   "carId": "audi-rs-6-avant-2015",
+   "custom": null,
+   "pi": 640,
+   "nickname": null
+  },
+  {
+   "carId": "audi-rs-4-avant-2018",
+   "custom": null,
+   "pi": 637,
+   "nickname": null
+  },
+  {
+   "carId": "bmw-z4-roadster",
+   "custom": null,
+   "pi": 634,
+   "nickname": null
+  },
+  {
+   "carId": "peugeot-207-super-2000",
+   "custom": null,
+   "pi": 632,
+   "nickname": null
+  },
+  {
+   "carId": "mg-metro-6r4",
+   "custom": null,
+   "pi": 627,
+   "nickname": null
+  },
+  {
+   "carId": "mercedes-amg-slc-43-final-edition",
+   "custom": null,
+   "pi": 620,
+   "nickname": null
+  },
+  {
+   "carId": "dodge-viper-gts-acr-forza-edition",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "mitsubishi-lancer-evolution-vi-gsr-tm-edition",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-gr-yaris",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "porsche-cayenne-turbo-2018",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "ford-bronco-raptor",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "ariel-nomad",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "porsche-911-rallye",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "ford-sierra-cosworth-rs500",
+   "custom": null,
+   "pi": 699,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-24-ferrari-spa-330-p4",
+   "custom": null,
+   "pi": 684,
+   "nickname": null
+  },
+  {
+   "carId": "dodge-challenger-srt-demon-170",
+   "custom": null,
+   "pi": 683,
+   "nickname": null
+  },
+  {
+   "carId": "jimco-179-hammerhead-class-1",
+   "custom": null,
+   "pi": 681,
+   "nickname": null
+  },
+  {
+   "carId": "dodge-challenger-srt-demon",
+   "custom": null,
+   "pi": 678,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-458-italia",
+   "custom": null,
+   "pi": 721,
+   "nickname": null
+  },
+  {
+   "carId": "ford-mustang-shelby-gt350r",
+   "custom": null,
+   "pi": 721,
+   "nickname": null
+  },
+  {
+   "carId": "jaguar-sport-xjr-15",
+   "custom": null,
+   "pi": 716,
+   "nickname": null
+  },
+  {
+   "carId": "ford-xb-falcon-gt",
+   "custom": null,
+   "pi": 714,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-purosangue",
+   "custom": null,
+   "pi": 713,
+   "nickname": null
+  },
+  {
+   "carId": "alfa-romeo-giulia-gtam",
+   "custom": null,
+   "pi": 711,
+   "nickname": null
+  },
+  {
+   "carId": "ford-mustang-svt-cobra-r-1993",
+   "custom": null,
+   "pi": 706,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-123-mad-mike-808-wagon-fursty",
+   "custom": null,
+   "pi": 702,
+   "nickname": null
+  },
+  {
+   "carId": "ford-mustang-gt-2-2-fastback-forza-edition",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "mitsubishi-lancer-evolution-viii-mr",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "porsche-959",
+   "custom": null,
+   "pi": 700,
+   "nickname": null
+  },
+  {
+   "carId": "ford-focus-st-2022",
+   "custom": null,
+   "pi": 762,
+   "nickname": null
+  },
+  {
+   "carId": "polaris-rzr-pro-xp-ultimate",
+   "custom": null,
+   "pi": 757,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-z-nismo",
+   "custom": null,
+   "pi": 757,
+   "nickname": null
+  },
+  {
+   "carId": "ford-mustang-gt-2-2-fastback",
+   "custom": null,
+   "pi": 755,
+   "nickname": null
+  },
+  {
+   "carId": "chevrolet-corvette-zr-1-1970",
+   "custom": null,
+   "pi": 755,
+   "nickname": null
+  },
+  {
+   "carId": "lamborghini-aventador-lp700-4",
+   "custom": null,
+   "pi": 753,
+   "nickname": null
+  },
+  {
+   "carId": "ford-f-150-svt-lightning",
+   "custom": null,
+   "pi": 753,
+   "nickname": null
+  },
+  {
+   "carId": "ford-focus-rs-2003",
+   "custom": null,
+   "pi": 752,
+   "nickname": null
+  },
+  {
+   "carId": "lancia-stratos-hf-stradale",
+   "custom": null,
+   "pi": 751,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-gt-r-nismo-r35",
+   "custom": null,
+   "pi": 736,
+   "nickname": null
+  },
+  {
+   "carId": "chevrolet-impala-super-sport-409",
+   "custom": null,
+   "pi": 735,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-2000gt",
+   "custom": null,
+   "pi": 734,
+   "nickname": null
+  },
+  {
+   "carId": "volkswagen-type-2-de-luxe",
+   "custom": null,
+   "pi": 783,
+   "nickname": null
+  },
+  {
+   "carId": "ford-crown-victoria-police-interceptor",
+   "custom": null,
+   "pi": 782,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-812-superfast",
+   "custom": null,
+   "pi": 780,
+   "nickname": null
+  },
+  {
+   "carId": "ford-f-150-xlt-lariat",
+   "custom": null,
+   "pi": 776,
+   "nickname": null
+  },
+  {
+   "carId": "gr-gr-gt-prototype",
+   "custom": null,
+   "pi": 771,
+   "nickname": null
+  },
+  {
+   "carId": "shelby-cobra-daytona-coupe",
+   "custom": null,
+   "pi": 769,
+   "nickname": null
+  },
+  {
+   "carId": "audi-r8-coupe-v10-gt-rwd",
+   "custom": null,
+   "pi": 769,
+   "nickname": null
+  },
+  {
+   "carId": "formula-drift-117-599-gtb-fiorano",
+   "custom": null,
+   "pi": 767,
+   "nickname": null
+  },
+  {
+   "carId": "bac-mono",
+   "custom": null,
+   "pi": 766,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-fj40",
+   "custom": null,
+   "pi": 766,
+   "nickname": null
+  },
+  {
+   "carId": "volkswagen-34-volkswagen-andretti-rally-cross-beetle",
+   "custom": null,
+   "pi": 764,
+   "nickname": null
+  },
+  {
+   "carId": "plymouth-cuda-426-hemi",
+   "custom": null,
+   "pi": 764,
+   "nickname": null
+  },
+  {
+   "carId": "volkswagen-beetle",
+   "custom": null,
+   "pi": 808,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-488-pista",
+   "custom": null,
+   "pi": 803,
+   "nickname": null
+  },
+  {
+   "carId": "audi-tt-rs-coupe-2010",
+   "custom": null,
+   "pi": 802,
+   "nickname": null
+  },
+  {
+   "carId": "bmw-m4-competition-coupe",
+   "custom": null,
+   "pi": 800,
+   "nickname": null
+  },
+  {
+   "carId": "wuling-sunshine-s-forza-edition",
+   "custom": null,
+   "pi": 800,
+   "nickname": null
+  },
+  {
+   "carId": "ford-mustang-boss-302",
+   "custom": null,
+   "pi": 800,
+   "nickname": null
+  },
+  {
+   "carId": "ford-rs200-evolution",
+   "custom": null,
+   "pi": 799,
+   "nickname": null
+  },
+  {
+   "carId": "honda-civic-rs",
+   "custom": null,
+   "pi": 798,
+   "nickname": null
+  },
+  {
+   "carId": "dodge-viper-acr",
+   "custom": null,
+   "pi": 786,
+   "nickname": null
+  },
+  {
+   "carId": "bmw-m3-1988",
+   "custom": null,
+   "pi": 786,
+   "nickname": null
+  },
+  {
+   "carId": "ford-mustang-svt-cobra-r-2000",
+   "custom": null,
+   "pi": 784,
+   "nickname": null
+  },
+  {
+   "carId": "ford-capri-rs3100",
+   "custom": null,
+   "pi": 783,
+   "nickname": null
+  },
+  {
+   "carId": "ford-gt-2017",
+   "custom": null,
+   "pi": 871,
+   "nickname": null
+  },
+  {
+   "carId": "lexus-lfa",
+   "custom": null,
+   "pi": 867,
+   "nickname": null
+  },
+  {
+   "carId": "mercedes-amg-e-63-s",
+   "custom": null,
+   "pi": 866,
+   "nickname": null
+  },
+  {
+   "carId": "chevrolet-corvette-z06-2015",
+   "custom": null,
+   "pi": 861,
+   "nickname": null
+  },
+  {
+   "carId": null,
+   "custom": {
+    "make": "Honda",
+    "model": "#33 Byp Racing Integ…",
+    "year": 2001
+   },
+   "pi": 860,
+   "nickname": "Check car"
+  },
+  {
+   "carId": "nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
+   "custom": null,
+   "pi": 858,
+   "nickname": null
+  },
+  {
+   "carId": "ford-de-luxe-five-window-coupe",
+   "custom": null,
+   "pi": 856,
+   "nickname": null
+  },
+  {
+   "carId": "subaru-wrx-sti-arx-supercar",
+   "custom": null,
+   "pi": 852,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-gt-r-black-edition-r35-forza-edition",
+   "custom": null,
+   "pi": 850,
+   "nickname": null
+  },
+  {
+   "carId": "ford-25-brocky-ultra4-bronco-rtr",
+   "custom": null,
+   "pi": 849,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-rx-7-type-r",
+   "custom": null,
+   "pi": 848,
+   "nickname": null
+  },
+  {
+   "carId": "honda-nsx-r-1992",
+   "custom": null,
+   "pi": 845,
+   "nickname": null
+  },
+  {
+   "carId": "porsche-203-porsche-ag-961",
+   "custom": null,
+   "pi": 840,
+   "nickname": "Check PI"
+  },
+  {
+   "carId": "cadillac-cts-v-sedan",
+   "custom": null,
+   "pi": 648,
+   "nickname": "Check PI"
+  },
+  {
+   "carId": "acura-nsx-type-s",
+   "custom": null,
+   "pi": 916,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-f80",
+   "custom": null,
+   "pi": 916,
+   "nickname": null
+  },
+  {
+   "carId": "gmc-typhoon",
+   "custom": null,
+   "pi": 914,
+   "nickname": null
+  },
+  {
+   "carId": "honda-21-hardrace-jdmyard-civic-wtac",
+   "custom": null,
+   "pi": 913,
+   "nickname": null
+  },
+  {
+   "carId": "ford-gt-2005",
+   "custom": null,
+   "pi": 904,
+   "nickname": null
+  },
+  {
+   "carId": "mercedes-amg-mercedes-amg-one",
+   "custom": null,
+   "pi": 900,
+   "nickname": null
+  },
+  {
+   "carId": "mercedes-amg-gt-black-series",
+   "custom": null,
+   "pi": 900,
+   "nickname": null
+  },
+  {
+   "carId": "lotus-evija-forza-edition",
+   "custom": null,
+   "pi": 900,
+   "nickname": null
+  },
+  {
+   "carId": "honda-z-gt",
+   "custom": null,
+   "pi": 882,
+   "nickname": null
+  },
+  {
+   "carId": "ford-focus-rs-2017",
+   "custom": null,
+   "pi": 878,
+   "nickname": null
+  },
+  {
+   "carId": "honda-19-101-motorsport-crx-wtac",
+   "custom": null,
+   "pi": 877,
+   "nickname": null
+  },
+  {
+   "carId": "toyota-tacoma-trd-pro-forza-edition",
+   "custom": null,
+   "pi": 998,
+   "nickname": null
+  },
+  {
+   "carId": "ferrari-fxx-k-evo",
+   "custom": null,
+   "pi": 998,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-36-dream-project-s15-silvia-wtac",
+   "custom": null,
+   "pi": 996,
+   "nickname": null
+  },
+  {
+   "carId": "alfa-romeo-autodelta-tipo-33-2-daytona",
+   "custom": null,
+   "pi": 991,
+   "nickname": null
+  },
+  {
+   "carId": "aston-martin-valkyrie-amr-pro",
+   "custom": null,
+   "pi": 989,
+   "nickname": null
+  },
+  {
+   "carId": "koenigsegg-jesko",
+   "custom": null,
+   "pi": 985,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-gt-r-nismo-2024",
+   "custom": null,
+   "pi": 958,
+   "nickname": null
+  },
+  {
+   "carId": "datsun-269-attacking-the-clock-racing-240z-all-carbon-hill-climb-beast",
+   "custom": null,
+   "pi": 951,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-mx-5-miata-1994",
+   "custom": null,
+   "pi": 930,
+   "nickname": null
+  },
+  {
+   "carId": "nissan-32-skyline-wtac-xtreme-gtr",
+   "custom": null,
+   "pi": 923,
+   "nickname": null
+  },
+  {
+   "carId": "mclaren-w1",
+   "custom": null,
+   "pi": 918,
+   "nickname": null
+  },
+  {
+   "carId": "ford-f-150-xlt-lariat-forza-edition",
+   "custom": null,
+   "pi": 917,
+   "nickname": null
+  },
+  {
+   "carId": "mazda-mx-5-miata-forza-edition",
+   "custom": null,
+   "pi": 999,
+   "nickname": null
+  },
+  {
+   "carId": "alfa-romeo-se-048sp",
+   "custom": null,
+   "pi": 999,
+   "nickname": null
+  },
+  {
+   "carId": "koenigsegg-gemera",
+   "custom": null,
+   "pi": 999,
+   "nickname": null
+  },
+  {
+   "carId": "honda-52-evasive-motorsports-s2000-wtac",
+   "custom": null,
+   "pi": 999,
+   "nickname": null
+  },
+  {
+   "carId": "radical-rxc-turbo",
+   "custom": null,
+   "pi": 999,
+   "nickname": null
+  }
+ ]
+}
