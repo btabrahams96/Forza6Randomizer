@@ -1,0 +1,26 @@
+{
+ "app": "forza6-randomizer",
+ "version": 1,
+ "profileName": "Bryton",
+ "exportedAt": "2026-10-28T21:29:11.587Z",
+ "entries": [
+  {
+   "carId": "acura-nsx-type-s",
+   "custom": null,
+   "pi": 734,
+   "nickname": null
+  },
+  {
+   "carId": "acura-integra-a-spec",
+   "custom": null,
+   "pi": 484,
+   "nickname": null
+  },
+  {
+   "carId": "mclaren-artura",
+   "custom": null,
+   "pi": 905,
+   "nickname": null
+  }
+ ]
+}
