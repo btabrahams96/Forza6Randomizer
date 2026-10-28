@@ -1126,7 +1126,7 @@
  },
  {
   "id": "audi-rs-4-avant-2001",
-  "name": "Audi RS 4 Avant",
+  "name": "Audi RS 4 Avant (2001)",
   "make": "Audi",
   "model": "RS 4 Avant (2001)",
   "year": 2001,
@@ -1151,7 +1151,7 @@
  },
  {
   "id": "audi-rs-4-avant-2013",
-  "name": "Audi RS 4 Avant",
+  "name": "Audi RS 4 Avant (2013)",
   "make": "Audi",
   "model": "RS 4 Avant (2013)",
   "year": 2013,
@@ -1176,7 +1176,7 @@
  },
  {
   "id": "audi-rs-4-avant-2018",
-  "name": "Audi RS 4 Avant",
+  "name": "Audi RS 4 Avant (2018)",
   "make": "Audi",
   "model": "RS 4 Avant (2018)",
   "year": 2018,
@@ -1226,7 +1226,7 @@
  },
  {
   "id": "audi-rs-6-2003",
-  "name": "Audi RS 6",
+  "name": "Audi RS 6 (2003)",
   "make": "Audi",
   "model": "RS 6 (2003)",
   "year": 2003,
@@ -1251,7 +1251,7 @@
  },
  {
   "id": "audi-rs-6-2009",
-  "name": "Audi RS 6",
+  "name": "Audi RS 6 (2009)",
   "make": "Audi",
   "model": "RS 6 (2009)",
   "year": 2009,
@@ -1276,7 +1276,7 @@
  },
  {
   "id": "audi-rs-6-avant-2015",
-  "name": "Audi RS 6 Avant",
+  "name": "Audi RS 6 Avant (2015)",
   "make": "Audi",
   "model": "RS 6 Avant (2015)",
   "year": 2015,
@@ -1301,7 +1301,7 @@
  },
  {
   "id": "audi-rs-6-avant-2021",
-  "name": "Audi RS 6 Avant",
+  "name": "Audi RS 6 Avant (2021)",
   "make": "Audi",
   "model": "RS 6 Avant (2021)",
   "year": 2021,
@@ -1326,7 +1326,7 @@
  },
  {
   "id": "audi-rs-7-sportback-2013",
-  "name": "Audi RS 7 Sportback",
+  "name": "Audi RS 7 Sportback (2013)",
   "make": "Audi",
   "model": "RS 7 Sportback (2013)",
   "year": 2013,
@@ -1351,7 +1351,7 @@
  },
  {
   "id": "audi-rs-7-sportback-2021",
-  "name": "Audi RS 7 Sportback",
+  "name": "Audi RS 7 Sportback (2021)",
   "make": "Audi",
   "model": "RS 7 Sportback (2021)",
   "year": 2021,
@@ -1851,7 +1851,7 @@
  },
  {
   "id": "bmw-m3-1988",
-  "name": "BMW M3",
+  "name": "BMW M3 (1988)",
   "make": "BMW",
   "model": "M3 (1988)",
   "year": 1988,
@@ -1876,7 +1876,7 @@
  },
  {
   "id": "bmw-m3-1997",
-  "name": "BMW M3",
+  "name": "BMW M3 (1997)",
   "make": "BMW",
   "model": "M3 (1997)",
   "year": 1997,
@@ -1901,7 +1901,7 @@
  },
  {
   "id": "bmw-m3-2005",
-  "name": "BMW M3",
+  "name": "BMW M3 (2005)",
   "make": "BMW",
   "model": "M3 (2005)",
   "year": 2005,
@@ -1926,7 +1926,7 @@
  },
  {
   "id": "bmw-m3-2008",
-  "name": "BMW M3",
+  "name": "BMW M3 (2008)",
   "make": "BMW",
   "model": "M3 (2008)",
   "year": 2008,
@@ -2101,7 +2101,7 @@
  },
  {
   "id": "bmw-m5-1988",
-  "name": "BMW M5",
+  "name": "BMW M5 (1988)",
   "make": "BMW",
   "model": "M5 (1988)",
   "year": 1988,
@@ -2126,7 +2126,7 @@
  },
  {
   "id": "bmw-m5-1995",
-  "name": "BMW M5",
+  "name": "BMW M5 (1995)",
   "make": "BMW",
   "model": "M5 (1995)",
   "year": 1995,
@@ -2151,7 +2151,7 @@
  },
  {
   "id": "bmw-m5-2003",
-  "name": "BMW M5",
+  "name": "BMW M5 (2003)",
   "make": "BMW",
   "model": "M5 (2003)",
   "year": 2003,
@@ -2176,7 +2176,7 @@
  },
  {
   "id": "bmw-m5-2009",
-  "name": "BMW M5",
+  "name": "BMW M5 (2009)",
   "make": "BMW",
   "model": "M5 (2009)",
   "year": 2009,
@@ -2201,7 +2201,7 @@
  },
  {
   "id": "bmw-m5-2012",
-  "name": "BMW M5",
+  "name": "BMW M5 (2012)",
   "make": "BMW",
   "model": "M5 (2012)",
   "year": 2012,
@@ -2676,7 +2676,7 @@
  },
  {
   "id": "chevrolet-camaro-z28-1970",
-  "name": "Chevrolet Camaro Z28",
+  "name": "Chevrolet Camaro Z28 (1970)",
   "make": "Chevrolet",
   "model": "Camaro Z28 (1970)",
   "year": 1970,
@@ -2701,7 +2701,7 @@
  },
  {
   "id": "chevrolet-camaro-z28-1979",
-  "name": "Chevrolet Camaro Z28",
+  "name": "Chevrolet Camaro Z28 (1979)",
   "make": "Chevrolet",
   "model": "Camaro Z28 (1979)",
   "year": 1979,
@@ -2726,7 +2726,7 @@
  },
  {
   "id": "chevrolet-camaro-zl1-2017",
-  "name": "Chevrolet Camaro ZL1",
+  "name": "Chevrolet Camaro ZL1 (2017)",
   "make": "Chevrolet",
   "model": "Camaro ZL1 (2017)",
   "year": 2017,
@@ -2751,7 +2751,7 @@
  },
  {
   "id": "chevrolet-camaro-zl1-2024",
-  "name": "Chevrolet Camaro ZL1",
+  "name": "Chevrolet Camaro ZL1 (2024)",
   "make": "Chevrolet",
   "model": "Camaro ZL1 (2024)",
   "year": 2024,
@@ -2826,7 +2826,7 @@
  },
  {
   "id": "chevrolet-corvette-1953",
-  "name": "Chevrolet Corvette",
+  "name": "Chevrolet Corvette (1953)",
   "make": "Chevrolet",
   "model": "Corvette (1953)",
   "year": 1953,
@@ -2851,7 +2851,7 @@
  },
  {
   "id": "chevrolet-corvette-1960",
-  "name": "Chevrolet Corvette",
+  "name": "Chevrolet Corvette (1960)",
   "make": "Chevrolet",
   "model": "Corvette (1960)",
   "year": 1960,
@@ -2951,7 +2951,7 @@
  },
  {
   "id": "chevrolet-corvette-z06-2002",
-  "name": "Chevrolet Corvette Z06",
+  "name": "Chevrolet Corvette Z06 (2002)",
   "make": "Chevrolet",
   "model": "Corvette Z06 (2002)",
   "year": 2002,
@@ -2976,7 +2976,7 @@
  },
  {
   "id": "chevrolet-corvette-z06-2015",
-  "name": "Chevrolet Corvette Z06",
+  "name": "Chevrolet Corvette Z06 (2015)",
   "make": "Chevrolet",
   "model": "Corvette Z06 (2015)",
   "year": 2015,
@@ -3001,7 +3001,7 @@
  },
  {
   "id": "chevrolet-corvette-z06-2023",
-  "name": "Chevrolet Corvette Z06",
+  "name": "Chevrolet Corvette Z06 (2023)",
   "make": "Chevrolet",
   "model": "Corvette Z06 (2023)",
   "year": 2023,
@@ -3026,7 +3026,7 @@
  },
  {
   "id": "chevrolet-corvette-zr-1-1970",
-  "name": "Chevrolet Corvette ZR-1",
+  "name": "Chevrolet Corvette ZR-1 (1970)",
   "make": "Chevrolet",
   "model": "Corvette ZR-1 (1970)",
   "year": 1970,
@@ -3051,7 +3051,7 @@
  },
  {
   "id": "chevrolet-corvette-zr-1-1995",
-  "name": "Chevrolet Corvette ZR-1",
+  "name": "Chevrolet Corvette ZR-1 (1995)",
   "make": "Chevrolet",
   "model": "Corvette ZR-1 (1995)",
   "year": 1995,
@@ -3076,7 +3076,7 @@
  },
  {
   "id": "chevrolet-corvette-zr1-2009",
-  "name": "Chevrolet Corvette ZR1",
+  "name": "Chevrolet Corvette ZR1 (2009)",
   "make": "Chevrolet",
   "model": "Corvette ZR1 (2009)",
   "year": 2009,
@@ -3101,7 +3101,7 @@
  },
  {
   "id": "chevrolet-corvette-zr1-2019",
-  "name": "Chevrolet Corvette ZR1",
+  "name": "Chevrolet Corvette ZR1 (2019)",
   "make": "Chevrolet",
   "model": "Corvette ZR1 (2019)",
   "year": 2019,
@@ -5476,7 +5476,7 @@
  },
  {
   "id": "ford-focus-rs-2003",
-  "name": "Ford Focus RS",
+  "name": "Ford Focus RS (2003)",
   "make": "Ford",
   "model": "Focus RS (2003)",
   "year": 2003,
@@ -5501,7 +5501,7 @@
  },
  {
   "id": "ford-focus-rs-2009",
-  "name": "Ford Focus RS",
+  "name": "Ford Focus RS (2009)",
   "make": "Ford",
   "model": "Focus RS (2009)",
   "year": 2009,
@@ -5526,7 +5526,7 @@
  },
  {
   "id": "ford-focus-rs-2017",
-  "name": "Ford Focus RS",
+  "name": "Ford Focus RS (2017)",
   "make": "Ford",
   "model": "Focus RS (2017)",
   "year": 2017,
@@ -5601,7 +5601,7 @@
  },
  {
   "id": "ford-gt-2005",
-  "name": "Ford GT",
+  "name": "Ford GT (2005)",
   "make": "Ford",
   "model": "GT (2005)",
   "year": 2005,
@@ -5626,7 +5626,7 @@
  },
  {
   "id": "ford-gt-2017",
-  "name": "Ford GT",
+  "name": "Ford GT (2017)",
   "make": "Ford",
   "model": "GT (2017)",
   "year": 2017,
@@ -5876,7 +5876,7 @@
  },
  {
   "id": "ford-mustang-shelby-gt500-2013",
-  "name": "Ford Mustang Shelby GT500",
+  "name": "Ford Mustang Shelby GT500 (2013)",
   "make": "Ford",
   "model": "Mustang Shelby GT500 (2013)",
   "year": 2013,
@@ -5901,7 +5901,7 @@
  },
  {
   "id": "ford-mustang-shelby-gt500-2020",
-  "name": "Ford Mustang Shelby GT500",
+  "name": "Ford Mustang Shelby GT500 (2020)",
   "make": "Ford",
   "model": "Mustang Shelby GT500 (2020)",
   "year": 2020,
@@ -5926,7 +5926,7 @@
  },
  {
   "id": "ford-mustang-svt-cobra-r-1993",
-  "name": "Ford Mustang SVT Cobra R",
+  "name": "Ford Mustang SVT Cobra R (1993)",
   "make": "Ford",
   "model": "Mustang SVT Cobra R (1993)",
   "year": 1993,
@@ -5951,7 +5951,7 @@
  },
  {
   "id": "ford-mustang-svt-cobra-r-2000",
-  "name": "Ford Mustang SVT Cobra R",
+  "name": "Ford Mustang SVT Cobra R (2000)",
   "make": "Ford",
   "model": "Mustang SVT Cobra R (2000)",
   "year": 2000,
@@ -7126,7 +7126,7 @@
  },
  {
   "id": "honda-civic-type-r-1997",
-  "name": "Honda Civic Type R",
+  "name": "Honda Civic Type R (1997)",
   "make": "Honda",
   "model": "Civic Type R (1997)",
   "year": 1997,
@@ -7151,7 +7151,7 @@
  },
  {
   "id": "honda-civic-type-r-2004",
-  "name": "Honda Civic Type R",
+  "name": "Honda Civic Type R (2004)",
   "make": "Honda",
   "model": "Civic Type R (2004)",
   "year": 2004,
@@ -7176,7 +7176,7 @@
  },
  {
   "id": "honda-civic-type-r-2007",
-  "name": "Honda Civic Type R",
+  "name": "Honda Civic Type R (2007)",
   "make": "Honda",
   "model": "Civic Type R (2007)",
   "year": 2007,
@@ -7201,7 +7201,7 @@
  },
  {
   "id": "honda-civic-type-r-2008",
-  "name": "Honda Civic Type R",
+  "name": "Honda Civic Type R (2008)",
   "make": "Honda",
   "model": "Civic Type R (2008)",
   "year": 2008,
@@ -7226,7 +7226,7 @@
  },
  {
   "id": "honda-civic-type-r-2015",
-  "name": "Honda Civic Type R",
+  "name": "Honda Civic Type R (2015)",
   "make": "Honda",
   "model": "Civic Type R (2015)",
   "year": 2015,
@@ -7251,7 +7251,7 @@
  },
  {
   "id": "honda-civic-type-r-2018",
-  "name": "Honda Civic Type R",
+  "name": "Honda Civic Type R (2018)",
   "make": "Honda",
   "model": "Civic Type R (2018)",
   "year": 2018,
@@ -7276,7 +7276,7 @@
  },
  {
   "id": "honda-civic-type-r-2023",
-  "name": "Honda Civic Type R",
+  "name": "Honda Civic Type R (2023)",
   "make": "Honda",
   "model": "Civic Type R (2023)",
   "year": 2023,
@@ -7376,7 +7376,7 @@
  },
  {
   "id": "honda-nsx-r-1992",
-  "name": "Honda NSX-R",
+  "name": "Honda NSX-R (1992)",
   "make": "Honda",
   "model": "NSX-R (1992)",
   "year": 1992,
@@ -7401,7 +7401,7 @@
  },
  {
   "id": "honda-nsx-r-2005",
-  "name": "Honda NSX-R",
+  "name": "Honda NSX-R (2005)",
   "make": "Honda",
   "model": "NSX-R (2005)",
   "year": 2005,
@@ -9751,7 +9751,7 @@
  },
  {
   "id": "mazda-mx-5-2013",
-  "name": "Mazda MX-5",
+  "name": "Mazda MX-5 (2013)",
   "make": "Mazda",
   "model": "MX-5 (2013)",
   "year": 2013,
@@ -9776,7 +9776,7 @@
  },
  {
   "id": "mazda-mx-5-2016",
-  "name": "Mazda MX-5",
+  "name": "Mazda MX-5 (2016)",
   "make": "Mazda",
   "model": "MX-5 (2016)",
   "year": 2016,
@@ -11076,7 +11076,7 @@
  },
  {
   "id": "mini-john-cooper-works-gp-2012",
-  "name": "MINI John Cooper Works GP",
+  "name": "MINI John Cooper Works GP (2012)",
   "make": "MINI",
   "model": "John Cooper Works GP (2012)",
   "year": 2012,
@@ -11101,7 +11101,7 @@
  },
  {
   "id": "mini-john-cooper-works-gp-2021",
-  "name": "MINI John Cooper Works GP",
+  "name": "MINI John Cooper Works GP (2021)",
   "make": "MINI",
   "model": "John Cooper Works GP (2021)",
   "year": 2021,
@@ -12201,7 +12201,7 @@
  },
  {
   "id": "nissan-silvia-k-s-1989",
-  "name": "Nissan Silvia K's",
+  "name": "Nissan Silvia K's (1989)",
   "make": "Nissan",
   "model": "Silvia K's (1989)",
   "year": 1989,
@@ -12226,7 +12226,7 @@
  },
  {
   "id": "nissan-silvia-k-s-1994",
-  "name": "Nissan Silvia K's",
+  "name": "Nissan Silvia K's (1994)",
   "make": "Nissan",
   "model": "Silvia K's (1994)",
   "year": 1994,
@@ -13351,7 +13351,7 @@
  },
  {
   "id": "porsche-911-gt3-2004",
-  "name": "Porsche 911 GT3",
+  "name": "Porsche 911 GT3 (2004)",
   "make": "Porsche",
   "model": "911 GT3 (2004)",
   "year": 2004,
@@ -13376,7 +13376,7 @@
  },
  {
   "id": "porsche-911-gt3-2021",
-  "name": "Porsche 911 GT3",
+  "name": "Porsche 911 GT3 (2021)",
   "make": "Porsche",
   "model": "911 GT3 (2021)",
   "year": 2021,
@@ -13401,7 +13401,7 @@
  },
  {
   "id": "porsche-911-gt3-rs-2019",
-  "name": "Porsche 911 GT3 RS",
+  "name": "Porsche 911 GT3 RS (2019)",
   "make": "Porsche",
   "model": "911 GT3 RS (2019)",
   "year": 2019,
@@ -13426,7 +13426,7 @@
  },
  {
   "id": "porsche-911-gt3-rs-2023",
-  "name": "Porsche 911 GT3 RS",
+  "name": "Porsche 911 GT3 RS (2023)",
   "make": "Porsche",
   "model": "911 GT3 RS (2023)",
   "year": 2023,
@@ -14451,7 +14451,7 @@
  },
  {
   "id": "subaru-brz-2013",
-  "name": "Subaru BRZ",
+  "name": "Subaru BRZ (2013)",
   "make": "Subaru",
   "model": "BRZ (2013)",
   "year": 2013,
@@ -14476,7 +14476,7 @@
  },
  {
   "id": "subaru-brz-2022",
-  "name": "Subaru BRZ",
+  "name": "Subaru BRZ (2022)",
   "make": "Subaru",
   "model": "BRZ (2022)",
   "year": 2022,
@@ -14551,7 +14551,7 @@
  },
  {
   "id": "subaru-impreza-wrx-sti-2004",
-  "name": "Subaru IMPREZA WRX STI",
+  "name": "Subaru IMPREZA WRX STI (2004)",
   "make": "Subaru",
   "model": "IMPREZA WRX STI (2004)",
   "year": 2004,
@@ -14576,7 +14576,7 @@
  },
  {
   "id": "subaru-impreza-wrx-sti-2005",
-  "name": "Subaru IMPREZA WRX STI",
+  "name": "Subaru IMPREZA WRX STI (2005)",
   "make": "Subaru",
   "model": "IMPREZA WRX STI (2005)",
   "year": 2005,
@@ -14601,7 +14601,7 @@
  },
  {
   "id": "subaru-impreza-wrx-sti-2008",
-  "name": "Subaru IMPREZA WRX STI",
+  "name": "Subaru IMPREZA WRX STI (2008)",
   "make": "Subaru",
   "model": "IMPREZA WRX STI (2008)",
   "year": 2008,
@@ -14801,7 +14801,7 @@
  },
  {
   "id": "subaru-wrx-sti-2011",
-  "name": "Subaru WRX STI",
+  "name": "Subaru WRX STI (2011)",
   "make": "Subaru",
   "model": "WRX STI (2011)",
   "year": 2011,
@@ -14826,7 +14826,7 @@
  },
  {
   "id": "subaru-wrx-sti-2015",
-  "name": "Subaru WRX STI",
+  "name": "Subaru WRX STI (2015)",
   "make": "Subaru",
   "model": "WRX STI (2015)",
   "year": 2015,
@@ -16101,7 +16101,7 @@
  },
  {
   "id": "volkswagen-golf-r-2010",
-  "name": "Volkswagen Golf R",
+  "name": "Volkswagen Golf R (2010)",
   "make": "Volkswagen",
   "model": "Golf R (2010)",
   "year": 2010,
@@ -16126,7 +16126,7 @@
  },
  {
   "id": "volkswagen-golf-r-2014",
-  "name": "Volkswagen Golf R",
+  "name": "Volkswagen Golf R (2014)",
   "make": "Volkswagen",
   "model": "Golf R (2014)",
   "year": 2014,
@@ -16151,7 +16151,7 @@
  },
  {
   "id": "volkswagen-golf-r-2021",
-  "name": "Volkswagen Golf R",
+  "name": "Volkswagen Golf R (2021)",
   "make": "Volkswagen",
   "model": "Golf R (2021)",
   "year": 2021,
@@ -16176,7 +16176,7 @@
  },
  {
   "id": "volkswagen-golf-r-2022",
-  "name": "Volkswagen Golf R",
+  "name": "Volkswagen Golf R (2022)",
   "make": "Volkswagen",
   "model": "Golf R (2022)",
   "year": 2022,

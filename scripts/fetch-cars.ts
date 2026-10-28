@@ -6,6 +6,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import sharp from 'sharp'
 import { parseCarList, parseCarPage, type RawListRow } from './lib/wiki'
 import { makeCarIds } from './lib/ids'
+import { displayNames } from './lib/names'
 import { DIVISION_LABELS, RARITY_BY_CODE, drivetrainFromLayout, engineFromLayout } from '../src/domain/labels'
 import type { Car } from '../src/domain/types'
 
@@ -76,12 +77,6 @@ function pageTitle(r: RawListRow): string {
   return r.unlockCode === 'wp' ? `${r.name} 'Welcome Pack'` : r.name
 }
 
-function displayName(r: RawListRow): string {
-  const base = r.display ?? r.name
-  if (r.rarityCode === 'fe' && !/forza edition$/i.test(base)) return `${base} Forza Edition`
-  if (r.unlockCode === 'wp') return `${base} 'Welcome Pack'`
-  return base
-}
 
 async function imageUrls(files: string[]): Promise<Map<string, string>> {
   const out = new Map<string, string>()
@@ -107,6 +102,7 @@ async function main() {
   if (!list) throw new Error('car list page missing')
   const rows = parseCarList(list)
   const ids = makeCarIds(rows)
+  const names = displayNames(rows)
   console.log(`list: ${rows.length} cars`)
 
   const pages: ReturnType<typeof parseCarPage>[] = []
@@ -151,7 +147,7 @@ async function main() {
     const [sp, ha, ac, la, br, of] = r.stats
     cars.push({
       id,
-      name: displayName(r),
+      name: names[i],
       make: r.make,
       model: r.model,
       year: r.year,
