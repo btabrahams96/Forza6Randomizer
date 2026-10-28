@@ -2,7 +2,7 @@ import { describe, test, expect } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { parseCarList } from '../../scripts/lib/wiki'
 import { makeCarIds, slugify } from '../../scripts/lib/ids'
-import { RARITY_BY_CODE, drivetrainFromLayout, engineFromLayout, DIVISION_LABELS } from '../../src/domain/labels'
+import { RARITY_BY_CODE, drivetrainFromLayout, engineFromLayout, DIVISION_LABELS, COUNTRY_LABELS } from '../../src/domain/labels'
 
 const rows = parseCarList(readFileSync('tests/fixtures/list-snippet.txt', 'utf8'))
 
@@ -49,5 +49,6 @@ describe('labels', () => {
     expect(RARITY_BY_CODE.barn).toBe('Barn Find')
     expect(RARITY_BY_CODE.fe).toBe('Forza Edition')
     expect(DIVISION_LABELS.msu).toBe('Modern Supercars')
+    expect(COUNTRY_LABELS.ch).toBe('China')
   })
 })

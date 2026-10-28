@@ -65,7 +65,7 @@ export const COUNTRY_LABELS: Record<string, string> = {
   kor: 'South Korea',
   oz: 'Australia',
   aus: 'Austria',
-  ch: 'Switzerland',
+  ch: 'China',
   can: 'Canada',
   cro: 'Croatia',
   den: 'Denmark',

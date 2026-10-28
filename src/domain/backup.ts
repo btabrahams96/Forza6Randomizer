@@ -12,7 +12,7 @@ export type BackupFile = {
 }
 
 export type ParseBackupResult =
-  | { ok: true; file: BackupFile; skipped: { index: number; reason: string }[] }
+  | { ok: true; file: BackupFile; skipped: { index: number; reason: string }[]; unrecognized: number }
   | { ok: false; error: 'not-json' | 'wrong-app' | 'unsupported-version' | 'no-entries' }
 
 export function buildBackup(profile: Profile, entries: GarageEntry[]): BackupFile {
@@ -45,6 +45,7 @@ export function parseBackup(text: string, knownCarIds: Set<string>): ParseBackup
 
   const entries: BackupEntry[] = []
   const skipped: { index: number; reason: string }[] = []
+  let unrecognized = 0
   raw.entries.forEach((e: unknown, index: number) => {
     if (!isObj(e)) return skipped.push({ index, reason: 'not an entry' })
     const pi = e.pi
@@ -56,14 +57,19 @@ export function parseBackup(text: string, knownCarIds: Set<string>): ParseBackup
     let custom = readCustom(e.custom)
     if (carId && !knownCarIds.has(carId)) {
       custom = { make: 'Unknown', model: carId, year: null }
+      unrecognized++
       carId = null
     }
     if (!carId && !custom) return skipped.push({ index, reason: 'no car' })
     entries.push({ carId, custom: carId ? null : custom, pi, nickname })
   })
 
+  // Every entry unreadable: refuse, so a bad file can never empty a garage.
+  if (entries.length === 0) return { ok: false, error: 'no-entries' }
+
   return {
     ok: true,
+    unrecognized,
     file: {
       app: 'forza6-randomizer',
       version: 1,

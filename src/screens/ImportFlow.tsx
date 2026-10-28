@@ -14,7 +14,7 @@ const ERRORS: Record<Extract<ParseBackupResult, { ok: false }>['error'], string>
   'not-json': "This file isn't a garage backup.",
   'wrong-app': "This file isn't a garage backup.",
   'unsupported-version': 'This backup comes from a newer version of the app. Update the app, then try again.',
-  'no-entries': 'This backup has no cars in it.',
+  'no-entries': 'This backup has no cars this app can read.',
 }
 
 export function ImportFlow({ text, onClose }: { text: string | null; onClose: () => void }) {
@@ -40,7 +40,11 @@ export function ImportFlow({ text, onClose }: { text: string | null; onClose: ()
       target === 'new' ? { mode: 'new', name: name.trim() || parsed.file.profileName } : { mode: 'replace', profileId: target },
     )
     onClose()
-    toast(`Imported ${cars(n)}${parsed.skipped.length ? `, skipped ${parsed.skipped.length} that didn't read right` : ''}`)
+    const notes = [
+      parsed.skipped.length ? `skipped ${parsed.skipped.length} that didn't read right` : '',
+      parsed.unrecognized ? `${cars(parsed.unrecognized)} not in the car list, kept as Unknown` : '',
+    ].filter(Boolean)
+    toast(`Imported ${cars(n)}${notes.length ? `; ${notes.join('; ')}` : ''}`)
   }
 
   const start = async () => {

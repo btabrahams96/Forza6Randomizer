@@ -28,7 +28,14 @@ export default function App() {
         {tab === 'profiles' && <ProfilesScreen />}
       </div>
       <TabBar active={tab} onChange={setTab} />
-      <Toaster position="top-center" theme="system" offset="calc(env(safe-area-inset-top) + 12px)" />
+      {/* Bottom, above the tab bar, so toasts never sit on the large title or its + button. */}
+      <Toaster
+        position="bottom-center"
+        theme="system"
+        duration={3500}
+        offset={{ bottom: 'calc(var(--tab-h) + env(safe-area-inset-bottom) + 16px)' }}
+        mobileOffset={{ bottom: 'calc(var(--tab-h) + env(safe-area-inset-bottom) + 16px)' }}
+      />
     </>
   )
 }
