@@ -23,3 +23,10 @@ test('matched, blank-PI and unmatched rows all become entries', () => {
   ])
   expect(notes).toHaveLength(2)
 })
+
+test('matches a car by its display name when the slug would differ', () => {
+  const display = [{ ...cars[0], id: 'honda-civic-type-r-1997', name: 'Honda Civic Type R', year: 1997 }]
+  const row = 'Honda Civic Type R\t430\tC\tCIVIC TYPE R / 1997 HONDA / COMMON\tIMG_7160\t'
+  const { file } = tsvToBackup(['h', row].join('\n'), display, 'Bryton')
+  expect(file.entries[0]).toMatchObject({ carId: 'honda-civic-type-r-1997', pi: 430 })
+})

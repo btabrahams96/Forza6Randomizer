@@ -1,5 +1,5 @@
 // Turns the screenshot transcription in seed/kyle-garage.tsv into a backup file
-// the app can import as a new profile: `npm run seed`.
+// the app can import as a new profile: `npm run seed -- kyle`.
 import { readFileSync, writeFileSync } from 'node:fs'
 import { pathToFileURL } from 'node:url'
 import { slugify } from './lib/ids'
@@ -15,13 +15,23 @@ function customFromTile(tileText: string): BackupEntry['custom'] {
   return { make: titleCase(m?.[2] ?? 'Unknown'), model: titleCase(model), year: m ? Number(m[1]) : null }
 }
 
+function matchCar(masterName: string, tileText: string, byId: Map<string, Car>, cars: Car[]): Car | undefined {
+  const exact = byId.get(slugify(masterName))
+  if (exact) return exact
+  const named = cars.filter((c) => c.name === masterName)
+  if (named.length <= 1) return named[0]
+  // Several cars share a display name ("Honda Civic Type R"); the tile's year picks one.
+  const year = Number(tileText.split(' / ')[1]?.match(/^(\d{4})/)?.[1])
+  return named.find((c) => c.year === year)
+}
+
 export function tsvToBackup(tsv: string, cars: Car[], profileName: string): { file: BackupFile; notes: string[] } {
   const byId = new Map(cars.map((c) => [c.id, c]))
   const notes: string[] = []
   const entries: BackupEntry[] = []
   for (const line of tsv.trim().split('\n').slice(1)) {
     const [masterName, piText, , tileText, photo, flag = ''] = line.split('\t')
-    const car = flag.startsWith('no master match') ? undefined : byId.get(slugify(masterName))
+    const car = flag.startsWith('no master match') ? undefined : matchCar(masterName, tileText, byId, cars)
     const pi = piText ? Number(piText) : null
     if (!car) {
       if (pi === null) {
@@ -45,8 +55,11 @@ export function tsvToBackup(tsv: string, cars: Car[], profileName: string): { fi
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const { CARS } = await import('../src/data/catalog')
-  const { file, notes } = tsvToBackup(readFileSync('seed/kyle-garage.tsv', 'utf8'), CARS, 'Kyle')
-  writeFileSync('seed/kyle-garage.json', JSON.stringify(file, null, 1) + '\n')
-  console.log(`wrote seed/kyle-garage.json: ${file.entries.length} entries`)
+  // Usage: npm run seed -- <name>   reads seed/<name>-garage.tsv, writes seed/<name>-garage.json
+  const who = (process.argv[2] ?? 'kyle').toLowerCase()
+  const profileName = who.charAt(0).toUpperCase() + who.slice(1)
+  const { file, notes } = tsvToBackup(readFileSync(`seed/${who}-garage.tsv`, 'utf8'), CARS, profileName)
+  writeFileSync(`seed/${who}-garage.json`, JSON.stringify(file, null, 1) + '\n')
+  console.log(`wrote seed/${who}-garage.json: ${file.entries.length} entries`)
   for (const n of notes) console.log(`  ${n}`)
 }
