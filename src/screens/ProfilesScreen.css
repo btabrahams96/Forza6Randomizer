@@ -1,0 +1,110 @@
+.profile-row {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid var(--sep);
+}
+.profile-row__main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 10px 4px 10px 14px;
+  text-align: left;
+}
+.profile-row__text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.profile-row__name {
+  font-size: 17px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.profile-row__sub {
+  font-size: 14px;
+  color: var(--text-2);
+}
+.profile-row__check {
+  width: 22px;
+  color: var(--accent-text);
+}
+.profile-row__edit {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  min-height: 60px;
+  color: var(--text-3);
+}
+.profile-add,
+.profile-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 14px;
+  font-size: 17px;
+  color: var(--accent-text);
+  cursor: pointer;
+}
+.profiles-note {
+  margin: 8px 4px 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text-2);
+}
+.profiles-note--about {
+  margin-top: 0;
+}
+.import {
+  display: grid;
+  gap: 14px;
+  padding-bottom: 8px;
+}
+.import__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--text-2);
+}
+.import__error {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+.import .options > div + div .options__row {
+  border-top: 0.5px solid var(--sep);
+}
+.import .options__row {
+  cursor: pointer;
+}
+.import .options__row input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+.inline-confirm__title {
+  margin: 4px 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.button-primary--danger {
+  background: var(--danger);
+}
+.profile-export {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--accent-text);
+}
