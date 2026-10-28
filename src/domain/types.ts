@@ -22,3 +22,5 @@ export type Car = {
   thumb: string | null
   hero: string | null
 }
+
+export type CustomCar = { make: string; model: string; year: number | null }
