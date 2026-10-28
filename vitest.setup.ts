@@ -10,3 +10,8 @@ if (!globalThis.ResizeObserver) {
   globalThis.ResizeObserver = class { observe() {} unobserve() {} disconnect() {} } as unknown as typeof ResizeObserver
 }
 Element.prototype.scrollTo ??= function () {}
+
+// Testing Library only auto-cleans with vitest globals on; we import explicitly.
+import { afterEach } from 'vitest'
+import { cleanup } from '@testing-library/react'
+afterEach(() => cleanup())

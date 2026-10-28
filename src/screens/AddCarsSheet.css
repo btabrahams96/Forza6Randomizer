@@ -1,0 +1,125 @@
+.add {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.add .chips {
+  margin-bottom: 12px;
+}
+.add__list {
+  flex: 1;
+  min-height: 240px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface-2);
+}
+.add__virtuoso {
+  height: 100%;
+  overscroll-behavior: contain;
+}
+.add__empty {
+  margin: 0;
+  padding: 28px 20px;
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.45;
+  text-align: center;
+}
+.add__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 60px;
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 0.5px solid var(--sep);
+}
+.add__thumb {
+  width: 64px;
+  aspect-ratio: 1340 / 752;
+  flex: none;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--photo-floor);
+}
+.add__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.add__text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.add__name {
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.add__meta {
+  font-size: 13px;
+  color: var(--text-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.add__own {
+  flex: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+.add__check {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  border: 2px solid var(--surface-3);
+  color: var(--on-accent);
+  transition: background 0.15s var(--ease-out), border-color 0.15s var(--ease-out), transform 0.15s var(--ease-out);
+}
+.add__check--on {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: scale(1.06);
+}
+.add__unlisted {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+  padding: 0 4px;
+  margin: 6px 0;
+  color: var(--accent-text);
+  font-size: 16px;
+}
+.add__submit {
+  flex: none;
+}
+.custom {
+  display: grid;
+  gap: 14px;
+}
+.custom__lead {
+  margin: 0;
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.45;
+}
+.custom__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
