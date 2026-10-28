@@ -3,7 +3,7 @@ import { Drawer } from 'vaul'
 import './Sheet.css'
 
 export function Sheet({
-  open, onOpenChange, title, children, left, right, tall = false,
+  open, onOpenChange, title, children, left, right, tall = false, nested = false,
 }: {
   open: boolean
   onOpenChange: (open: boolean) => void
@@ -12,9 +12,12 @@ export function Sheet({
   left?: ReactNode
   right?: ReactNode
   tall?: boolean
+  /** Opened from inside another sheet. */
+  nested?: boolean
 }) {
+  const Root = nested ? Drawer.NestedRoot : Drawer.Root
   return (
-    <Drawer.Root open={open} onOpenChange={onOpenChange} repositionInputs={false}>
+    <Root open={open} onOpenChange={onOpenChange} repositionInputs={false}>
       <Drawer.Portal>
         <Drawer.Overlay className="sheet-overlay" />
         <Drawer.Content className={`sheet${tall ? ' sheet--tall' : ''}`} aria-describedby={undefined}>
@@ -27,6 +30,6 @@ export function Sheet({
           <div className="sheet__body">{children}</div>
         </Drawer.Content>
       </Drawer.Portal>
-    </Drawer.Root>
+    </Root>
   )
 }

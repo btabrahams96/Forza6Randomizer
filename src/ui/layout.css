@@ -42,7 +42,7 @@
   width: 100%;
   min-height: 52px;
   border-radius: 14px;
-  background: var(--accent);
+  background: var(--accent-fill);
   color: var(--on-accent);
   font-size: 17px;
   font-weight: 600;
@@ -159,4 +159,19 @@
 .welcome__form {
   display: grid;
   gap: 16px;
+}
+
+/* Sonner toasts in the app's own material. */
+[data-sonner-toast].toast {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 0.5px solid var(--sep);
+  border-radius: 14px;
+  box-shadow: var(--shadow-card);
+  font-size: 15px;
+}
+[data-sonner-toast].toast [data-button] {
+  background: var(--accent-fill);
+  color: var(--on-accent);
+  font-weight: 600;
 }

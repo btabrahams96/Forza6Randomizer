@@ -12,6 +12,6 @@ STORY: Open, see the last pool and filters, tap Roll, get a car with its class a
 
 FIRST VIEWPORT: Roll tab. Large title "Roll", profile avatar top right. My Garage / All Cars segmented control. Chips that wrap. The result card takes about 55% of the height: hero photo on a radial floor, make · year, model at 24px bold, class badge and meta. "N matching cars". A full-width blue Roll button sits in the thumb zone above the tab bar.
 
-FORM: Native iOS app screens (1 of 1: the user approved this form). Seed: none (code-led, inherited world).
+FORM: Native iOS app screens (1 of 1: the user approved this form). seed: none (unavailable). Code-led build in an inherited world; no concept roll was run.
 
 SIGNATURE: The roll reveal. The card drops in with a short spring from slight scale and blur as the photo resolves, and the class badge lands last. A second tap interrupts and rerolls.

@@ -11,7 +11,7 @@ import App from '../src/App'
 beforeEach(() => {
   globalThis.indexedDB = new IDBFactory()
   db.resetConnection()
-  useStore.setState({ ready: false, profiles: [], activeId: null, entries: [], settings: null })
+  useStore.setState({ ready: false, profiles: [], activeId: null, entries: [], settings: null, lastRoll: {} })
 })
 
 test('first launch asks for a name, then opens on Roll', async () => {

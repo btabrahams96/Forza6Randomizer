@@ -28,7 +28,7 @@ describe('Garage', () => {
 
     await userEvent.click(screen.getByRole('button', { name: 'Add cars' }))
     await userEvent.type(screen.getByRole('searchbox', { name: 'Search all cars' }), 'Acura NSX Type S')
-    expect(await screen.findByText('Own 1')).toBeInTheDocument()
+    expect(await screen.findByText(/Own 1/)).toBeInTheDocument()
     await userEvent.click(screen.getByRole('checkbox', { name: /Acura NSX Type S/ }))
     await userEvent.click(screen.getByRole('button', { name: 'Add 1 car' }))
     expect(await screen.findAllByRole('button', { name: /^Edit Acura NSX Type S/ })).toHaveLength(2)

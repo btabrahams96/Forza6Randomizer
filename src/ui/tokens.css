@@ -7,11 +7,13 @@
   --sep: rgba(84, 84, 88, 0.6);
   --text: #fff;
   --text-2: #b4b4bb;
-  --text-3: #8e8e96;
+  --text-3: #a1a1a8;
   --accent: #0a84ff;
+  /* Fill behind white labels: deep enough for 4.5:1. */
+  --accent-fill: #0a6be0;
   --accent-text: #6cb4ff;
   --accent-soft: rgba(10, 132, 255, 0.18);
-  --danger: #ff453a;
+  --danger: #ff6961;
   --on-accent: #fff;
   --photo-floor: radial-gradient(120% 90% at 50% 100%, #2a2a30, #111114);
   --scrim: rgba(0, 0, 0, 0.5);
@@ -45,11 +47,12 @@
     --sep: rgba(60, 60, 67, 0.29);
     --text: #000;
     --text-2: #45454c;
-    --text-3: #6c6c72;
+    --text-3: #636369;
     --accent: #007aff;
+    --accent-fill: #0062cc;
     --accent-text: #0062cc;
     --accent-soft: rgba(0, 122, 255, 0.12);
-    --danger: #d70015;
+    --danger: #c40012;
     --photo-floor: radial-gradient(120% 90% at 50% 100%, #e4e4ea, #c9c9d1);
     --scrim: rgba(0, 0, 0, 0.3);
     --shadow-card: 0 14px 30px rgba(0, 0, 0, 0.14);

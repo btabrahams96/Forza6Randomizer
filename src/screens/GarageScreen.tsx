@@ -8,7 +8,7 @@ import { entryItems, itemTitle, matchesSearch } from '../state/items'
 import { CarThumb } from '../ui/CarThumb'
 import { ClassBadge } from '../ui/ClassBadge'
 import { ConfirmDialog } from '../ui/ConfirmDialog'
-import { FilterChips } from '../ui/FilterChips'
+import { Filters } from '../ui/Filters'
 import { CheckIcon, ChevronDownIcon, PlusIcon, SearchIcon } from '../ui/icons'
 import { InstallHint } from '../ui/InstallHint'
 import { Sheet } from '../ui/Sheet'
@@ -102,13 +102,12 @@ export function GarageScreen() {
               autoCorrect="off"
             />
           </label>
+          <Filters items={items} filters={filters} onChange={setFilters} keys={['class', 'carType', 'make', 'country', 'rarity', 'drivetrain', 'decade']} />
           <div className="garage-tools">
-            <FilterChips items={items} filters={filters} onChange={setFilters} keys={['class', 'carType', 'make', 'drivetrain']} />
-            <button className="chip garage-sort" onClick={() => setSortOpen(true)} aria-haspopup="dialog">
-              <span className="chip__main">
-                Sort: {SORTS.find((s) => s.id === sort)!.label}
-                <ChevronDownIcon width={16} height={16} />
-              </span>
+            <span className="garage-tools__count">{plural(flat.length)}</span>
+            <button className="text-button garage-sort" onClick={() => setSortOpen(true)} aria-haspopup="dialog">
+              Sort: {SORTS.find((s) => s.id === sort)!.label}
+              <ChevronDownIcon width={16} height={16} />
             </button>
           </div>
 

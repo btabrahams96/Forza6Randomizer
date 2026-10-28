@@ -17,7 +17,7 @@ describe('Roll', () => {
     renderUi(<RollScreen rng={() => 0.99} />)
     expect(await screen.findByText('2 matching cars')).toBeInTheDocument()
     await userEvent.click(screen.getByRole('button', { name: 'Roll' }))
-    expect(within(result()).getByText('NSX Type S')).toBeInTheDocument()
+    expect(within(result()).getByRole('heading', { name: 'Acura NSX Type S' })).toBeInTheDocument()
     expect(within(result()).getByLabelText('Class S1, PI 734')).toBeInTheDocument()
   })
 
@@ -64,6 +64,33 @@ describe('Roll', () => {
     expect(useStore.getState().activeId).toBe(profileId)
     renderUi(<RollScreen rng={() => 0} />)
     expect(await screen.findByRole('radio', { name: 'All Cars' })).toBeChecked()
-    expect(screen.getByRole('button', { name: 'Acura' })).toBeInTheDocument()
+    expect(screen.getByText('Acura', { selector: '.filters-button__summary' })).toBeInTheDocument()
+  })
+  test('the rolled car is still there after switching tabs', async () => {
+    const view = renderUi(<RollScreen rng={() => 0.99} />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Roll' }))
+    view.unmount()
+    renderUi(<RollScreen rng={() => 0} />)
+    expect(within(await screen.findByRole('region', { name: 'Rolled car' })).getByRole('heading', { name: 'Acura NSX Type S' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Roll again' })).toBeInTheDocument()
+  })
+
+  test('Filters opens a list; picking a class narrows the pool', async () => {
+    renderUi(<RollScreen rng={() => 0} />)
+    await userEvent.click(await screen.findByRole('button', { name: /^Filters/ }))
+    await userEvent.click(screen.getByRole('button', { name: 'Class, Any' }))
+    await userEvent.click(screen.getByRole('menuitemcheckbox', { name: /^S1/ }))
+    await userEvent.click(screen.getByRole('button', { name: 'Back' }))
+    expect(screen.getByRole('button', { name: 'Class, S1' })).toBeInTheDocument()
+    await userEvent.click(screen.getByRole('button', { name: 'Done' }))
+    expect(await screen.findByText('1 matching car')).toBeInTheDocument()
+    expect(screen.getByText('Class S1', { selector: '.filters-button__summary' })).toBeInTheDocument()
+  })
+
+  test('an empty garage offers Roll from All Cars', async () => {
+    await freshStore('Kyle')
+    renderUi(<RollScreen rng={() => 0} />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Roll from All Cars' }))
+    expect(await screen.findByText('665 matching cars')).toBeInTheDocument()
   })
 })

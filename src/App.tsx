@@ -26,7 +26,7 @@ export default function App() {
   return (
     <>
       <div className="app">
-        {tab === 'roll' && <RollScreen onOpenProfiles={() => setTab('profiles')} />}
+        {tab === 'roll' && <RollScreen onOpenProfiles={() => setTab('profiles')} onOpenGarage={() => setTab('garage')} />}
         {tab === 'garage' && <GarageScreen />}
         {tab === 'profiles' && <ProfilesScreen />}
       </div>
@@ -36,8 +36,9 @@ export default function App() {
         position="bottom-center"
         theme="system"
         duration={3500}
-        offset={{ bottom: 'calc(var(--tab-h) + env(safe-area-inset-bottom) + 16px)' }}
-        mobileOffset={{ bottom: 'calc(var(--tab-h) + env(safe-area-inset-bottom) + 16px)' }}
+        offset={{ bottom: 'calc(var(--tab-h) + env(safe-area-inset-bottom) + 112px)' }}
+        mobileOffset={{ bottom: 'calc(var(--tab-h) + env(safe-area-inset-bottom) + 112px)' }}
+        toastOptions={{ className: 'toast' }}
       />
     </>
   )

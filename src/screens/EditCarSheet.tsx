@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { toast } from 'sonner'
 import { getCar } from '../data/catalog'
-import { CLASS_ORDER, PI_MAX, PI_MIN, classForPi, parsePi } from '../domain/classes'
+import { PI_MAX, PI_MIN, classForPi, parsePi } from '../domain/classes'
 import { COUNTRY_LABELS } from '../domain/labels'
 import { useStore } from '../state/store'
 import { itemTitle } from '../state/items'
@@ -42,7 +42,6 @@ export function EditCarSheet({
   const car = entry?.carId ? getCar(entry.carId) : undefined
   const title = entry ? itemTitle({ car, custom: entry.custom }) : ''
   const parsed = parsePi(piText)
-  const cls = parsed.ok ? classForPi(parsed.pi) : null
 
   const step = (delta: number) => {
     const base = parsed.ok ? parsed.pi : entry?.pi ?? PI_MIN
@@ -110,18 +109,6 @@ export function EditCarSheet({
               {parsed.ok ? 'Type the PI from the game. The class follows it.' : PI_ERRORS[parsed.reason]}
             </p>
 
-            <div className="edit__classes" aria-hidden>
-              {CLASS_ORDER.map((c) => (
-                <span
-                  key={c}
-                  className={`edit__class${c === cls ? ' edit__class--on' : ''}`}
-                  style={{ ['--c' as string]: `var(--class-${c})` }}
-                >
-                  {c}
-                </span>
-              ))}
-            </div>
-
             <label className="field edit__nickname">
               <span className="field__label">Nickname</span>
               <input
@@ -134,13 +121,6 @@ export function EditCarSheet({
               />
             </label>
 
-            <div className="edit__actions">
-              <button type="button" className="button-secondary" onClick={duplicate}>Duplicate</button>
-              <button type="button" className="button-secondary button-secondary--danger" onClick={() => { onClose(); onDelete(entry.id) }}>
-                Delete
-              </button>
-            </div>
-
             {car && (
               <dl className="edit__stock">
                 <div><dt>Car Type</dt><dd>{car.carType ?? 'Not listed'}</dd></div>
@@ -151,6 +131,12 @@ export function EditCarSheet({
                 <div><dt>Rarity</dt><dd>{car.rarity}</dd></div>
               </dl>
             )}
+            <div className="edit__actions">
+              <button type="button" className="button-secondary" onClick={duplicate}>Duplicate</button>
+              <button type="button" className="button-secondary button-secondary--danger" onClick={() => { onClose(); onDelete(entry.id) }}>
+                Delete
+              </button>
+            </div>
             <button type="submit" hidden />
           </form>
         )}

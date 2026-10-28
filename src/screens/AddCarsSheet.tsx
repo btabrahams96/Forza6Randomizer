@@ -5,8 +5,9 @@ import { classForPi, parsePi } from '../domain/classes'
 import { applyFilters, type FilterState } from '../domain/filters'
 import { useStore } from '../state/store'
 import { allCarItems, matchesSearch } from '../state/items'
+import { titleWithoutYear } from '../state/names'
 import { CarThumb } from '../ui/CarThumb'
-import { FilterChips } from '../ui/FilterChips'
+import { Filters } from '../ui/Filters'
 import { CheckIcon, ChevronRightIcon, SearchIcon } from '../ui/icons'
 import { Sheet } from '../ui/Sheet'
 import { useBusy } from '../ui/useBusy'
@@ -88,7 +89,7 @@ export function AddCarsSheet({ open, onClose }: { open: boolean; onClose: () => 
               autoCorrect="off"
             />
           </label>
-          <FilterChips items={all} filters={filters} onChange={setFilters} keys={['class', 'carType', 'make', 'decade', 'rarity']} />
+          <Filters nested items={all} filters={filters} onChange={setFilters} keys={['class', 'carType', 'make', 'country', 'rarity', 'drivetrain', 'decade']} />
 
           <div className="add__list">
             {shown.length === 0 ? (
@@ -112,12 +113,12 @@ export function AddCarsSheet({ open, onClose }: { open: boolean; onClose: () => 
                     >
                       <span className="add__thumb"><CarThumb car={car} size="thumb" /></span>
                       <span className="add__text">
-                        <span className="add__name">{car.name}</span>
+                        <span className="add__name">{titleWithoutYear(item)}</span>
                         <span className="add__meta">
                           {car.year} · {car.carType ?? car.rarity} · {classForPi(car.stockPi)} {car.stockPi}
+                          {own ? <span className="add__own"> · Own {own}</span> : null}
                         </span>
                       </span>
-                      {own ? <span className="add__own">Own {own}</span> : null}
                       <span className={`add__check${on ? ' add__check--on' : ''}`} aria-hidden>
                         {on && <CheckIcon width={16} height={16} strokeWidth={3} />}
                       </span>

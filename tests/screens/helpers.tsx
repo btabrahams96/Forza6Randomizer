@@ -9,7 +9,7 @@ import { useStore } from '../../src/state/store'
 export async function freshStore(profileName = 'Bryton') {
   globalThis.indexedDB = new IDBFactory()
   db.resetConnection()
-  useStore.setState({ ready: false, profiles: [], activeId: null, entries: [], settings: null })
+  useStore.setState({ ready: false, profiles: [], activeId: null, entries: [], settings: null, lastRoll: {} })
   await act(() => useStore.getState().init())
   if (profileName) await act(() => useStore.getState().createProfile(profileName).then(() => {}))
   return useStore

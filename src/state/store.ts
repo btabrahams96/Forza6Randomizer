@@ -10,6 +10,8 @@ type State = {
   activeId: string | null
   entries: GarageEntry[]
   settings: RollSettings | null
+  /** Last rolled item key per profile; kept while the app is open so tab switches don't lose it. */
+  lastRoll: Record<string, string>
 }
 
 type Actions = {
@@ -26,6 +28,7 @@ type Actions = {
   restoreEntry(entry: GarageEntry): Promise<void>
   setPool(pool: RollSettings['pool']): Promise<void>
   setFilters(filters: FilterState): Promise<void>
+  setLastRoll(key: string): void
   importBackup(file: BackupFile, target: { mode: 'new'; name: string } | { mode: 'replace'; profileId: string }): Promise<number>
 }
 
@@ -48,6 +51,7 @@ export const useStore = create<State & Actions>((set, get) => {
     activeId: null,
     entries: [],
     settings: null,
+    lastRoll: {},
 
     async init() {
       const profiles = await db.listProfiles()
@@ -124,6 +128,10 @@ export const useStore = create<State & Actions>((set, get) => {
 
     setPool: (pool) => saveSettings({ pool }),
     setFilters: (filters) => saveSettings({ filters }),
+    setLastRoll(key) {
+      const id = get().activeId
+      if (id) set({ lastRoll: { ...get().lastRoll, [id]: key } })
+    },
 
     async importBackup(file, target) {
       let profileId: string
