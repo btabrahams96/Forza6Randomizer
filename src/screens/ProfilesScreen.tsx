@@ -6,6 +6,7 @@ import { useStore } from '../state/store'
 import { listEntries } from '../storage/db'
 import { CheckIcon, ChevronRightIcon, DownloadIcon, PlusIcon, ShareIcon } from '../ui/icons'
 import { Sheet } from '../ui/Sheet'
+import { useLastDefined } from '../ui/useLastDefined'
 import { ImportFlow } from './ImportFlow'
 import './ProfilesScreen.css'
 
@@ -117,7 +118,7 @@ export function ProfilesScreen() {
       </p>
 
       <NewProfileSheet open={creating} onClose={() => setCreating(false)} onCreate={createProfile} />
-      <EditProfileSheet profile={editing} count={editing ? counts[editing.id] ?? 0 : 0} onClose={() => setEditing(null)} />
+      <EditProfileSheet profile={editing} counts={counts} onClose={() => setEditing(null)} />
       <ImportFlow text={importText} onClose={() => setImportText(null)} />
     </>
   )
@@ -152,21 +153,24 @@ function NewProfileSheet({ open, onClose, onCreate }: { open: boolean; onClose: 
   )
 }
 
-function EditProfileSheet({ profile, count, onClose }: { profile: Profile | null; count: number; onClose: () => void }) {
+function EditProfileSheet({ profile: live, counts, onClose }: { profile: Profile | null; counts: Record<string, number>; onClose: () => void }) {
+  const profile = useLastDefined(live)
+  const count = profile ? counts[profile.id] ?? 0 : 0
   const { renameProfile, deleteProfile } = useStore()
   const [name, setName] = useState('')
   const [confirming, setConfirming] = useState(false)
 
   useEffect(() => {
-    setName(profile?.name ?? '')
+    if (!live) return
+    setName(live.name)
     setConfirming(false)
-  }, [profile])
+  }, [live])
 
   const ok = name.trim().length > 0
 
   return (
     <Sheet
-      open={!!profile}
+      open={!!live}
       onOpenChange={(o) => !o && onClose()}
       title={profile?.name ?? ''}
       left={<button className="text-button" onClick={onClose}>Cancel</button>}

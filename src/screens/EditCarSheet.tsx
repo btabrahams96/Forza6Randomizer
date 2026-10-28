@@ -8,6 +8,7 @@ import { itemTitle } from '../state/items'
 import { CarThumb } from '../ui/CarThumb'
 import { ClassBadge } from '../ui/ClassBadge'
 import { Sheet } from '../ui/Sheet'
+import { useLastDefined } from '../ui/useLastDefined'
 import './EditCarSheet.css'
 
 const PI_ERRORS = {
@@ -23,15 +24,16 @@ export function EditCarSheet({
   onClose: () => void
   onDelete: (entryId: string) => void
 }) {
-  const entry = useStore((s) => s.entries.find((e) => e.id === entryId))
+  const liveEntry = useStore((s) => s.entries.find((e) => e.id === entryId))
+  const entry = useLastDefined(liveEntry)
   const { updateEntry, duplicateEntry } = useStore()
   const [piText, setPiText] = useState('')
   const [nickname, setNickname] = useState('')
 
   useEffect(() => {
-    if (entry) {
-      setPiText(String(entry.pi))
-      setNickname(entry.nickname ?? '')
+    if (liveEntry) {
+      setPiText(String(liveEntry.pi))
+      setNickname(liveEntry.nickname ?? '')
     }
     // Reset only when a different car opens, not on every store refresh.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -62,7 +64,7 @@ export function EditCarSheet({
 
   return (
     <Sheet
-        open={!!entry}
+        open={!!liveEntry}
         onOpenChange={(o) => !o && onClose()}
         title="Edit Car"
         left={<button className="text-button" onClick={onClose}>Cancel</button>}

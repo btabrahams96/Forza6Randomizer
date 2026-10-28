@@ -6,6 +6,7 @@ import type { Profile } from '../domain/types'
 import { useStore } from '../state/store'
 import { listEntries } from '../storage/db'
 import { Sheet } from '../ui/Sheet'
+import { useLastDefined } from '../ui/useLastDefined'
 
 const KNOWN = new Set(CARS.map((c) => c.id))
 const cars = (n: number) => `${n} car${n === 1 ? '' : 's'}`
@@ -23,9 +24,11 @@ export function ImportFlow({ text, onClose }: { text: string | null; onClose: ()
   const [target, setTarget] = useState<'new' | string>('new')
   const [name, setName] = useState('')
   const [confirmReplace, setConfirmReplace] = useState<{ profile: Profile; count: number } | null>(null)
-  const parsed = text === null ? null : parseBackup(text, KNOWN)
+  const shownText = useLastDefined(text)
+  const parsed = shownText === null ? null : parseBackup(shownText, KNOWN)
 
   useEffect(() => {
+    if (text === null) return
     setTarget('new')
     setConfirmReplace(null)
     setName(parsed?.ok ? parsed.file.profileName : '')

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { FILTER_LABELS, applyFilters, facetOptions, type FilterKey, type FilterState, type RollItem } from '../domain/filters'
 import { CheckIcon, ChevronDownIcon, CloseIcon } from './icons'
 import { Sheet } from './Sheet'
+import { useLastDefined } from './useLastDefined'
 import './FilterChips.css'
 
 function chipText(key: FilterKey, values: string[]) {
@@ -19,6 +20,7 @@ export function FilterChips({
   keys: FilterKey[]
 }) {
   const [openKey, setOpenKey] = useState<FilterKey | null>(null)
+  const shownKey = useLastDefined(openKey)
   const selected = (k: FilterKey) => filters[k] ?? []
   const set = (k: FilterKey, values: string[]) => onChange({ ...filters, [k]: values })
 
@@ -59,27 +61,27 @@ export function FilterChips({
       <Sheet
         open={openKey !== null}
         onOpenChange={(o) => !o && setOpenKey(null)}
-        title={openKey ? FILTER_LABELS[openKey] : ''}
+        title={shownKey ? FILTER_LABELS[shownKey] : ''}
         left={
-          openKey && selected(openKey).length > 0 ? (
-            <button className="text-button" onClick={() => set(openKey, [])}>Clear</button>
+          shownKey && selected(shownKey).length > 0 ? (
+            <button className="text-button" onClick={() => set(shownKey, [])}>Clear</button>
           ) : null
         }
         right={<button className="text-button text-button--strong" onClick={() => setOpenKey(null)}>Done</button>}
       >
-        {openKey && (
+        {shownKey && (
           <ul className="options">
-            {optionsFor(openKey).map(({ value, count }) => {
-              const on = selected(openKey).includes(value)
+            {optionsFor(shownKey).map(({ value, count }) => {
+              const on = selected(shownKey).includes(value)
               return (
                 <li key={value}>
                   <button
                     className="options__row"
                     role="menuitemcheckbox"
                     aria-checked={on}
-                    onClick={() => toggle(openKey, value)}
+                    onClick={() => toggle(shownKey, value)}
                   >
-                    {openKey === 'class' ? (
+                    {shownKey === 'class' ? (
                       <span className="options__class" style={{ ['--c' as string]: `var(--class-${value})` }}>{value}</span>
                     ) : (
                       <span className="options__label">{value}</span>
