@@ -85,6 +85,15 @@ describe('Profiles', () => {
   })
 })
 
+test('adds the other player with their garage', async () => {
+  renderUi(<ProfilesScreen />)
+  await userEvent.click(await screen.findByRole('button', { name: "Add Kyle's garage, 193 cars" }))
+  expect(await screen.findByRole('radio', { name: /Kyle, 193 cars/ })).toBeChecked()
+  expect(screen.queryByRole('button', { name: /Add Kyle's garage/ })).not.toBeInTheDocument()
+  // A Bryton profile is already on this phone, so his garage isn't offered twice.
+  expect(screen.queryByRole('button', { name: /Add Bryton's garage/ })).not.toBeInTheDocument()
+})
+
 describe('Export', () => {
   afterEach(() => {
     // @ts-expect-error test cleanup

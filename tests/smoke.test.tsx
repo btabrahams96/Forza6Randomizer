@@ -14,18 +14,27 @@ beforeEach(() => {
   useStore.setState({ ready: false, profiles: [], activeId: null, entries: [], settings: null, lastRoll: {} })
 })
 
-test('first launch asks for a name, then opens on Roll', async () => {
+test('first launch asks who is playing; picking Kyle loads his garage', async () => {
   render(<App />)
-  await userEvent.type(await screen.findByLabelText('Your name'), 'Bryton')
-  await userEvent.click(screen.getByRole('button', { name: 'Start' }))
+  await userEvent.click(await screen.findByRole('button', { name: /^Kyle, 193 cars/ }))
   expect(await screen.findByRole('heading', { name: 'Roll' })).toBeInTheDocument()
   expect(screen.getByRole('navigation', { name: 'Sections' })).toBeInTheDocument()
+  expect(await screen.findByText('193 matching cars')).toBeInTheDocument()
+  expect((await listProfiles()).map((p) => p.name)).toEqual(['Kyle'])
 })
 
-test('a double tap on Start makes one profile', async () => {
+test('someone else can start with their own name and an empty garage', async () => {
   render(<App />)
-  await userEvent.type(await screen.findByLabelText('Your name'), 'Bryton')
-  await userEvent.dblClick(screen.getByRole('button', { name: 'Start' }))
+  await userEvent.click(await screen.findByRole('button', { name: 'Someone else' }))
+  await userEvent.type(screen.getByLabelText('Your name'), 'Sam')
+  await userEvent.click(screen.getByRole('button', { name: 'Start' }))
+  expect(await screen.findByRole('heading', { name: 'Roll' })).toBeInTheDocument()
+  expect(await screen.findByText('Your garage is empty.')).toBeInTheDocument()
+})
+
+test('a double tap on a name makes one profile', async () => {
+  render(<App />)
+  await userEvent.dblClick(await screen.findByRole('button', { name: /^Bryton, 277 cars/ }))
   await screen.findByRole('heading', { name: 'Roll' })
   expect(await listProfiles()).toHaveLength(1)
 })

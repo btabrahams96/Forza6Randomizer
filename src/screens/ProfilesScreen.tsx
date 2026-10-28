@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { toast } from 'sonner'
+import { PLAYERS } from '../data/players'
 import { buildBackup } from '../domain/backup'
 import type { Profile } from '../domain/types'
 import { useStore } from '../state/store'
@@ -48,7 +49,9 @@ async function shareFile(file: File, profile: Profile) {
 }
 
 export function ProfilesScreen() {
-  const { profiles, activeId, entries, switchProfile, createProfile } = useStore()
+  const { profiles, activeId, entries, switchProfile, createProfile, importBackup } = useStore()
+  const [adding, runAdd] = useBusy()
+  const missing = PLAYERS.filter((pl) => !profiles.some((p) => p.name.trim().toLowerCase() === pl.name.toLowerCase()))
   const [counts, setCounts] = useState<Record<string, number>>({})
   const [editing, setEditing] = useState<Profile | null>(null)
   const [creating, setCreating] = useState(false)
@@ -97,6 +100,18 @@ export function ProfilesScreen() {
             </div>
           )
         })}
+        {missing.map((pl) => (
+          <button
+            key={pl.name}
+            className="profile-add"
+            disabled={adding}
+            aria-label={`Add ${pl.name}'s garage, ${cars(pl.garage.entries.length)}`}
+            onClick={() => void runAdd(() => importBackup(pl.garage, { mode: 'new', name: pl.name }))}
+          >
+            <PlusIcon width={20} height={20} />
+            Add {pl.name}'s garage
+          </button>
+        ))}
         <button className="profile-add" onClick={() => setCreating(true)}>
           <PlusIcon width={20} height={20} />
           New profile

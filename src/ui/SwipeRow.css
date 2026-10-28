@@ -23,7 +23,7 @@
   background: #636366;
 }
 .swipe__action--delete {
-  background: #e5342a;
+  background: var(--danger-fill);
 }
 .swipe__content {
   position: relative;

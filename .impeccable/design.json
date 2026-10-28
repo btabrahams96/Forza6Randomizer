@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T21:41:00+00:00",
+  "title": "Design System: Forza 6 Randomizer",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "True Black",
+        "canonical": "#000000",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "lightMode": "#f2f2f7"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Grouped Surface",
+        "canonical": "#1c1c1e",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#a5a5a7",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "lightMode": "#ffffff"
+      },
+      "surface-2": {
+        "role": "neutral",
+        "displayName": "Raised Surface",
+        "canonical": "#2c2c2e",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "lightMode": "#e9e9ee"
+      },
+      "surface-3": {
+        "role": "neutral",
+        "displayName": "Top Surface",
+        "canonical": "#3a3a3c",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "lightMode": "#d9d9de"
+      },
+      "separator": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(84, 84, 88, 0.6)",
+        "lightMode": "rgba(60, 60, 67, 0.29)"
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Primary Label",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "lightMode": "#000000"
+      },
+      "text-2": {
+        "role": "neutral",
+        "displayName": "Secondary Label",
+        "canonical": "#b4b4bb",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252527",
+          "#414145",
+          "#616166",
+          "#828287",
+          "#a4a4a9",
+          "#c9c9cc",
+          "#eeeef0"
+        ],
+        "lightMode": "#45454c"
+      },
+      "text-3": {
+        "role": "neutral",
+        "displayName": "Tertiary Label",
+        "canonical": "#a1a1a8",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252527",
+          "#414146",
+          "#616166",
+          "#828288",
+          "#a4a4a9",
+          "#c9c9cc",
+          "#eeeef0"
+        ],
+        "lightMode": "#636369"
+      },
+      "system-blue": {
+        "role": "primary",
+        "displayName": "System Blue",
+        "canonical": "#0a84ff",
+        "tonalRamp": [
+          "#000a22",
+          "#002353",
+          "#003e8a",
+          "#005cc6",
+          "#2280ed",
+          "#65a7fc",
+          "#9eccff",
+          "#d6f1ff"
+        ],
+        "lightMode": "#007aff"
+      },
+      "accent-fill": {
+        "role": "primary",
+        "displayName": "Deep Action Blue",
+        "canonical": "#0a6be0",
+        "tonalRamp": [
+          "#000a21",
+          "#012351",
+          "#043e87",
+          "#085cc2",
+          "#3580e9",
+          "#6ea6f8",
+          "#a3cbff",
+          "#d9f0ff"
+        ],
+        "lightMode": "#0062cc"
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "Link Blue",
+        "canonical": "#6cb4ff",
+        "tonalRamp": [
+          "#020c1a",
+          "#092642",
+          "#164470",
+          "#2464a1",
+          "#4886c6",
+          "#7aa9dc",
+          "#abcdf1",
+          "#ddf1ff"
+        ],
+        "lightMode": "#0062cc"
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Blue Wash",
+        "canonical": "rgba(10, 132, 255, 0.18)",
+        "lightMode": "rgba(0, 122, 255, 0.12)"
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Destructive Red",
+        "canonical": "#ff6961",
+        "tonalRamp": [
+          "#1c0202",
+          "#470c0c",
+          "#771b1a",
+          "#ab2b2a",
+          "#d3514b",
+          "#ea847b",
+          "#feb3ab",
+          "#ffe2dd"
+        ],
+        "lightMode": "#c40012"
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "On-Accent White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "scrim": {
+        "role": "neutral",
+        "displayName": "Scrim",
+        "canonical": "rgba(0, 0, 0, 0.5)",
+        "lightMode": "rgba(0, 0, 0, 0.3)"
+      },
+      "class-d": {
+        "role": "secondary",
+        "displayName": "D Cyan",
+        "canonical": "#4fc1e9",
+        "tonalRamp": [
+          "#000e15",
+          "#002a39",
+          "#004a62",
+          "#006c8d",
+          "#258fb1",
+          "#6bb0cb",
+          "#a3d2e5",
+          "#d9f4ff"
+        ]
+      },
+      "class-c": {
+        "role": "secondary",
+        "displayName": "C Yellow",
+        "canonical": "#f5c400",
+        "tonalRamp": [
+          "#130900",
+          "#342200",
+          "#5a3d00",
+          "#825a00",
+          "#a57c00",
+          "#c1a243",
+          "#dec88b",
+          "#faeecc"
+        ]
+      },
+      "class-b": {
+        "role": "secondary",
+        "displayName": "B Orange",
+        "canonical": "#ff8a00",
+        "tonalRamp": [
+          "#1a0500",
+          "#421600",
+          "#702a00",
+          "#a14000",
+          "#c76300",
+          "#df9051",
+          "#f5bb92",
+          "#ffe7cf"
+        ]
+      },
+      "class-a": {
+        "role": "secondary",
+        "displayName": "A Red",
+        "canonical": "#ff5a4f",
+        "tonalRamp": [
+          "#1d0101",
+          "#4a0706",
+          "#7c1211",
+          "#b11f1e",
+          "#da4a41",
+          "#f08074",
+          "#ffb1a6",
+          "#ffe1da"
+        ]
+      },
+      "class-s1": {
+        "role": "secondary",
+        "displayName": "S1 Violet",
+        "canonical": "#c77dff",
+        "tonalRamp": [
+          "#11041c",
+          "#321446",
+          "#562776",
+          "#7d3caa",
+          "#a05fd0",
+          "#bd8de4",
+          "#dab9f8",
+          "#f9e6ff"
+        ]
+      },
+      "class-s2": {
+        "role": "secondary",
+        "displayName": "S2 Blue",
+        "canonical": "#4b86ff",
+        "tonalRamp": [
+          "#020921",
+          "#0b2151",
+          "#193c86",
+          "#2859c0",
+          "#487de7",
+          "#78a4f7",
+          "#aacaff",
+          "#dcefff"
+        ]
+      },
+      "class-r": {
+        "role": "secondary",
+        "displayName": "R Pink",
+        "canonical": "#ff5fcf",
+        "tonalRamp": [
+          "#1b0112",
+          "#440334",
+          "#730959",
+          "#a61281",
+          "#cd42a5",
+          "#e57ac1",
+          "#faadde",
+          "#ffdffb"
+        ]
+      },
+      "class-x": {
+        "role": "secondary",
+        "displayName": "X Green",
+        "canonical": "#30d158",
+        "tonalRamp": [
+          "#001100",
+          "#003100",
+          "#005401",
+          "#007a02",
+          "#009e34",
+          "#61bd6e",
+          "#9ddba3",
+          "#d6fad9"
+        ]
+      },
+      "class-ink": {
+        "role": "secondary",
+        "displayName": "Class Ink",
+        "canonical": "#000000",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "pi-block": {
+        "role": "secondary",
+        "displayName": "PI Block",
+        "canonical": "#111111",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "danger-fill": {
+        "displayName": "Destructive Red",
+        "canonical": "#ff6961",
+        "tonalRamp": [
+          "#1c0202",
+          "#470c0c",
+          "#771b1a",
+          "#ab2b2a",
+          "#d3514b",
+          "#ea847b",
+          "#feb3ab",
+          "#ffe2dd"
+        ],
+        "lightMode": "#c40012",
+        "value": "#d1291f",
+        "description": "Red behind white labels (Replace, Delete): 5.2:1 with white."
+      }
+    },
+    "typographyMeta": {
+      "large-title": {
+        "displayName": "Large Title",
+        "purpose": "One per tab screen and Welcome."
+      },
+      "car-title": {
+        "displayName": "Car Title",
+        "purpose": "Rolled car model on the roll card."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sheet and alert titles, row names, button labels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Inputs, option rows, lead text."
+      },
+      "subhead": {
+        "displayName": "Subhead",
+        "purpose": "Filter summary, match count, facts line."
+      },
+      "section-header": {
+        "displayName": "Section Header",
+        "purpose": "Uppercase iOS group and field headers; never above a heading.",
+        "textTransform": "uppercase"
+      },
+      "class-badge": {
+        "displayName": "Badge",
+        "purpose": "Class letter and PI; 16px in the large badge."
+      },
+      "tab-label": {
+        "displayName": "Tab Label",
+        "purpose": "Tab bar labels; the 11px floor."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-lift",
+        "value": "0 18px 40px rgba(0,0,0,0.55)",
+        "lightValue": "0 14px 30px rgba(0,0,0,0.14)",
+        "purpose": "Roll card, alerts, toasts."
+      },
+      {
+        "name": "blue-glow",
+        "value": "0 10px 24px rgba(10,132,255,0.28)",
+        "purpose": "Enabled Roll button only."
+      },
+      {
+        "name": "segment-lift",
+        "value": "0 2px 6px rgba(0,0,0,0.25)",
+        "purpose": "Selected segment."
+      },
+      {
+        "name": "material-blur",
+        "value": "saturate(180%) blur(20px)",
+        "purpose": "Tab bar backdrop over 82% ground."
+      },
+      {
+        "name": "photo-floor",
+        "value": "radial-gradient(120% 90% at 50% 100%, #2a2a30, #111114)",
+        "lightValue": "radial-gradient(120% 90% at 50% 100%, #e4e4ea, #c9c9d1)",
+        "purpose": "Ground under every car photo."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "State transitions, 0.12-0.22s."
+      },
+      {
+        "name": "roll-reveal-card",
+        "value": "spring stiffness 380, damping 30, mass 0.9; from opacity 0, scale 0.94, y 18px, blur 10px",
+        "purpose": "The one signature motion."
+      },
+      {
+        "name": "roll-reveal-badge",
+        "value": "spring stiffness 500, damping 22, delay 140ms; from opacity 0, scale 0.6",
+        "purpose": "Class badge lands after the card."
+      },
+      {
+        "name": "roll-reveal-reduced",
+        "value": "opacity 0 to 1, 0.2s",
+        "purpose": "Reduced-motion fallback; badge static."
+      },
+      {
+        "name": "alert-pop",
+        "value": "scale 1.08 to 1, 0.22s ease-out",
+        "purpose": "Confirm dialog entrance."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "column-max",
+        "value": "640px"
+      },
+      {
+        "name": "welcome-max",
+        "value": "480px"
+      }
+    ],
+    "themes": {
+      "primary": "dark",
+      "light": "prefers-color-scheme: light, unless data-theme='dark'"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Full-width action; the Roll button in the thumb zone.",
+      "html": "<button class=\"ds-btn-primary\">Roll again</button>",
+      "css": ".ds-btn-primary{display:block;width:100%;min-height:52px;border:0;border-radius:14px;background:var(--accent-fill,#0a6be0);color:var(--on-accent,#fff);font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;font-size:17px;font-weight:600;box-shadow:0 10px 24px rgba(10,132,255,.28);cursor:pointer;transition:transform .12s cubic-bezier(.22,1,.36,1)}.ds-btn-primary:active{transform:scale(.98)}.ds-btn-primary:focus-visible{outline:2px solid var(--accent,#0a84ff);outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Raised-surface action for empty states and alerts.",
+      "html": "<button class=\"ds-btn-secondary\">Add Cars</button>",
+      "css": ".ds-btn-secondary{min-height:48px;padding:0 18px;border:0;border-radius:12px;background:var(--surface-2,#2c2c2e);color:var(--accent-text,#6cb4ff);font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;font-size:17px;font-weight:500;cursor:pointer}.ds-btn-secondary:active{opacity:.7}.ds-btn-secondary:focus-visible{outline:2px solid var(--accent,#0a84ff);outline-offset:2px}"
+    },
+    {
+      "name": "Class Badge",
+      "kind": "custom",
+      "refersTo": "class-letter",
+      "description": "FH6 class letter in black on its class color, joined to a white-on-black PI block.",
+      "html": "<span class=\"ds-badge\" style=\"--c:#f5c400\"><span class=\"ds-badge__class\">C</span><span class=\"ds-badge__pi\">479</span></span> <span class=\"ds-badge\" style=\"--c:#ff5fcf\"><span class=\"ds-badge__class\">R</span><span class=\"ds-badge__pi\">950</span></span>",
+      "css": ".ds-badge{display:inline-flex;border:2px solid var(--c);border-radius:9px;overflow:hidden;font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;font-weight:800;font-size:16px;line-height:1;font-variant-numeric:tabular-nums}.ds-badge__class{background:var(--c);color:#000;padding:7px 10px;min-width:2.1em;text-align:center}.ds-badge__pi{background:#111;color:#fff;padding:7px 10px}"
+    },
+    {
+      "name": "Filters Row",
+      "kind": "custom",
+      "refersTo": "filters-row",
+      "description": "Single row that opens the filters list sheet; summary and active count inline.",
+      "html": "<button class=\"ds-filters\"><span class=\"ds-filters__text\"><span class=\"ds-filters__label\">Filters</span><span class=\"ds-filters__sum\">A, S1 \u00b7 RWD</span></span><span class=\"ds-filters__count\">2</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-filters{display:flex;align-items:center;gap:10px;width:100%;min-height:52px;padding:8px 12px 8px 14px;border:0;border-radius:12px;background:var(--surface,#1c1c1e);color:var(--text-3,#a1a1a8);text-align:left;font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;cursor:pointer}.ds-filters__text{flex:1;display:flex;flex-direction:column;gap:1px}.ds-filters__label{font-size:17px;font-weight:600;color:var(--text,#fff)}.ds-filters__sum{font-size:14px;color:var(--text-2,#b4b4bb)}.ds-filters__count{display:grid;place-items:center;min-width:24px;height:24px;padding:0 7px;border-radius:12px;background:var(--accent-fill,#0a6be0);color:#fff;font-size:13px;font-weight:700}.ds-filters:active{background:var(--surface-2,#2c2c2e)}.ds-filters:focus-visible{outline:2px solid var(--accent,#0a84ff);outline-offset:2px}"
+    },
+    {
+      "name": "Option List",
+      "kind": "custom",
+      "refersTo": "options-row",
+      "description": "Drill-in option rows inside the Filters sheet, iOS Settings style.",
+      "html": "<ul class=\"ds-options\"><li><button class=\"ds-opt\"><span class=\"ds-opt__class\" style=\"--c:#ff5a4f\">A</span><span class=\"ds-opt__count\">41</span><span class=\"ds-opt__check\">&#10003;</span></button></li><li><button class=\"ds-opt\"><span class=\"ds-opt__class\" style=\"--c:#c77dff\">S1</span><span class=\"ds-opt__count\">28</span><span class=\"ds-opt__check\"></span></button></li></ul>",
+      "css": ".ds-options{list-style:none;margin:0;padding:0;background:var(--surface-2,#2c2c2e);border-radius:12px;overflow:hidden}.ds-options li+li .ds-opt{border-top:.5px solid var(--sep,rgba(84,84,88,.6))}.ds-opt{display:flex;align-items:center;gap:12px;width:100%;min-height:48px;padding:0 14px;border:0;background:none;color:var(--text,#fff);font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;font-size:17px;text-align:left;cursor:pointer}.ds-opt:active{background:var(--surface-3,#3a3a3c)}.ds-opt__class{flex:1;font-weight:800}.ds-opt__class::before{content:'';display:inline-block;width:12px;height:12px;border-radius:3px;background:var(--c);margin-right:10px;vertical-align:-1px}.ds-opt__count{color:var(--text-2,#b4b4bb);font-size:15px}.ds-opt__check{width:20px;color:var(--accent-text,#6cb4ff)}"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "segmented",
+      "description": "Pool switch: My Garage / All Cars.",
+      "html": "<div class=\"ds-seg\"><button class=\"ds-seg__opt\" aria-checked=\"true\">My Garage</button><button class=\"ds-seg__opt\" aria-checked=\"false\">All Cars</button></div>",
+      "css": ".ds-seg{display:flex;padding:2px;border-radius:10px;background:var(--surface-2,#2c2c2e)}.ds-seg__opt{flex:1;min-height:34px;border:0;border-radius:8px;background:none;color:var(--text-2,#b4b4bb);font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;font-size:14px;font-weight:600;cursor:pointer;transition:background .2s cubic-bezier(.22,1,.36,1)}.ds-seg__opt[aria-checked=true]{background:var(--surface-3,#3a3a3c);color:var(--text,#fff);box-shadow:0 2px 6px rgba(0,0,0,.25)}.ds-seg__opt:focus-visible{outline:2px solid var(--accent,#0a84ff);outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field-input",
+      "description": "Labelled field, e.g. PI entry.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field__label\">PI</span><input class=\"ds-field__input\" value=\"812\" inputmode=\"numeric\"></label>",
+      "css": ".ds-field{display:block;font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif}.ds-field__label{display:block;font-size:13px;color:var(--text-2,#b4b4bb);text-transform:uppercase;letter-spacing:.03em;margin:0 4px 6px}.ds-field__input{display:block;width:100%;min-height:48px;border:0;border-radius:12px;background:var(--surface-2,#2c2c2e);color:var(--text,#fff);padding:0 14px;font:inherit;font-size:17px;caret-color:var(--accent,#0a84ff);outline:none}.ds-field__input:focus-visible{outline:2px solid var(--accent,#0a84ff)}"
+    },
+    {
+      "name": "Roll Card",
+      "kind": "card",
+      "refersTo": "roll-card",
+      "description": "The roll result: uncropped 1340:752 photo on the radial floor, model, large badge, facts.",
+      "html": "<section class=\"ds-card\"><div class=\"ds-card__photo\"></div><div class=\"ds-card__body\"><h2 class=\"ds-card__model\">Dodge Charger Daytona HEMI</h2><span class=\"ds-badge\" style=\"--c:#f5c400\"><span class=\"ds-badge__class\">C</span><span class=\"ds-badge__pi\">479</span></span><p class=\"ds-card__facts\">1969 \u00b7 RWD \u00b7 Epic \u00b7 Classic Muscle</p></div></section>",
+      "css": ".ds-card{border-radius:22px;overflow:hidden;background:var(--surface,#1c1c1e);color:var(--text,#fff);box-shadow:0 18px 40px rgba(0,0,0,.55);font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;max-width:360px}.ds-card__photo{aspect-ratio:1340/752;background:radial-gradient(120% 90% at 50% 100%,#2a2a30,#111114)}.ds-card__body{padding:14px 18px 18px}.ds-card__model{margin:0 0 12px;font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1.15}.ds-card__facts{margin:12px 0 0;font-size:14px;color:var(--text-2,#b4b4bb);line-height:1.4}.ds-badge{display:inline-flex;border:2px solid var(--c);border-radius:9px;overflow:hidden;font-weight:800;font-size:16px;line-height:1}.ds-badge__class{background:var(--c);color:#000;padding:7px 10px}.ds-badge__pi{background:#111;color:#fff;padding:7px 10px}"
+    },
+    {
+      "name": "Tab Bar",
+      "kind": "nav",
+      "refersTo": "tab-bar-tab",
+      "description": "Three-tab material bar; active tab in Link Blue.",
+      "html": "<nav class=\"ds-tabs\"><button class=\"ds-tab\" aria-current=\"page\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\"/><circle cx=\"9\" cy=\"9\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"15\" r=\"1.2\" fill=\"currentColor\"/></svg><span>Roll</span></button><button class=\"ds-tab\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M3 10l9-6 9 6v10H3z\"/><path d=\"M7 20v-6h10v6\"/></svg><span>Garage</span></button><button class=\"ds-tab\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M4 21c1-4 4-6 8-6s7 2 8 6\"/></svg><span>Profiles</span></button></nav>",
+      "css": ".ds-tabs{display:flex;justify-content:space-around;padding:6px 8px;background:color-mix(in srgb,var(--bg,#000) 82%,transparent);backdrop-filter:saturate(180%) blur(20px);border-top:.5px solid var(--sep,rgba(84,84,88,.6))}.ds-tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;min-height:44px;border:0;background:none;font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;font-size:11px;font-weight:600;color:var(--text-3,#a1a1a8);cursor:pointer;transition:color .15s cubic-bezier(.22,1,.36,1)}.ds-tab[aria-current=page]{color:var(--accent-text,#6cb4ff)}.ds-tab:focus-visible{outline:2px solid var(--accent,#0a84ff);outline-offset:2px}"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Bottom toast above the Roll button in surface-2 material.",
+      "html": "<div class=\"ds-toast\"><span>Car removed</span><button class=\"ds-toast__btn\">Undo</button></div>",
+      "css": ".ds-toast{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;background:var(--surface-2,#2c2c2e);color:var(--text,#fff);border:.5px solid var(--sep,rgba(84,84,88,.6));border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.55);font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;font-size:15px;max-width:340px}.ds-toast__btn{border:0;border-radius:8px;padding:6px 10px;background:var(--accent-fill,#0a6be0);color:#fff;font:inherit;font-weight:600;cursor:pointer}.ds-toast__btn:focus-visible{outline:2px solid var(--accent,#0a84ff);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Garage Behind the Roll",
+    "overview": "The app is a native iOS app in a PWA's clothes. It uses true black ground, grouped surfaces in three tonal steps, hairline separators and SF system text. Nothing is decorated. The roll result is the one moment with weight: a rounded card with an uncropped car photo on a soft radial floor, the model name in bold, and the FH6 class badge below it. Everything else is a fast, plain list.\n\nColor is rationed. The only hues on screen are the FH6 class colors, which identify a car's class just as the game's garage tiles do, and one system blue for actions. Dark mode is primary. Light mode mirrors it with iOS grouped-background values and keeps the same roles.\n\nDensity is iOS-standard: 17px body text, 44px minimum touch targets, 16px screen gutters, and a 640px max width so the layout stays a phone column on larger screens.",
+    "keyCharacteristics": [
+      "True black ground with #1c1c1e / #2c2c2e / #3a3a3c grouped surfaces and 0.5px separators.",
+      "SF system type only, with large titles at 34px bold.",
+      "Class colors and one blue are the only chroma.",
+      "Car photos always show the whole car, in a 1340:752 frame.",
+      "One signature motion: the roll reveal."
+    ],
+    "rules": [
+      {
+        "name": "The Two Sources Rule",
+        "body": "Chroma comes only from a class color or the action blue. No other hue enters the UI. Car photos are the only exception.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fill Versus Text Rule",
+        "body": "Blue behind white text is `accent-fill`. Blue as text is `accent-text`. Never put white text on raw `system-blue`, and never put `accent-fill` text on a dark surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Black Letter Rule",
+        "body": "Class letters are always black on their class color. A new class color earns its place only if black text on it clears 4.5:1.",
+        "section": "colors"
+      },
+      {
+        "name": "The Eleven Point Floor Rule",
+        "body": "No functional text goes below 11px. Tab labels sit at that floor.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "Headings stand alone. Never place a kicker or eyebrow label above a title. Uppercase 13px is reserved for iOS section headers on groups and fields.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tonal First Rule",
+        "body": "Separate things by surface step and hairline before reaching for a shadow. A shadow means the element floats above the list: the result, an alert or a toast.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Whole Car Rule",
+        "body": "Car photos always render uncropped (`object-fit: contain`) inside a 1340:752 frame on the radial photo floor. This applies to the roll card hero and to garage thumbnails. Never crop a car to fill a box.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do print class letters in black on the class color. Check that any new class color clears 4.5:1.",
+      "Do use `accent-fill` behind white labels and `accent-text` for blue text.",
+      "Do show every car whole: 1340:752, `object-fit: contain`, on the radial photo floor.",
+      "Do keep Filters as one row that opens a list and drills into options, iOS Settings style.",
+      "Do keep the roll reveal as the only expressive motion. Use 0.15\u20130.22s ease-out (`cubic-bezier(0.22, 1, 0.36, 1)`) for state changes, and fall back to opacity under reduced motion.",
+      "Do put toasts at the bottom, above the Roll button, in surface-2 material.",
+      "Do keep touch targets at 44px or more and functional text at 11px or more."
+    ],
+    "donts": [
+      "Don't put eyebrow or kicker labels above headings.",
+      "Don't style a non-control, such as a label, a value or a static tag, as a fake button. Don't dress a control as something it isn't. Buttons look like iOS buttons, rows look like rows.",
+      "Don't bring back wrapping filter chips.",
+      "Don't add hues outside the class colors and the action blue.",
+      "Don't crop car photos or use `object-fit: cover` on them.",
+      "Don't add new motion signatures, such as page transitions, bouncing lists or parallax."
+    ]
+  }
+}

@@ -99,7 +99,7 @@
   overflow-wrap: anywhere;
 }
 .button-primary--danger {
-  background: var(--danger);
+  background: var(--danger-fill);
 }
 .profile-export {
   display: flex;

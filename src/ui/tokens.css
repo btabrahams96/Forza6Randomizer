@@ -14,6 +14,8 @@
   --accent-text: #6cb4ff;
   --accent-soft: rgba(10, 132, 255, 0.18);
   --danger: #ff6961;
+  /* Fill behind white labels (Replace, Delete): 5.2:1. */
+  --danger-fill: #d1291f;
   --on-accent: #fff;
   --photo-floor: radial-gradient(120% 90% at 50% 100%, #2a2a30, #111114);
   --scrim: rgba(0, 0, 0, 0.5);

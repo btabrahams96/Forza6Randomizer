@@ -6,7 +6,8 @@ Data: a fresh profile with 3 cars added through the UI.
 
 | Check | 375×812 | 768×1024 |
 | --- | --- | --- |
-| First launch asks for a name and opens on Roll | PASS | PASS |
+| First launch shows the name picker; Someone else creates a profile | PASS | PASS |
+| Picking Kyle on a fresh phone loads his 193 cars | PASS | PASS |
 | Add 3 cars from the 665-car wiki list | PASS | PASS |
 | Edit PI to 905, class badge shows R | PASS | PASS |
 | Roll with Class R filter returns that car | PASS | PASS |
@@ -18,7 +19,7 @@ Data: a fresh profile with 3 cars added through the UI.
 Screenshots: `375-*.png` and `768-*.png` in this folder, numbered by step.
 
 Also checked:
-- Unit and component tests: `npx vitest run` gives 127/127.
+- Unit and component tests: `npx vitest run` gives 130/130.
 - Offline precache: 678 entries, 3.2 MB. That covers the app shell, the catalog and every list thumbnail. Hero photos are cached the first time each one is shown.
 - Dark mode, with Kyle's real 193-car garage, has captures in `375-dark-*.png` and `768-dark-*.png`. They cover:
   - every screen;
