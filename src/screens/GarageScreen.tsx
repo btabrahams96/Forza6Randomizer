@@ -13,6 +13,7 @@ import { CheckIcon, ChevronDownIcon, PlusIcon, SearchIcon } from '../ui/icons'
 import { InstallHint } from '../ui/InstallHint'
 import { Sheet } from '../ui/Sheet'
 import { SwipeRow } from '../ui/SwipeRow'
+import { useBusy } from '../ui/useBusy'
 import { AddCarsSheet } from './AddCarsSheet'
 import { EditCarSheet } from './EditCarSheet'
 import './GarageScreen.css'
@@ -37,6 +38,7 @@ export function GarageScreen() {
   const [adding, setAdding] = useState(false)
   const [editing, setEditing] = useState<string | null>(null)
   const [deleting, setDeleting] = useState<RollItem | null>(null)
+  const [, runOnce] = useBusy()
 
   const items = useMemo(() => entryItems(entries), [entries])
   const updatedAt = useMemo(() => new Map(entries.map((e) => [e.id, e.updatedAt])), [entries])
@@ -59,13 +61,13 @@ export function GarageScreen() {
     return { groups, counts: lists.map((l) => l.length), flat: lists.flat() }
   }, [items, filters, query, sort, updatedAt])
 
-  const confirmDelete = async () => {
+  const confirmDelete = () => runOnce(async () => {
     if (!deleting?.entryId) return
     const title = itemTitle(deleting)
     const removed = await deleteEntry(deleting.entryId)
     setDeleting(null)
     toast(`Deleted ${title}`, { action: { label: 'Undo', onClick: () => void restoreEntry(removed) } })
-  }
+  })
 
   const hasFilters = query.trim() !== '' || Object.values(filters).some((v) => v?.length)
 

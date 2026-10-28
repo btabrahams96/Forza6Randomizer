@@ -34,6 +34,16 @@ describe('Garage', () => {
     expect(await screen.findAllByRole('button', { name: /^Edit Acura NSX Type S/ })).toHaveLength(2)
   })
 
+  test('a double tap on Add adds the cars once', async () => {
+    renderUi(<GarageScreen />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Add cars' }))
+    await userEvent.type(screen.getByRole('searchbox', { name: 'Search all cars' }), 'Acura NSX Type S')
+    await userEvent.click(await screen.findByRole('checkbox', { name: /Acura NSX Type S/ }))
+    await userEvent.dblClick(screen.getByRole('button', { name: 'Add 1 car' }))
+    await screen.findAllByRole('button', { name: /^Edit Acura NSX Type S/ })
+    expect(useStore.getState().entries).toHaveLength(1)
+  })
+
   test('Add button is disabled until something is ticked', async () => {
     renderUi(<GarageScreen />)
     await userEvent.click(await screen.findByRole('button', { name: 'Add cars' }))
@@ -75,6 +85,16 @@ describe('Garage', () => {
     expect(await screen.findByRole('button', { name: 'Add your cars' })).toBeInTheDocument()
     await userEvent.click(await screen.findByRole('button', { name: 'Undo' }))
     expect(await screen.findByRole('button', { name: /^Edit Acura Integra A-Spec/ })).toBeInTheDocument()
+  })
+
+  test('a double tap on Delete car deletes once without an error', async () => {
+    await act(() => useStore.getState().addCars(['acura-integra-a-spec', 'acura-nsx-type-s']))
+    renderUi(<GarageScreen />)
+    await userEvent.click(await screen.findByRole('button', { name: /^Edit Acura Integra A-Spec/ }))
+    await userEvent.click(screen.getByRole('button', { name: 'Delete' }))
+    await userEvent.dblClick(within(await screen.findByRole('alertdialog')).getByRole('button', { name: 'Delete car' }))
+    await screen.findByRole('button', { name: /^Edit Acura NSX Type S/ })
+    expect(useStore.getState().entries).toHaveLength(1)
   })
 
   test('an entry whose car left the catalog shows as Unknown car', async () => {

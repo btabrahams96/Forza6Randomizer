@@ -7,6 +7,7 @@ import { listEntries } from '../storage/db'
 import { CheckIcon, ChevronRightIcon, DownloadIcon, PlusIcon, ShareIcon } from '../ui/icons'
 import { Sheet } from '../ui/Sheet'
 import { useLastDefined } from '../ui/useLastDefined'
+import { useBusy } from '../ui/useBusy'
 import { ImportFlow } from './ImportFlow'
 import './ProfilesScreen.css'
 
@@ -138,6 +139,7 @@ export function ProfilesScreen() {
 
 function NewProfileSheet({ open, onClose, onCreate }: { open: boolean; onClose: () => void; onCreate: (name: string) => Promise<Profile> }) {
   const [name, setName] = useState('')
+  const [busy, runOnce] = useBusy()
   const ok = name.trim().length > 0
   const close = () => {
     setName('')
@@ -147,11 +149,13 @@ function NewProfileSheet({ open, onClose, onCreate }: { open: boolean; onClose: 
     <Sheet open={open} onOpenChange={(o) => !o && close()} title="New Profile" left={<button className="text-button" onClick={close}>Cancel</button>}>
       <form
         className="import"
-        onSubmit={async (e) => {
+        onSubmit={(e) => {
           e.preventDefault()
           if (!ok) return
-          await onCreate(name)
-          close()
+          void runOnce(async () => {
+            await onCreate(name)
+            close()
+          })
         }}
       >
         <label className="field">
@@ -159,7 +163,7 @@ function NewProfileSheet({ open, onClose, onCreate }: { open: boolean; onClose: 
           <input className="field__input" value={name} onChange={(e) => setName(e.target.value)} maxLength={40} autoFocus />
         </label>
         <p className="import__text">Starts with an empty garage on this phone.</p>
-        <button className="button-primary" type="submit" disabled={!ok}>Create</button>
+        <button className="button-primary" type="submit" disabled={!ok || busy}>Create</button>
       </form>
     </Sheet>
   )

@@ -6,17 +6,20 @@ import { Welcome } from './screens/Welcome'
 import { RollScreen } from './screens/RollScreen'
 import { GarageScreen } from './screens/GarageScreen'
 import { ProfilesScreen } from './screens/ProfilesScreen'
+import { FatalScreen } from './ui/Fatal'
 import './ui/tokens.css'
 import './ui/layout.css'
 
 export default function App() {
   const { ready, activeId, init } = useStore()
   const [tab, setTab] = useState<Tab>('roll')
+  const [failed, setFailed] = useState<string | null>(null)
 
   useEffect(() => {
-    void init()
+    init().catch((e: Error) => setFailed(e.message))
   }, [init])
 
+  if (failed !== null) return <FatalScreen detail={failed} />
   if (!ready) return null
   if (!activeId) return <Welcome />
 

@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import { useStore } from '../state/store'
 import { InstallHint } from '../ui/InstallHint'
+import { useBusy } from '../ui/useBusy'
 
 export function Welcome() {
   const createProfile = useStore((s) => s.createProfile)
   const [name, setName] = useState('')
+  const [busy, run] = useBusy()
   const ok = name.trim().length > 0
 
   return (
@@ -16,7 +18,7 @@ export function Welcome() {
         className="welcome__form"
         onSubmit={(e) => {
           e.preventDefault()
-          if (ok) void createProfile(name)
+          if (ok) void run(() => createProfile(name))
         }}
       >
         <label className="field">
@@ -30,7 +32,7 @@ export function Welcome() {
             maxLength={40}
           />
         </label>
-        <button className="button-primary" type="submit" disabled={!ok}>Start</button>
+        <button className="button-primary" type="submit" disabled={!ok || busy}>Start</button>
       </form>
     </main>
   )

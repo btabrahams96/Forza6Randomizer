@@ -9,6 +9,7 @@ import { CarThumb } from '../ui/CarThumb'
 import { FilterChips } from '../ui/FilterChips'
 import { CheckIcon, ChevronRightIcon, SearchIcon } from '../ui/icons'
 import { Sheet } from '../ui/Sheet'
+import { useBusy } from '../ui/useBusy'
 import './AddCarsSheet.css'
 
 const plural = (n: number) => `${n} car${n === 1 ? '' : 's'}`
@@ -20,6 +21,7 @@ export function AddCarsSheet({ open, onClose }: { open: boolean; onClose: () => 
   const [filters, setFilters] = useState<FilterState>({})
   const [picked, setPicked] = useState<Set<string>>(new Set())
   const [custom, setCustom] = useState(false)
+  const [busy, runOnce] = useBusy()
 
   const owned = useMemo(() => {
     const m = new Map<string, number>()
@@ -49,12 +51,12 @@ export function AddCarsSheet({ open, onClose }: { open: boolean; onClose: () => 
       return next
     })
 
-  const add = async () => {
+  const add = () => runOnce(async () => {
     const n = picked.size
     await addCars([...picked])
     close()
     toast(`Added ${plural(n)} at stock PI`)
-  }
+  })
 
   return (
     <Sheet
@@ -130,7 +132,7 @@ export function AddCarsSheet({ open, onClose }: { open: boolean; onClose: () => 
             Add a car that's not listed
             <ChevronRightIcon width={18} height={18} />
           </button>
-          <button className="button-primary add__submit" disabled={picked.size === 0} onClick={add}>
+          <button className="button-primary add__submit" disabled={picked.size === 0 || busy} onClick={add}>
             {picked.size === 0 ? 'Select cars to add' : `Add ${plural(picked.size)}`}
           </button>
         </div>

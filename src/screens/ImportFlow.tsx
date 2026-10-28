@@ -7,6 +7,7 @@ import { useStore } from '../state/store'
 import { listEntries } from '../storage/db'
 import { Sheet } from '../ui/Sheet'
 import { useLastDefined } from '../ui/useLastDefined'
+import { useBusy } from '../ui/useBusy'
 
 const KNOWN = new Set(CARS.map((c) => c.id))
 const cars = (n: number) => `${n} car${n === 1 ? '' : 's'}`
@@ -25,6 +26,7 @@ export function ImportFlow({ text, onClose }: { text: string | null; onClose: ()
   const [name, setName] = useState('')
   const [confirmReplace, setConfirmReplace] = useState<{ profile: Profile; count: number } | null>(null)
   const shownText = useLastDefined(text)
+  const [busy, runOnce] = useBusy()
   const parsed = shownText === null ? null : parseBackup(shownText, KNOWN)
 
   useEffect(() => {
@@ -82,7 +84,7 @@ export function ImportFlow({ text, onClose }: { text: string | null; onClose: ()
           <p className="import__text">
             Their garage becomes the {cars(count)} in this backup. Other profiles stay as they are. This can't be undone.
           </p>
-          <button className="button-primary button-primary--danger" onClick={run}>Replace garage</button>
+          <button className="button-primary button-primary--danger" disabled={busy} onClick={() => runOnce(run)}>Replace garage</button>
           <button className="button-secondary" onClick={() => setConfirmReplace(null)}>Cancel</button>
         </div>
       )}
@@ -115,7 +117,7 @@ export function ImportFlow({ text, onClose }: { text: string | null; onClose: ()
               <input className="field__input" value={name} onChange={(e) => setName(e.target.value)} maxLength={40} />
             </label>
           )}
-          <button className="button-primary" onClick={start}>Import {cars(count)}</button>
+          <button className="button-primary" disabled={busy} onClick={() => runOnce(start)}>Import {cars(count)}</button>
         </div>
       )}
     </Sheet>
