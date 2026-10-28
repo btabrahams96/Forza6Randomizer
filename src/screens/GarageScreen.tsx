@@ -10,6 +10,7 @@ import { ClassBadge } from '../ui/ClassBadge'
 import { ConfirmDialog } from '../ui/ConfirmDialog'
 import { FilterChips } from '../ui/FilterChips'
 import { CheckIcon, ChevronDownIcon, PlusIcon, SearchIcon } from '../ui/icons'
+import { InstallHint } from '../ui/InstallHint'
 import { Sheet } from '../ui/Sheet'
 import { SwipeRow } from '../ui/SwipeRow'
 import { AddCarsSheet } from './AddCarsSheet'
@@ -76,6 +77,8 @@ export function GarageScreen() {
           <PlusIcon width={26} height={26} />
         </button>
       </header>
+
+      <InstallHint />
 
       {entries.length === 0 ? (
         <div className="garage-empty">

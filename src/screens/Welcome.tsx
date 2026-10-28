@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useStore } from '../state/store'
+import { InstallHint } from '../ui/InstallHint'
 
 export function Welcome() {
   const createProfile = useStore((s) => s.createProfile)
@@ -8,6 +9,7 @@ export function Welcome() {
 
   return (
     <main className="welcome">
+      <InstallHint />
       <h1 className="welcome__title">Forza 6 Randomizer</h1>
       <p className="welcome__lead">Your garage, one tap from a random car. Start with your name. Your garage stays on this phone.</p>
       <form
