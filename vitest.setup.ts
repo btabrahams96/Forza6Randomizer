@@ -15,3 +15,6 @@ Element.prototype.scrollTo ??= function () {}
 import { afterEach } from 'vitest'
 import { cleanup } from '@testing-library/react'
 afterEach(() => cleanup())
+Element.prototype.setPointerCapture ??= function () {}
+Element.prototype.releasePointerCapture ??= function () {}
+Element.prototype.hasPointerCapture ??= function () { return false }
