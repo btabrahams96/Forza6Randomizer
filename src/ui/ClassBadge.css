@@ -1,0 +1,32 @@
+.class-badge {
+  display: inline-flex;
+  align-items: stretch;
+  flex-shrink: 0;
+  border: 1.5px solid var(--c);
+  border-radius: 7px;
+  overflow: hidden;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1;
+}
+.class-badge__class {
+  background: var(--c);
+  color: var(--class-ink);
+  padding: 5px 7px;
+  min-width: 2.1em;
+  text-align: center;
+}
+.class-badge__pi {
+  background: #111;
+  color: #fff;
+  padding: 5px 8px;
+}
+.class-badge--lg {
+  font-size: 16px;
+  border-width: 2px;
+  border-radius: 9px;
+}
+.class-badge--lg .class-badge__class,
+.class-badge--lg .class-badge__pi {
+  padding: 7px 10px;
+}
