@@ -4,6 +4,7 @@ import { parseCarList, parseCarPage } from '../../scripts/lib/wiki'
 
 const list = readFileSync('tests/fixtures/list-snippet.txt', 'utf8')
 const page = readFileSync('tests/fixtures/page-acura-nsx.txt', 'utf8')
+const artura = readFileSync('tests/fixtures/page-mclaren-artura.txt', 'utf8')
 
 describe('parseCarList', () => {
   const rows = parseCarList(list)
@@ -39,6 +40,9 @@ describe('parseCarList', () => {
 describe('parseCarPage', () => {
   test('reads FH6 division, layout and thumbnail', () => {
     expect(parseCarPage(page)).toEqual({ div: 'msu', layout: 'ma', imageFile: 'FH6 Acura NSX Type-S.png' })
+  })
+  test('reads division past nested templates inside the FH6 stats block', () => {
+    expect(parseCarPage(artura).div).toBe('msu')
   })
   test('returns nulls for a page without the fields', () => {
     expect(parseCarPage('nothing here')).toEqual({ div: null, layout: null, imageFile: null })

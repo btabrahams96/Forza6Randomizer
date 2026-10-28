@@ -18,7 +18,7 @@
    "of": 5.5
   },
   "stockPi": 450,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/abarth-124-spider-160.webp",
@@ -43,7 +43,7 @@
    "of": 5.2
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Cult Cars",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/abarth-595-esseesse-160.webp",
@@ -93,7 +93,7 @@
    "of": 5.9
   },
   "stockPi": 399,
-  "carType": null,
+  "carType": "Classic Rally",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/abarth-fiat-131-160.webp",
@@ -118,7 +118,7 @@
    "of": 5.5
   },
   "stockPi": 484,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/acura-integra-a-spec-160.webp",
@@ -143,7 +143,7 @@
    "of": 5.4
   },
   "stockPi": 471,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/acura-integra-type-r-160.webp",
@@ -193,7 +193,7 @@
    "of": 5.6
   },
   "stockPi": 462,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/acura-rsx-type-s-160.webp",
@@ -243,7 +243,7 @@
    "of": 5
   },
   "stockPi": 593,
-  "carType": null,
+  "carType": "Classic Racers",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/alfa-romeo-33-stradale-160.webp",
@@ -268,7 +268,7 @@
    "of": 5
   },
   "stockPi": 644,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/alfa-romeo-4c-160.webp",
@@ -293,7 +293,7 @@
    "of": 5.2
   },
   "stockPi": 635,
-  "carType": null,
+  "carType": "GT Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/alfa-romeo-8c-competizione-160.webp",
@@ -368,7 +368,7 @@
    "of": 5
   },
   "stockPi": 667,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/alfa-romeo-giulia-quadrifoglio-160.webp",
@@ -393,7 +393,7 @@
    "of": 5.3
   },
   "stockPi": 379,
-  "carType": null,
+  "carType": "Rare Classics",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/alfa-romeo-giulia-sprint-gta-stradale-160.webp",
@@ -518,7 +518,7 @@
    "of": 9.9
   },
   "stockPi": 532,
-  "carType": null,
+  "carType": "Unlimited Buggies",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/alumicraft-class-10-race-car-160.webp",
@@ -593,7 +593,7 @@
    "of": 4.5
   },
   "stockPi": 825,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ariel-atom-500-v8-160.webp",
@@ -618,7 +618,7 @@
    "of": 8.3
   },
   "stockPi": 601,
-  "carType": null,
+  "carType": "Unlimited Buggies",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/ariel-nomad-160.webp",
@@ -668,7 +668,7 @@
    "of": 5.7
   },
   "stockPi": 417,
-  "carType": null,
+  "carType": "Rare Classics",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/aston-martin-db5-160.webp",
@@ -718,7 +718,7 @@
    "of": 5
   },
   "stockPi": 736,
-  "carType": null,
+  "carType": "Super GT",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/aston-martin-dbs-superleggera-160.webp",
@@ -768,7 +768,7 @@
    "of": 4.9
   },
   "stockPi": 960,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": null,
@@ -818,7 +818,7 @@
    "of": 4.7
   },
   "stockPi": 989,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/aston-martin-valkyrie-amr-pro-160.webp",
@@ -918,7 +918,7 @@
    "of": 8.1
   },
   "stockPi": 726,
-  "carType": null,
+  "carType": "Rally Monsters",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/audi-2-audi-sport-quattro-s1-160.webp",
@@ -1043,7 +1043,7 @@
    "of": 5.7
   },
   "stockPi": 731,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/audi-r8-v10-plus-160.webp",
@@ -1093,7 +1093,7 @@
    "of": 5.8
   },
   "stockPi": 565,
-  "carType": null,
+  "carType": "Super Hot Hatch",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/audi-rs-3-sportback-160.webp",
@@ -1118,7 +1118,7 @@
    "of": 5.7
   },
   "stockPi": 593,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/audi-rs-4-160.webp",
@@ -1193,7 +1193,7 @@
    "of": 5.6
   },
   "stockPi": 637,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/audi-rs-4-avant-2018-160.webp",
@@ -1393,7 +1393,7 @@
    "of": 5.4
   },
   "stockPi": 677,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/audi-rs-e-tron-gt-160.webp",
@@ -1418,7 +1418,7 @@
    "of": 5.9
   },
   "stockPi": 527,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/audi-s1-160.webp",
@@ -1493,7 +1493,7 @@
    "of": 4.9
   },
   "stockPi": 352,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/austin-healey-3000-mkiii-160.webp",
@@ -1518,7 +1518,7 @@
    "of": 5.2
   },
   "stockPi": 342,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/autozam-az-1-160.webp",
@@ -1543,7 +1543,7 @@
    "of": 4.5
   },
   "stockPi": 766,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/bac-mono-160.webp",
@@ -1593,7 +1593,7 @@
    "of": 5.5
   },
   "stockPi": 649,
-  "carType": null,
+  "carType": "GT Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/bentley-continental-gt-convertible-160.webp",
@@ -1643,7 +1643,7 @@
    "of": 5.8
   },
   "stockPi": 425,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/bmw-2002-turbo-160.webp",
@@ -1718,7 +1718,7 @@
    "of": 5.1
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Cult Cars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/bmw-isetta-300-export-160.webp",
@@ -1868,7 +1868,7 @@
    "of": 5.3
   },
   "stockPi": 474,
-  "carType": null,
+  "carType": "Retro Super Saloons",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/bmw-m3-1988-160.webp",
@@ -1943,7 +1943,7 @@
    "of": 5
   },
   "stockPi": 608,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/bmw-m3-2008-160.webp",
@@ -2068,7 +2068,7 @@
    "of": 5.5
   },
   "stockPi": 733,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/bmw-m4-cs-160.webp",
@@ -2268,7 +2268,7 @@
    "of": 5.7
   },
   "stockPi": 684,
-  "carType": null,
+  "carType": "GT Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/bmw-m8-competition-coupe-160.webp",
@@ -2368,7 +2368,7 @@
    "of": 5.1
   },
   "stockPi": 634,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/bmw-z4-roadster-160.webp",
@@ -2768,7 +2768,7 @@
    "of": 5.2
   },
   "stockPi": 718,
-  "carType": null,
+  "carType": "Modern Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/chevrolet-camaro-zl1-2024-160.webp",
@@ -2843,7 +2843,7 @@
    "of": 5.8
   },
   "stockPi": 270,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/chevrolet-corvette-1953-160.webp",
@@ -2943,7 +2943,7 @@
    "of": 5.4
   },
   "stockPi": 699,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/chevrolet-corvette-stingray-coupe-160.webp",
@@ -3043,7 +3043,7 @@
    "of": 5.6
   },
   "stockPi": 497,
-  "carType": null,
+  "carType": "Classic Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/chevrolet-corvette-zr-1-1970-160.webp",
@@ -3268,7 +3268,7 @@
    "of": 5.5
   },
   "stockPi": 431,
-  "carType": null,
+  "carType": "Classic Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/chevrolet-nova-super-sport-396-160.webp",
@@ -3468,7 +3468,7 @@
    "of": 4.2
   },
   "stockPi": 707,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/deberti-chevrolet-silverado-1500-drift-truck-160.webp",
@@ -3568,7 +3568,7 @@
    "of": 4.9
   },
   "stockPi": 717,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/deberti-toyota-tacoma-trd-the-performance-truck-160.webp",
@@ -3593,7 +3593,7 @@
    "of": 6.2
   },
   "stockPi": 357,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/delorean-dmc-12-160.webp",
@@ -3643,7 +3643,7 @@
    "of": 5
   },
   "stockPi": 678,
-  "carType": null,
+  "carType": "Modern Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/dodge-challenger-srt-demon-160.webp",
@@ -3693,7 +3693,7 @@
    "of": 4.8
   },
   "stockPi": 631,
-  "carType": null,
+  "carType": "Modern Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/dodge-challenger-srt-hellcat-160.webp",
@@ -3818,7 +3818,7 @@
    "of": 5.3
   },
   "stockPi": 455,
-  "carType": null,
+  "carType": "Classic Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/dodge-coronet-super-bee-160.webp",
@@ -3843,7 +3843,7 @@
    "of": 5.1
   },
   "stockPi": 540,
-  "carType": null,
+  "carType": "Classic Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/dodge-dart-hemi-super-stock-160.webp",
@@ -3893,7 +3893,7 @@
    "of": 6
   },
   "stockPi": 547,
-  "carType": null,
+  "carType": "Modern Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/dodge-ram-srt-10-160.webp",
@@ -4043,7 +4043,7 @@
    "of": 3.9
   },
   "stockPi": 841,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/exomotive-exocet-sport-v8-xp-5-160.webp",
@@ -4093,7 +4093,7 @@
    "of": 5.6
   },
   "stockPi": 475,
-  "carType": null,
+  "carType": "Rare Classics",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ferrari-250-gt-berlinetta-lusso-160.webp",
@@ -4168,7 +4168,7 @@
    "of": 5.1
   },
   "stockPi": 643,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-288-gto-160.webp",
@@ -4193,7 +4193,7 @@
    "of": 4.7
   },
   "stockPi": 811,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-296-gtb-160.webp",
@@ -4218,7 +4218,7 @@
    "of": 4.9
   },
   "stockPi": 702,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-430-scuderia-160.webp",
@@ -4243,7 +4243,7 @@
    "of": 4.6
   },
   "stockPi": 721,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-458-italia-160.webp",
@@ -4268,7 +4268,7 @@
    "of": 4.4
   },
   "stockPi": 768,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-458-speciale-160.webp",
@@ -4293,7 +4293,7 @@
    "of": 4.9
   },
   "stockPi": 770,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-488-gtb-160.webp",
@@ -4343,7 +4343,7 @@
    "of": 4.9
   },
   "stockPi": 774,
-  "carType": null,
+  "carType": "Classic Racers",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-512-s-160.webp",
@@ -4418,7 +4418,7 @@
    "of": 4.4
   },
   "stockPi": 894,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ferrari-599xx-evolution-160.webp",
@@ -4443,7 +4443,7 @@
    "of": 4.5
   },
   "stockPi": 780,
-  "carType": null,
+  "carType": "Super GT",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ferrari-812-superfast-160.webp",
@@ -4468,7 +4468,7 @@
    "of": 5.6
   },
   "stockPi": 428,
-  "carType": null,
+  "carType": "Rare Classics",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-dino-246-gt-160.webp",
@@ -4493,7 +4493,7 @@
    "of": 5.2
   },
   "stockPi": 755,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-enzo-ferrari-160.webp",
@@ -4518,7 +4518,7 @@
    "of": 5.2
   },
   "stockPi": 788,
-  "carType": null,
+  "carType": "Super GT",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ferrari-f12tdf-160.webp",
@@ -4568,7 +4568,7 @@
    "of": 5.4
   },
   "stockPi": 678,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-f40-160.webp",
@@ -4593,7 +4593,7 @@
    "of": 5.2
   },
   "stockPi": 948,
-  "carType": null,
+  "carType": "Retro Racers",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-f40-competizione-160.webp",
@@ -4668,7 +4668,7 @@
    "of": 4.9
   },
   "stockPi": 802,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-f8-tributo-160.webp",
@@ -4818,7 +4818,7 @@
    "of": 4.7
   },
   "stockPi": 772,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-j50-160.webp",
@@ -4868,7 +4868,7 @@
    "of": 4.8
   },
   "stockPi": 857,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-laferrari-160.webp",
@@ -4893,7 +4893,7 @@
    "of": 4.3
   },
   "stockPi": 773,
-  "carType": null,
+  "carType": "Super GT",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ferrari-monza-sp2-160.webp",
@@ -4918,7 +4918,7 @@
    "of": 5.1
   },
   "stockPi": 714,
-  "carType": null,
+  "carType": "Super GT",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ferrari-portofino-160.webp",
@@ -4993,7 +4993,7 @@
    "of": 5
   },
   "stockPi": 851,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/ferrari-sf90-stradale-160.webp",
@@ -5118,7 +5118,7 @@
    "of": 10
   },
   "stockPi": 644,
-  "carType": null,
+  "carType": "Unlimited Offroad",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/ford-25-brocky-ultra4-bronco-rtr-160.webp",
@@ -5143,7 +5143,7 @@
    "of": 8.3
   },
   "stockPi": 639,
-  "carType": null,
+  "carType": "Rally Monsters",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/ford-4-ford-focus-rs-160.webp",
@@ -5168,7 +5168,7 @@
    "of": 7.2
   },
   "stockPi": 544,
-  "carType": null,
+  "carType": "Classic Rally",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ford-5-escort-rs1800-mkii-160.webp",
@@ -5218,7 +5218,7 @@
    "of": 5.4
   },
   "stockPi": 394,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ford-capri-rs3100-160.webp",
@@ -5293,7 +5293,7 @@
    "of": 5.6
   },
   "stockPi": 456,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/ford-escort-rs-cosworth-160.webp",
@@ -5393,7 +5393,7 @@
    "of": 6.4
   },
   "stockPi": 474,
-  "carType": null,
+  "carType": "Pickups & 4x4's",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ford-f-150-svt-lightning-160.webp",
@@ -5418,7 +5418,7 @@
    "of": 8.3
   },
   "stockPi": 263,
-  "carType": null,
+  "carType": "Pickups & 4x4's",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/ford-f-150-xlt-lariat-160.webp",
@@ -5443,7 +5443,7 @@
    "of": 6
   },
   "stockPi": 850,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/ford-f-150-xlt-lariat-forza-edition-160.webp",
@@ -5468,7 +5468,7 @@
    "of": 5.2
   },
   "stockPi": 500,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/ford-fiesta-st-2023-160.webp",
@@ -5493,7 +5493,7 @@
    "of": 5
   },
   "stockPi": 484,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/ford-focus-rs-2003-160.webp",
@@ -5568,7 +5568,7 @@
    "of": 5.3
   },
   "stockPi": 594,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/ford-focus-st-2022-160.webp",
@@ -5643,7 +5643,7 @@
    "of": 4.9
   },
   "stockPi": 757,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ford-gt-2017-160.webp",
@@ -5843,7 +5843,7 @@
    "of": 5.1
   },
   "stockPi": 648,
-  "carType": null,
+  "carType": "Modern Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ford-mustang-rtr-spec-5-160.webp",
@@ -5868,7 +5868,7 @@
    "of": 5.7
   },
   "stockPi": 721,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ford-mustang-shelby-gt350r-160.webp",
@@ -5893,7 +5893,7 @@
    "of": 5.3
   },
   "stockPi": 647,
-  "carType": null,
+  "carType": "Modern Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/ford-mustang-shelby-gt500-2013-160.webp",
@@ -6318,7 +6318,7 @@
    "of": 4.3
   },
   "stockPi": 779,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-151-toyota-gr-supra-160.webp",
@@ -6343,7 +6343,7 @@
    "of": 4.5
   },
   "stockPi": 759,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-34-toyota-supra-mkiv-160.webp",
@@ -6368,7 +6368,7 @@
    "of": 4.4
   },
   "stockPi": 754,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-411-toyota-corolla-hatchback-160.webp",
@@ -6393,7 +6393,7 @@
    "of": 4
   },
   "stockPi": 748,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-43-dodge-viper-srt10-160.webp",
@@ -6418,7 +6418,7 @@
    "of": 4.4
   },
   "stockPi": 710,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-530-hsv-maloo-gen-f-160.webp",
@@ -6443,7 +6443,7 @@
    "of": 4.3
   },
   "stockPi": 783,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-64-forsberg-racing-nissan-z-160.webp",
@@ -6468,7 +6468,7 @@
    "of": 4
   },
   "stockPi": 760,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-777-chevrolet-corvette-160.webp",
@@ -6518,7 +6518,7 @@
    "of": 4.2
   },
   "stockPi": 748,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-91-bmw-m2-160.webp",
@@ -6543,7 +6543,7 @@
    "of": 4.4
   },
   "stockPi": 726,
-  "carType": null,
+  "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/formula-drift-98-bmw-325i-160.webp",
@@ -6643,7 +6643,7 @@
    "of": 8.2
   },
   "stockPi": 610,
-  "carType": null,
+  "carType": "Pickups & 4x4's",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/gmc-hummer-ev-pickup-160.webp",
@@ -6693,7 +6693,7 @@
    "of": 5.7
   },
   "stockPi": 446,
-  "carType": null,
+  "carType": "Pickups & 4x4's",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/gmc-syclone-160.webp",
@@ -6743,7 +6743,7 @@
    "of": 5.1
   },
   "stockPi": 871,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/gordon-murray-automotive-t-50-160.webp",
@@ -6818,7 +6818,7 @@
    "of": 4.6
   },
   "stockPi": 870,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/hennessey-venom-f5-160.webp",
@@ -6893,7 +6893,7 @@
    "of": 5.4
   },
   "stockPi": 413,
-  "carType": null,
+  "carType": "Classic Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/holden-torana-a9x-160.webp",
@@ -7018,7 +7018,7 @@
    "of": 5.3
   },
   "stockPi": 283,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/honda-beat-160.webp",
@@ -7043,7 +7043,7 @@
    "of": 5.4
   },
   "stockPi": 203,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-city-e-ii-160.webp",
@@ -7143,7 +7143,7 @@
    "of": 5.1
   },
   "stockPi": 430,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-civic-type-r-1997-160.webp",
@@ -7168,7 +7168,7 @@
    "of": 5.5
   },
   "stockPi": 480,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-civic-type-r-2004-160.webp",
@@ -7243,7 +7243,7 @@
    "of": 5.1
   },
   "stockPi": 585,
-  "carType": null,
+  "carType": "Super Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-civic-type-r-2015-160.webp",
@@ -7268,7 +7268,7 @@
    "of": 5
   },
   "stockPi": 608,
-  "carType": null,
+  "carType": "Super Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-civic-type-r-2018-160.webp",
@@ -7293,7 +7293,7 @@
    "of": 5.3
   },
   "stockPi": 620,
-  "carType": null,
+  "carType": "Super Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-civic-type-r-2023-160.webp",
@@ -7343,7 +7343,7 @@
    "of": 5.7
   },
   "stockPi": 398,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/honda-e-160.webp",
@@ -7368,7 +7368,7 @@
    "of": 5.7
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-n600-160.webp",
@@ -7393,7 +7393,7 @@
    "of": 5.1
   },
   "stockPi": 572,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/honda-nsx-r-1992-160.webp",
@@ -7468,7 +7468,7 @@
    "of": 5.7
   },
   "stockPi": 410,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/honda-prelude-si-160.webp",
@@ -7543,7 +7543,7 @@
    "of": 5.3
   },
   "stockPi": 503,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/honda-s2000-160.webp",
@@ -7568,7 +7568,7 @@
    "of": 5.2
   },
   "stockPi": 134,
-  "carType": null,
+  "carType": "Cult Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/honda-s800-160.webp",
@@ -7618,7 +7618,7 @@
    "of": 5.2
   },
   "stockPi": 601,
-  "carType": null,
+  "carType": "Modern Muscle",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/hsv-gen-f-gts-160.webp",
@@ -7668,7 +7668,7 @@
    "of": 5.5
   },
   "stockPi": 564,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/hyundai-i20-n-160.webp",
@@ -7743,7 +7743,7 @@
    "of": 4.8
   },
   "stockPi": 692,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/hyundai-n-vision-74-160.webp",
@@ -7768,7 +7768,7 @@
    "of": 5.5
   },
   "stockPi": 532,
-  "carType": null,
+  "carType": "Super Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/hyundai-veloster-n-160.webp",
@@ -7793,7 +7793,7 @@
    "of": 4.7
   },
   "stockPi": 810,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/jaguar-c-x75-160.webp",
@@ -7818,7 +7818,7 @@
    "of": 4.7
   },
   "stockPi": 506,
-  "carType": null,
+  "carType": "Classic Racers",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/jaguar-d-type-160.webp",
@@ -7843,7 +7843,7 @@
    "of": 5.5
   },
   "stockPi": 414,
-  "carType": null,
+  "carType": "Rare Classics",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/jaguar-e-type-160.webp",
@@ -7893,7 +7893,7 @@
    "of": 5.2
   },
   "stockPi": 716,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/jaguar-sport-xjr-15-160.webp",
@@ -7993,7 +7993,7 @@
    "of": 5.2
   },
   "stockPi": 750,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/jaguar-xj220s-twr-160.webp",
@@ -8043,7 +8043,7 @@
    "of": 6.1
   },
   "stockPi": 631,
-  "carType": null,
+  "carType": "Sports Utility Heroes",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/jeep-grand-cherokee-trackhawk-160.webp",
@@ -8143,7 +8143,7 @@
    "of": 8.8
   },
   "stockPi": 652,
-  "carType": null,
+  "carType": "Unlimited Buggies",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/jimco-179-hammerhead-class-1-160.webp",
@@ -8243,7 +8243,7 @@
    "of": 4.4
   },
   "stockPi": 900,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/koenigsegg-ccgt-160.webp",
@@ -8318,7 +8318,7 @@
    "of": 4.9
   },
   "stockPi": 890,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/koenigsegg-one-1-160.webp",
@@ -8418,7 +8418,7 @@
    "of": 5.6
   },
   "stockPi": 753,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-aventador-lp700-4-160.webp",
@@ -8493,7 +8493,7 @@
    "of": 5.3
   },
   "stockPi": 622,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-countach-lp5000-qv-160.webp",
@@ -8518,7 +8518,7 @@
    "of": 5.2
   },
   "stockPi": 773,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-countach-lpi-800-4-160.webp",
@@ -8543,7 +8543,7 @@
    "of": 4.6
   },
   "stockPi": 823,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-diablo-gtr-160.webp",
@@ -8643,7 +8643,7 @@
    "of": 5.7
   },
   "stockPi": 685,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-gallardo-lp570-4-spyder-performante-160.webp",
@@ -8693,7 +8693,7 @@
    "of": 5.2
   },
   "stockPi": 757,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-huracan-evo-spyder-160.webp",
@@ -8718,7 +8718,7 @@
    "of": 5.4
   },
   "stockPi": 738,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-huracan-lp-610-4-160.webp",
@@ -8768,7 +8768,7 @@
    "of": 5
   },
   "stockPi": 783,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-huracan-sto-160.webp",
@@ -8793,7 +8793,7 @@
    "of": 4.8
   },
   "stockPi": 747,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-huracan-tecnica-160.webp",
@@ -8818,7 +8818,7 @@
    "of": 5.4
   },
   "stockPi": 505,
-  "carType": null,
+  "carType": "Rare Classics",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-miura-p400-160.webp",
@@ -8843,7 +8843,7 @@
    "of": 5.6
   },
   "stockPi": 707,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-murcielago-lp-670-4-sv-160.webp",
@@ -8893,7 +8893,7 @@
    "of": 5.7
   },
   "stockPi": 871,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-sesto-elemento-160.webp",
@@ -8943,7 +8943,7 @@
    "of": 5.1
   },
   "stockPi": 801,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lamborghini-temerario-160.webp",
@@ -8968,7 +8968,7 @@
    "of": 6.6
   },
   "stockPi": 659,
-  "carType": null,
+  "carType": "Sports Utility Heroes",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/lamborghini-urus-160.webp",
@@ -9018,7 +9018,7 @@
    "of": 7.1
   },
   "stockPi": 555,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lancia-037-stradale-160.webp",
@@ -9043,7 +9043,7 @@
    "of": 6
   },
   "stockPi": 489,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/lancia-delta-hf-integrale-evo-160.webp",
@@ -9068,7 +9068,7 @@
    "of": 7.6
   },
   "stockPi": 564,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lancia-delta-s4-160.webp",
@@ -9118,7 +9118,7 @@
    "of": 7.7
   },
   "stockPi": 427,
-  "carType": null,
+  "carType": "Sports Utility Heroes",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/land-rover-defender-110-x-160.webp",
@@ -9143,7 +9143,7 @@
    "of": 7.5
   },
   "stockPi": 604,
-  "carType": null,
+  "carType": "Sports Utility Heroes",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/land-rover-range-rover-sport-svr-160.webp",
@@ -9168,7 +9168,7 @@
    "of": 5.2
   },
   "stockPi": 592,
-  "carType": null,
+  "carType": "GT Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/lexus-lc-500-160.webp",
@@ -9193,7 +9193,7 @@
    "of": 5
   },
   "stockPi": 699,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/lexus-lfa-160.webp",
@@ -9293,7 +9293,7 @@
    "of": 5.2
   },
   "stockPi": 709,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lotus-elise-gt1-160.webp",
@@ -9318,7 +9318,7 @@
    "of": 5.2
   },
   "stockPi": 589,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lotus-elise-series-1-sport-190-160.webp",
@@ -9393,7 +9393,7 @@
    "of": 4.5
   },
   "stockPi": 937,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/lotus-evija-160.webp",
@@ -9443,7 +9443,7 @@
    "of": 4.8
   },
   "stockPi": 732,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/lotus-exige-cup-430-160.webp",
@@ -9518,7 +9518,7 @@
    "of": 4.9
   },
   "stockPi": 591,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/maserati-ghibli-cup-160.webp",
@@ -9568,7 +9568,7 @@
    "of": 4.5
   },
   "stockPi": 912,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/maserati-mc12-versione-corsa-160.webp",
@@ -9593,7 +9593,7 @@
    "of": 4.8
   },
   "stockPi": 753,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/maserati-mc20-160.webp",
@@ -9668,7 +9668,7 @@
    "of": 5.6
   },
   "stockPi": 394,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-cosmo-110s-series-ii-160.webp",
@@ -9693,7 +9693,7 @@
    "of": 4.7
   },
   "stockPi": 926,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mazda-furai-160.webp",
@@ -9743,7 +9743,7 @@
    "of": 5.1
   },
   "stockPi": 469,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-mazdaspeed-mx-5-160.webp",
@@ -9843,7 +9843,7 @@
    "of": 5.2
   },
   "stockPi": 329,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-mx-5-miata-1994-160.webp",
@@ -9868,7 +9868,7 @@
    "of": 4.4
   },
   "stockPi": 850,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-mx-5-miata-forza-edition-160.webp",
@@ -9893,7 +9893,7 @@
    "of": 5.4
   },
   "stockPi": 509,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-mx-5-miata-rf-160.webp",
@@ -9918,7 +9918,7 @@
    "of": 5.7
   },
   "stockPi": 328,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-rx-3-160.webp",
@@ -9943,7 +9943,7 @@
    "of": 4.9
   },
   "stockPi": 600,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-rx-3-forza-edition-160.webp",
@@ -9993,7 +9993,7 @@
    "of": 5.2
   },
   "stockPi": 548,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-rx-7-type-r-160.webp",
@@ -10018,7 +10018,7 @@
    "of": 5.5
   },
   "stockPi": 508,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mazda-rx-8-r3-160.webp",
@@ -10093,7 +10093,7 @@
    "of": 4.9
   },
   "stockPi": 721,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-570s-coupe-160.webp",
@@ -10118,7 +10118,7 @@
    "of": 4.7
   },
   "stockPi": 780,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-600lt-coupe-160.webp",
@@ -10168,7 +10168,7 @@
    "of": 5.1
   },
   "stockPi": 765,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-650s-spider-160.webp",
@@ -10193,7 +10193,7 @@
    "of": 4.9
   },
   "stockPi": 829,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-765lt-coupe-160.webp",
@@ -10218,7 +10218,7 @@
    "of": 4.9
   },
   "stockPi": 766,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-artura-160.webp",
@@ -10243,7 +10243,7 @@
    "of": 5
   },
   "stockPi": 713,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-f1-160.webp",
@@ -10268,7 +10268,7 @@
    "of": 4.8
   },
   "stockPi": 769,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-f1-gt-160.webp",
@@ -10318,7 +10318,7 @@
    "of": 4.6
   },
   "stockPi": 787,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-sabre-160.webp",
@@ -10343,7 +10343,7 @@
    "of": 4.3
   },
   "stockPi": 835,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mclaren-speedtail-160.webp",
@@ -10418,7 +10418,7 @@
    "of": 5.5
   },
   "stockPi": 674,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mercedes-amg-e-63-s-160.webp",
@@ -10493,7 +10493,7 @@
    "of": 4.7
   },
   "stockPi": 782,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mercedes-amg-gt-black-series-160.webp",
@@ -10543,7 +10543,7 @@
    "of": 4.9
   },
   "stockPi": 764,
-  "carType": null,
+  "carType": "Super GT",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mercedes-amg-gt-r-160.webp",
@@ -10793,7 +10793,7 @@
    "of": 4.8
   },
   "stockPi": 713,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/mercedes-benz-amg-clk-gtr-160.webp",
@@ -10818,7 +10818,7 @@
    "of": 5.2
   },
   "stockPi": 565,
-  "carType": null,
+  "carType": "Retro Super Saloons",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mercedes-benz-amg-hammer-coupe-160.webp",
@@ -10943,7 +10943,7 @@
    "of": 9
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Offroad",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mercedes-benz-unimog-u5023-160.webp",
@@ -11018,7 +11018,7 @@
    "of": 6.3
   },
   "stockPi": 540,
-  "carType": null,
+  "carType": "Buggies",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/meyers-manx-2-0-160.webp",
@@ -11043,7 +11043,7 @@
    "of": 8.9
   },
   "stockPi": 627,
-  "carType": null,
+  "carType": "Rally Monsters",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/mg-metro-6r4-160.webp",
@@ -11068,7 +11068,7 @@
    "of": 4.3
   },
   "stockPi": 158,
-  "carType": null,
+  "carType": "Classic Rally",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/mini-cooper-s-1965-160.webp",
@@ -11093,7 +11093,7 @@
    "of": 4.9
   },
   "stockPi": 509,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/mini-john-cooper-works-gp-2012-160.webp",
@@ -11143,7 +11143,7 @@
    "of": 8.4
   },
   "stockPi": 523,
-  "carType": null,
+  "carType": "Offroad",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mini-x-raid-all4-racing-countryman-160.webp",
@@ -11243,7 +11243,7 @@
    "of": 5.8
   },
   "stockPi": 436,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mitsubishi-eclipse-gsx-160.webp",
@@ -11293,7 +11293,7 @@
    "of": 5.8
   },
   "stockPi": 495,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mitsubishi-gto-160.webp",
@@ -11343,7 +11343,7 @@
    "of": 5.9
   },
   "stockPi": 521,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mitsubishi-lancer-evolution-ix-mr-160.webp",
@@ -11393,7 +11393,7 @@
    "of": 6
   },
   "stockPi": 555,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mitsubishi-lancer-evolution-viii-mr-160.webp",
@@ -11443,7 +11443,7 @@
    "of": 6
   },
   "stockPi": 534,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/mitsubishi-lancer-evolution-x-gsr-160.webp",
@@ -11518,7 +11518,7 @@
    "of": 5.6
   },
   "stockPi": 446,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/mitsubishi-starion-esi-r-160.webp",
@@ -11693,7 +11693,7 @@
    "of": 5.3
   },
   "stockPi": 568,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/nissan-370z-160.webp",
@@ -11718,7 +11718,7 @@
    "of": 5.4
   },
   "stockPi": 603,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/nissan-370z-nismo-160.webp",
@@ -11768,7 +11768,7 @@
    "of": 5.2
   },
   "stockPi": 534,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/nissan-fairlady-z-160.webp",
@@ -11893,7 +11893,7 @@
    "of": 5.5
   },
   "stockPi": 709,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-gt-r-r35-160.webp",
@@ -11918,7 +11918,7 @@
    "of": 5.6
   },
   "stockPi": 703,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-gt-r-black-edition-r35-160.webp",
@@ -11993,7 +11993,7 @@
    "of": 5.1
   },
   "stockPi": 736,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-gt-r-nismo-r35-160.webp",
@@ -12018,7 +12018,7 @@
    "of": 4.7
   },
   "stockPi": 544,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/nissan-nismo-gt-r-lm-160.webp",
@@ -12093,7 +12093,7 @@
    "of": 5.4
   },
   "stockPi": 486,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-pulsar-gti-r-160.webp",
@@ -12143,7 +12143,7 @@
    "of": 6
   },
   "stockPi": 131,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/nissan-s-cargo-160.webp",
@@ -12268,7 +12268,7 @@
    "of": 5.6
   },
   "stockPi": 494,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/nissan-silvia-k-s-aero-160.webp",
@@ -12368,7 +12368,7 @@
    "of": 5.8
   },
   "stockPi": 541,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-skyline-gt-r-1992-160.webp",
@@ -12418,7 +12418,7 @@
    "of": 5.9
   },
   "stockPi": 555,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-skyline-gt-r-v-spec-1997-160.webp",
@@ -12443,7 +12443,7 @@
    "of": 5.8
   },
   "stockPi": 590,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-skyline-gt-r-v-spec-ii-2000-160.webp",
@@ -12468,7 +12468,7 @@
    "of": 5.2
   },
   "stockPi": 432,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/nissan-skyline-gts-r-160.webp",
@@ -12518,7 +12518,7 @@
    "of": 6.3
   },
   "stockPi": 439,
-  "carType": null,
+  "carType": "Retro Super Saloons",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/nissan-stagea-rs-four-v-160.webp",
@@ -12543,7 +12543,7 @@
    "of": 5.2
   },
   "stockPi": 652,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/nissan-z-nismo-160.webp",
@@ -12568,7 +12568,7 @@
    "of": 5.1
   },
   "stockPi": 793,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/noble-m600-160.webp",
@@ -12593,7 +12593,7 @@
    "of": 6.8
   },
   "stockPi": 576,
-  "carType": null,
+  "carType": "Rally Monsters",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/opel-manta-400-160.webp",
@@ -12618,7 +12618,7 @@
    "of": 4.6
   },
   "stockPi": 851,
-  "carType": null,
+  "carType": "Hypercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/pagani-huayra-bc-coupe-160.webp",
@@ -12643,7 +12643,7 @@
    "of": 5
   },
   "stockPi": 954,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/pagani-huayra-r-160.webp",
@@ -12693,7 +12693,7 @@
    "of": 4.2
   },
   "stockPi": 918,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/pagani-zonda-r-160.webp",
@@ -12718,7 +12718,7 @@
    "of": 4.8
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Cult Cars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/peel-p50-160.webp",
@@ -12768,7 +12768,7 @@
    "of": 9.8
   },
   "stockPi": 541,
-  "carType": null,
+  "carType": "Unlimited Buggies",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/penhall-the-cholla-160.webp",
@@ -12943,7 +12943,7 @@
    "of": 10
   },
   "stockPi": 439,
-  "carType": null,
+  "carType": "UTV's",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/polaris-rzr-pro-xp-factory-racing-limited-edition-160.webp",
@@ -13043,7 +13043,7 @@
    "of": 7.9
   },
   "stockPi": 623,
-  "carType": null,
+  "carType": "Rally Monsters",
   "drivetrain": "AWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-185-959-prodrive-rally-raid-160.webp",
@@ -13168,7 +13168,7 @@
    "of": 5
   },
   "stockPi": 737,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/porsche-718-cayman-gt4-rs-160.webp",
@@ -13243,7 +13243,7 @@
    "of": 5.3
   },
   "stockPi": 490,
-  "carType": null,
+  "carType": "Rare Classics",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-911-carrera-rs-160.webp",
@@ -13268,7 +13268,7 @@
    "of": 5
   },
   "stockPi": 714,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-911-carrera-s-160.webp",
@@ -13343,7 +13343,7 @@
    "of": 5.1
   },
   "stockPi": 803,
-  "carType": null,
+  "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-911-gt2-rs-2018-160.webp",
@@ -13368,7 +13368,7 @@
    "of": 5.4
   },
   "stockPi": 674,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-911-gt3-2004-160.webp",
@@ -13543,7 +13543,7 @@
    "of": 5.4
   },
   "stockPi": 774,
-  "carType": null,
+  "carType": "Modern Supercars",
   "drivetrain": "AWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-911-turbo-s-2023-160.webp",
@@ -13568,7 +13568,7 @@
    "of": 5.2
   },
   "stockPi": 652,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-911-turbo-s-leichtbau-160.webp",
@@ -13693,7 +13693,7 @@
    "of": 5.2
   },
   "stockPi": 594,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/porsche-968-turbo-s-160.webp",
@@ -13818,7 +13818,7 @@
    "of": 5.1
   },
   "stockPi": 865,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "AWD",
   "engine": "Mid",
   "thumb": "/cars/porsche-mission-r-160.webp",
@@ -13843,7 +13843,7 @@
    "of": 4.9
   },
   "stockPi": 725,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "AWD",
   "engine": "Rear",
   "thumb": "/cars/porsche-taycan-turbo-s-160.webp",
@@ -13868,7 +13868,7 @@
    "of": 4.6
   },
   "stockPi": 842,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/radical-rxc-turbo-160.webp",
@@ -13918,7 +13918,7 @@
    "of": 6.1
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Utility Heroes",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/reliant-supervan-iii-160.webp",
@@ -14018,7 +14018,7 @@
    "of": 5.3
   },
   "stockPi": 547,
-  "carType": null,
+  "carType": "Super Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/renault-megane-r-s-160.webp",
@@ -14043,7 +14043,7 @@
    "of": 5.2
   },
   "stockPi": 561,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/renault-megane-r26-r-160.webp",
@@ -14143,7 +14143,7 @@
    "of": 8.3
   },
   "stockPi": 607,
-  "carType": null,
+  "carType": "Pickups & 4x4's",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/rivian-r1t-160.webp",
@@ -14243,7 +14243,7 @@
    "of": 4.9
   },
   "stockPi": 835,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/saleen-s7-lm-160.webp",
@@ -14268,7 +14268,7 @@
    "of": 5
   },
   "stockPi": 764,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/schuppan-962cr-160.webp",
@@ -14343,7 +14343,7 @@
    "of": 4.5
   },
   "stockPi": 926,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/sierra-cars-23-yokohama-alpha-160.webp",
@@ -14468,7 +14468,7 @@
    "of": 5.3
   },
   "stockPi": 463,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/subaru-brz-2013-160.webp",
@@ -14518,7 +14518,7 @@
    "of": 10
   },
   "stockPi": 700,
-  "carType": null,
+  "carType": "Unlimited Offroad",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-brz-2022-forza-edition-160.webp",
@@ -14543,7 +14543,7 @@
    "of": 5.7
   },
   "stockPi": 600,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-impreza-22b-sti-version-160.webp",
@@ -14568,7 +14568,7 @@
    "of": 5.9
   },
   "stockPi": 552,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-impreza-wrx-sti-2004-160.webp",
@@ -14593,7 +14593,7 @@
    "of": 6.1
   },
   "stockPi": 570,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-impreza-wrx-sti-2005-160.webp",
@@ -14618,7 +14618,7 @@
    "of": 5.9
   },
   "stockPi": 539,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-impreza-wrx-sti-2008-160.webp",
@@ -14668,7 +14668,7 @@
    "of": 5.6
   },
   "stockPi": 406,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-legacy-rs-160.webp",
@@ -14693,7 +14693,7 @@
    "of": 5.9
   },
   "stockPi": 575,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-sti-s209-160.webp",
@@ -14718,7 +14718,7 @@
    "of": 5.6
   },
   "stockPi": 466,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-svx-160.webp",
@@ -14743,7 +14743,7 @@
    "of": 5.9
   },
   "stockPi": 281,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/subaru-vivio-rx-r-160.webp",
@@ -14943,7 +14943,7 @@
    "of": 9.1
   },
   "stockPi": 421,
-  "carType": null,
+  "carType": "Pickups & 4x4's",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/toyota-4runner-trd-pro-160.webp",
@@ -15018,7 +15018,7 @@
    "of": 5.7
   },
   "stockPi": 461,
-  "carType": null,
+  "carType": "Retro Super Saloons",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/toyota-altezza-rs200-z-edition-160.webp",
@@ -15043,7 +15043,7 @@
    "of": 5.3
   },
   "stockPi": 525,
-  "carType": null,
+  "carType": "Modern Super Saloons",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/toyota-camry-trd-160.webp",
@@ -15068,7 +15068,7 @@
    "of": 5.2
   },
   "stockPi": 287,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/toyota-celica-gt-160.webp",
@@ -15218,7 +15218,7 @@
    "of": 5.4
   },
   "stockPi": 197,
-  "carType": null,
+  "carType": "Classic Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/toyota-corolla-sr5-160.webp",
@@ -15318,7 +15318,7 @@
    "of": 5.3
   },
   "stockPi": 616,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/toyota-gr-supra-160.webp",
@@ -15343,7 +15343,7 @@
    "of": 5.6
   },
   "stockPi": 558,
-  "carType": null,
+  "carType": "Modern Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/toyota-gr-yaris-160.webp",
@@ -15368,7 +15368,7 @@
    "of": 5.3
   },
   "stockPi": 556,
-  "carType": null,
+  "carType": "Modern Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/toyota-gr86-160.webp",
@@ -15418,7 +15418,7 @@
    "of": 6
   },
   "stockPi": 248,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/toyota-jpn-taxi-160.webp",
@@ -15493,7 +15493,7 @@
    "of": 5.2
   },
   "stockPi": 522,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/toyota-mr2-gt-160.webp",
@@ -15518,7 +15518,7 @@
    "of": 5.6
   },
   "stockPi": 397,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/toyota-mr2-sc-160.webp",
@@ -15568,7 +15568,7 @@
    "of": 5.6
   },
   "stockPi": 344,
-  "carType": null,
+  "carType": "Eclectic Domestics",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/toyota-sera-160.webp",
@@ -15593,7 +15593,7 @@
    "of": 5.9
   },
   "stockPi": 491,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/toyota-soarer-2-5-gt-t-160.webp",
@@ -15768,7 +15768,7 @@
    "of": 5.2
   },
   "stockPi": 526,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/toyota-supra-rz-160.webp",
@@ -15793,7 +15793,7 @@
    "of": 8.9
   },
   "stockPi": 409,
-  "carType": null,
+  "carType": "Pickups & 4x4's",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/toyota-tacoma-trd-pro-160.webp",
@@ -15843,7 +15843,7 @@
    "of": 3.8
   },
   "stockPi": 770,
-  "carType": null,
+  "carType": "Retro Supercars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/tvr-cerbera-speed-12-160.webp",
@@ -15893,7 +15893,7 @@
    "of": 4.8
   },
   "stockPi": 672,
-  "carType": null,
+  "carType": "Retro Sports Cars",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/tvr-sagaris-160.webp",
@@ -15918,7 +15918,7 @@
    "of": 4.9
   },
   "stockPi": 925,
-  "carType": null,
+  "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
   "thumb": "/cars/ultima-evolution-coupe-1020-160.webp",
@@ -15968,7 +15968,7 @@
    "of": 7.8
   },
   "stockPi": 764,
-  "carType": null,
+  "carType": "Rally Monsters",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/volkswagen-34-volkswagen-andretti-rally-cross-beetle-160.webp",
@@ -15993,7 +15993,7 @@
    "of": 5.9
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Cult Cars",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/volkswagen-beetle-160.webp",
@@ -16068,7 +16068,7 @@
    "of": 5.3
   },
   "stockPi": 314,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/volkswagen-golf-gti-160.webp",
@@ -16093,7 +16093,7 @@
    "of": 5.2
   },
   "stockPi": 308,
-  "carType": null,
+  "carType": "Retro Hot Hatch",
   "drivetrain": "FWD",
   "engine": "Front",
   "thumb": "/cars/volkswagen-golf-gti-16v-mk2-160.webp",
@@ -16168,7 +16168,7 @@
    "of": 5.9
   },
   "stockPi": 546,
-  "carType": null,
+  "carType": "Super Hot Hatch",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/volkswagen-golf-r-2021-160.webp",
@@ -16243,7 +16243,7 @@
    "of": 5.9
   },
   "stockPi": 440,
-  "carType": null,
+  "carType": "Retro Rally",
   "drivetrain": "AWD",
   "engine": "Front",
   "thumb": "/cars/volkswagen-rallye-golf-160.webp",
@@ -16318,7 +16318,7 @@
    "of": 5.7
   },
   "stockPi": 435,
-  "carType": null,
+  "carType": "Classic Rally",
   "drivetrain": "RWD",
   "engine": "Front",
   "thumb": "/cars/volvo-242-turbo-evolution-160.webp",
@@ -16343,7 +16343,7 @@
    "of": 6.2
   },
   "stockPi": 100,
-  "carType": null,
+  "carType": "Hot Hatch",
   "drivetrain": "RWD",
   "engine": "Rear",
   "thumb": "/cars/wuling-hongguang-mini-ev-160.webp",

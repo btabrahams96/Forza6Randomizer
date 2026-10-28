@@ -1,0 +1,110 @@
+{{game|fm23=y|fh5=y|fh6=y}}
+{{CarInfobox
+|manufacturer = mclaren
+|model        = Artura
+|image        = 
+<gallery>
+FH6 McLaren Artura.png|Horizon
+FM23 McLaren Artura.png|Motorsport
+</gallery>
+|desc         = Thumbnail in Forza Horizon 6
+|year         = 2023
+|origin       = uk
+|type         = p
+|aspiration   = tth
+|disp         = 3.0
+|engine       = V6
+|power        = 670
+|torque       = 531
+|layout       = mr
+|front        = 42
+|weight       = 3384
+|gears        = 8
+}}
+{{quotation|McLaren’s newest line of hybrid vehicles has its sights set on the Horizon Festival, and it’s ready to race. Putting together the loud and proud power of a twin-turbo V-6 and a silent but deadly electric power train, this car makes a combined bhp of 671 horsepower. Sitting in the highest level of performance, the Artura has a 0 – 100 kmh time of 2.6 seconds. To make the best use of the combined gas and electric systems, the new Artura was built using the brand-new Carbon Lightweight Architecture on its body as well as fitting air vents and the signature McLaren scissor doors. Experience the feeling of mad power that only a car maker with McLaren’s pedigree could imprint into a hybrid with the 2023 McLaren Artura.|Official description|<ref>{{ref|https://forza.net/news/forza-horizon-5-Horizon-Race-Off|Forza Horizon 5 - Horizon Race-Off|forza.net|03-26-2024}}</ref>}}
+The 2023 '''McLaren Artura''' - abbreviated as "McL. Artura '23" - is a rear-wheel drive hybrid supercar by [[McLaren]].
+
+It appears in ''[[Forza Horizon 5]]'' as part of [[Forza Horizon 5/Series 32|Series 32]], [[Forza Motorsport (2023)|''Forza Motorsport'' (2023)]] as part of [[Forza Motorsport (2023)/Update 12.0|Update 12.0]] and ''[[Forza Horizon 6]]''.
+
+==Synopsis==
+{{SectionStub}}
+
+==Statistics==
+{{stub|fh6}}
+{{CarStats|fm23
+|7.3|3.9|3.6|6.3|751
+|price = 289,000|div = megt|update = 12.0
+|unlock = hubtour|hubtour = {{FM23HubReward|12.0|l|Mid-Engine Challenge}}
+|ts = 219.7|mile = 10.300
+|a60 = 2.616|a100 = 5.500
+|b60 = 100.4|b100 = 252.6
+|g60 = 1.20|g120 = 1.23
+}}
+{{CarStats|fh5
+|8.1|6.4|6.7|7.3|7.3|4.9|860
+|unlock = htf|wheelspin = n|update = 32
+|price = 285,000|tier = e|div = msu
+|backstage = March 27, 2025
+|season = {{FH5Series|32|su|season|20}}
+|a60 = 2.600|a100 = 5.487|ts = 222.9
+|b60 = 91.9 |b100 = 222.0 
+|g60 = 1.12|g120 = 1.23 
+}}
+{{CarStats|fh6
+|8.1|6.3|6.7|7.3|7.2|4.9|766
+|unlock = auto|after = y|amprice = 165,000|location = {{FH6AMCarLocation|SHI6}}|amupdate = 5
+|amtakeover = {{FH6AMLimited|5|British Automotive Dealership|SHI6|165,000}}
+|price = 220,000|tier = e|div = msu
+|a60 = 2.950|a100 = 5.683|ts = 221.9
+|b60 = 67.0|b100 = 156.1
+|g60 = 1.11|g120 = 1.21
+|mb = 0.60|ab = 0.35|ae = 0.839
+}}
+
+==Conversions==
+{{CarConversions|eng
+|fm23 = [[4.0L V8 - TT (603 hp)|4.0L V8-TT]], [[5.2L V10 (630 hp)|5.2L V10]], [[6.5L V12 (788 hp)|6.5L V12]]
+|fh5 = [[5.2L V10 (602 hp)|5.2L V10]], [[4.0L V8TT]]
+|fh6 = [[5.2L V10 (602 hp)|5.2L V10]], [[6.1L V12]], [[4.0L V8-TT (755 hp)|4.0L V8-TT]]
+}}
+{{CarConversions|drive
+|fm23 = AWD
+|fh5 = AWD Drivetrain
+|fh6 = AWD Drivetrain
+}}
+{{CarConversions|asp
+|fm23 = Twin-Turbo
+|fh6 = Twin-Turbo
+}}
+
+==Trivia==
+*In ''Forza Motorsport'' (2023), it was listed with a value of 1 CR prior to [[Forza Motorsport (2023)/Update 15|Update 15]].
+*It was revealed for ''Forza Horizon 6'' on April 10, 2026.
+
+==Gallery==
+<gallery widths="200" spacing="small" hideaddbutton="true">
+File:FH5 McLaren Artura Front.jpg|''Forza Horizon 5''{{GalleryNote|(Front)}}
+File:FH5 McLaren Artura Rear.jpg|''Forza Horizon 5''{{GalleryNote|(Rear)}}
+File:FH5 McLaren Artura.png|''Forza Horizon 5''{{GalleryNote|Thumbnail}}
+File:FH6 Aftermarket Gallery SHI6 McLaren Artura.jpg|''Forza Horizon 6''{{GalleryNote|Aftermarket}}
+</gallery>
+
+===Promotional===
+<gallery widths="200" spacing="small" hideaddbutton="true">
+FM23 McLaren Artura Promo.jpg|''Forza Motorsport'' (2023)
+FM23 McLaren Artura Promo 2.jpg|''Forza Motorsport'' (2023)
+FM23 McLaren Artura Promo 3.jpg|''Forza Motorsport'' (2023)
+FH5 McLaren Artura Promo.jpg|''Forza Horizon 5''
+FH5 McLaren Artura Promo 2.jpg|''Forza Horizon 5''
+</gallery>
+
+===Forzavista===
+<gallery widths="200" spacing="small" hideaddbutton="true">
+FH5 McLaren Artura Front Compartment.jpg|Frunk{{GalleryNote|''Forza Horizon 5''}}
+FH5 McLaren Artura Interior.jpg|Interior{{GalleryNote|''Forza Horizon 5''}}
+FH5 McLaren Artura Dashboard.jpg|Dashboard{{GalleryNote|''Forza Horizon 5''}}
+</gallery>
+
+==References==
+<references />
+{{McLarenNav}}

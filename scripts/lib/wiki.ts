@@ -72,9 +72,28 @@ export function parseCarList(wikitext: string): RawListRow[] {
   return rows
 }
 
+// The FH6 stats block holds nested templates ({{FH6AMCarLocation|SHI6}}), so a
+// lazy regex would stop at the first inner `}}`. Walk braces to the matching close.
+function templateBody(text: string, start: RegExp): string | null {
+  const m = start.exec(text)
+  if (!m) return null
+  let depth = 0
+  for (let i = m.index; i < text.length - 1; i++) {
+    if (text[i] === '{' && text[i + 1] === '{') {
+      depth++
+      i++
+    } else if (text[i] === '}' && text[i + 1] === '}') {
+      depth--
+      i++
+      if (depth === 0) return text.slice(m.index, i + 1)
+    }
+  }
+  return text.slice(m.index)
+}
+
 export function parseCarPage(wikitext: string): { div: string | null; layout: string | null; imageFile: string | null } {
-  const stats = wikitext.match(/\{\{CarStats\|fh6\b([\s\S]*?)\}\}/)
-  const div = stats?.[1].match(/\|\s*div\s*=\s*([^|\s}]+)/)?.[1] ?? null
+  const stats = templateBody(wikitext, /\{\{CarStats\|fh6\b/)
+  const div = stats?.match(/\|\s*div\s*=\s*([^|\s}]+)/)?.[1] ?? null
   const layout = wikitext.match(/\|\s*layout\s*=\s*([^|\s}]+)/)?.[1] ?? null
   const imageFile = wikitext.match(/(FH6 [^|\n\]]+?\.(?:png|jpg))/)?.[1] ?? null
   return { div, layout, imageFile }
