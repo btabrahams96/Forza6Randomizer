@@ -24,3 +24,23 @@ export type Car = {
 }
 
 export type CustomCar = { make: string; model: string; year: number | null }
+
+export type Profile = { id: string; name: string; createdAt: number }
+
+// Exactly one of carId / custom is set.
+export type GarageEntry = {
+  id: string
+  profileId: string
+  carId: string | null
+  custom: CustomCar | null
+  pi: number
+  nickname: string | null
+  addedAt: number
+  updatedAt: number
+}
+
+export type RollSettings = {
+  profileId: string
+  pool: 'garage' | 'all'
+  filters: import('./filters').FilterState
+}
