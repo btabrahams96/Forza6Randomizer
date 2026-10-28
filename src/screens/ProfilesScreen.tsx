@@ -12,26 +12,38 @@ import './ProfilesScreen.css'
 
 const cars = (n: number) => `${n} car${n === 1 ? '' : 's'}`
 
-async function exportProfile(profile: Profile) {
+async function backupFile(profile: Profile): Promise<File> {
   const entries = await listEntries(profile.id)
   const json = JSON.stringify(buildBackup(profile, entries), null, 1)
   const name = `${profile.name.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-') || 'my'}-garage.json`
-  const file = new File([json], name, { type: 'application/json' })
+  return new File([json], name, { type: 'application/json' })
+}
+
+function download(file: File) {
+  const url = URL.createObjectURL(file)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = file.name
+  a.click()
+  setTimeout(() => URL.revokeObjectURL(url), 1000)
+}
+
+// Called straight from the tap with a file built in advance: iOS only opens the
+// share sheet while the tap's user gesture is still fresh.
+async function shareFile(file: File, profile: Profile) {
   if (navigator.canShare?.({ files: [file] })) {
     try {
       await navigator.share({ files: [file], title: `${profile.name}'s garage` })
       return
     } catch (e) {
       if ((e as Error).name === 'AbortError') return
+      download(file)
+      toast("Couldn't open the share sheet. Downloading the file instead; check your Files app.")
+      return
     }
   }
-  const url = URL.createObjectURL(file)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = name
-  a.click()
-  setTimeout(() => URL.revokeObjectURL(url), 1000)
-  toast(`Saved ${name}`)
+  download(file)
+  toast(`Downloading ${file.name}. Check your Files app.`)
 }
 
 export function ProfilesScreen() {
@@ -159,9 +171,12 @@ function EditProfileSheet({ profile: live, counts, onClose }: { profile: Profile
   const { renameProfile, deleteProfile } = useStore()
   const [name, setName] = useState('')
   const [confirming, setConfirming] = useState(false)
+  const [file, setFile] = useState<File | null>(null)
 
   useEffect(() => {
     if (!live) return
+    setFile(null)
+    void backupFile(live).then(setFile)
     setName(live.name)
     setConfirming(false)
   }, [live])
@@ -210,7 +225,7 @@ function EditProfileSheet({ profile: live, counts, onClose }: { profile: Profile
             <span className="field__label">Profile name</span>
             <input className="field__input" value={name} onChange={(e) => setName(e.target.value)} maxLength={40} />
           </label>
-          <button className="button-secondary profile-export" onClick={() => void exportProfile(profile)}>
+          <button className="button-secondary profile-export" disabled={!file} onClick={() => file && void shareFile(file, profile)}>
             <ShareIcon width={20} height={20} />
             Export {cars(count)}
           </button>

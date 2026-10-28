@@ -1,4 +1,4 @@
-import { describe, test, expect, beforeEach } from 'vitest'
+import { describe, test, expect, beforeEach, afterEach, vi } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { screen, act, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
@@ -82,5 +82,35 @@ describe('Profiles', () => {
     await userEvent.type(screen.getByLabelText('Profile name'), 'Kyle')
     await userEvent.click(screen.getByRole('button', { name: 'Create' }))
     expect(await screen.findByRole('radio', { name: /Kyle, 0 cars/ })).toBeChecked()
+  })
+})
+
+describe('Export', () => {
+  afterEach(() => {
+    // @ts-expect-error test cleanup
+    delete navigator.share
+    // @ts-expect-error test cleanup
+    delete navigator.canShare
+  })
+
+  test('opens the share sheet with the garage file', async () => {
+    const share = vi.fn().mockResolvedValue(undefined)
+    Object.assign(navigator, { share, canShare: () => true })
+    renderUi(<ProfilesScreen />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Edit Bryton' }))
+    await userEvent.click(await screen.findByRole('button', { name: 'Export 1 car' }))
+    expect(share).toHaveBeenCalledTimes(1)
+    const sent: File = share.mock.calls[0][0].files[0]
+    expect(sent.name).toBe('bryton-garage.json')
+    expect(JSON.parse(await sent.text()).entries).toHaveLength(1)
+  })
+
+  test('says so when the share sheet fails', async () => {
+    const err = Object.assign(new Error('gesture'), { name: 'NotAllowedError' })
+    Object.assign(navigator, { share: vi.fn().mockRejectedValue(err), canShare: () => true })
+    renderUi(<ProfilesScreen />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Edit Bryton' }))
+    await userEvent.click(await screen.findByRole('button', { name: 'Export 1 car' }))
+    expect(await screen.findByText(/Couldn't open the share sheet/)).toBeInTheDocument()
   })
 })
