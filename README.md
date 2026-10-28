@@ -12,12 +12,14 @@ npm run dev      # http://localhost:5173
 npm test
 ```
 
-## Deploy (Cloudflare Pages)
+## Deploy (Cloudflare Workers static assets)
 
 ```bash
 npx wrangler login   # once
 npm run deploy
 ```
+
+Live at https://forza6-randomizer.b-t-abrahams96.workers.dev. Config is in `wrangler.jsonc`.
 
 On iPhone, open the link in Safari, then Share → Add to Home Screen, and open it from the Home Screen.
 

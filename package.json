@@ -10,7 +10,7 @@
     "test": "vitest run",
     "fetch-cars": "tsx scripts/fetch-cars.ts",
     "seed": "tsx scripts/seed-from-tsv.ts",
-    "deploy": "npm run build && npx wrangler pages deploy dist --project-name forza6-randomizer"
+    "deploy": "npm run build && npx wrangler deploy"
   },
   "dependencies": {
     "idb": "^8.0.4",

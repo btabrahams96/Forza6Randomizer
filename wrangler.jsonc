@@ -1,0 +1,10 @@
+{
+  // Static site on Cloudflare Workers (the successor to Pages). No server code.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "forza6-randomizer",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
