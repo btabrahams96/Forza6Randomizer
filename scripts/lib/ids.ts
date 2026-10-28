@@ -13,7 +13,7 @@ export function slugify(s: string): string {
 export function makeCarIds(rows: RawListRow[]): string[] {
   const base = rows.map((r) => {
     let id = slugify(r.name)
-    if (r.rarityCode === 'fe') id += '-forza-edition'
+    if (r.rarityCode === 'fe' && !id.endsWith('-forza-edition')) id += '-forza-edition'
     if (r.unlockCode === 'wp') id += '-welcome-pack'
     return id
   })

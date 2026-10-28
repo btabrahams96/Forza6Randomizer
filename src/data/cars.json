@@ -1825,7 +1825,7 @@
   "hero": "/cars/bmw-m2-competition-coupe-720.webp"
  },
  {
-  "id": "bmw-m2-forza-edition-forza-edition",
+  "id": "bmw-m2-forza-edition",
   "name": "BMW M2 Forza Edition",
   "make": "BMW",
   "model": "M2 Forza Edition",
@@ -1846,8 +1846,8 @@
   "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/bmw-m2-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/bmw-m2-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/bmw-m2-forza-edition-160.webp",
+  "hero": "/cars/bmw-m2-forza-edition-720.webp"
  },
  {
   "id": "bmw-m3-1988",
@@ -3950,7 +3950,7 @@
   "hero": "/cars/dodge-viper-gts-acr-720.webp"
  },
  {
-  "id": "dodge-viper-gts-acr-forza-edition-forza-edition",
+  "id": "dodge-viper-gts-acr-forza-edition",
   "name": "Dodge Viper GTS ACR Forza Edition",
   "make": "Dodge",
   "model": "Viper GTS ACR Forza Edition",
@@ -3971,8 +3971,8 @@
   "carType": "Unlimited Offroad",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/dodge-viper-gts-acr-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/dodge-viper-gts-acr-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/dodge-viper-gts-acr-forza-edition-160.webp",
+  "hero": "/cars/dodge-viper-gts-acr-forza-edition-720.webp"
  },
  {
   "id": "dodge-viper-srt-10-acr",
@@ -5425,7 +5425,7 @@
   "hero": "/cars/ford-f-150-xlt-lariat-720.webp"
  },
  {
-  "id": "ford-f-150-xlt-lariat-forza-edition-forza-edition",
+  "id": "ford-f-150-xlt-lariat-forza-edition",
   "name": "Ford F-150 XLT Lariat Forza Edition",
   "make": "Ford",
   "model": "F-150 XLT Lariat Forza Edition",
@@ -5446,8 +5446,8 @@
   "carType": null,
   "drivetrain": "AWD",
   "engine": "Front",
-  "thumb": "/cars/ford-f-150-xlt-lariat-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/ford-f-150-xlt-lariat-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/ford-f-150-xlt-lariat-forza-edition-160.webp",
+  "hero": "/cars/ford-f-150-xlt-lariat-forza-edition-720.webp"
  },
  {
   "id": "ford-fiesta-st-2023",
@@ -5775,7 +5775,7 @@
   "hero": "/cars/ford-mustang-gt-2-2-fastback-720.webp"
  },
  {
-  "id": "ford-mustang-gt-2-2-fastback-forza-edition-forza-edition",
+  "id": "ford-mustang-gt-2-2-fastback-forza-edition",
   "name": "Ford Mustang GT 2+2 Fastback Forza Edition",
   "make": "Ford",
   "model": "Mustang GT 2+2 Fastback Forza Edition",
@@ -5796,8 +5796,8 @@
   "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/ford-mustang-gt-2-2-fastback-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/ford-mustang-gt-2-2-fastback-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/ford-mustang-gt-2-2-fastback-forza-edition-160.webp",
+  "hero": "/cars/ford-mustang-gt-2-2-fastback-forza-edition-720.webp"
  },
  {
   "id": "ford-mustang-gt-coupe",
@@ -6100,7 +6100,7 @@
   "hero": "/cars/ford-super-duty-f-450-drw-platinum-720.webp"
  },
  {
-  "id": "ford-super-duty-f-450-drw-platinum-forza-edition-forza-edition",
+  "id": "ford-super-duty-f-450-drw-platinum-forza-edition",
   "name": "Ford Super Duty F-450 DRW PLATINUM Forza Edition",
   "make": "Ford",
   "model": "Super Duty F-450 DRW PLATINUM Forza Edition",
@@ -6121,8 +6121,8 @@
   "carType": "Pickups & 4x4's",
   "drivetrain": "AWD",
   "engine": "Front",
-  "thumb": "/cars/ford-super-duty-f-450-drw-platinum-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/ford-super-duty-f-450-drw-platinum-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/ford-super-duty-f-450-drw-platinum-forza-edition-160.webp",
+  "hero": "/cars/ford-super-duty-f-450-drw-platinum-forza-edition-720.webp"
  },
  {
   "id": "ford-supervan-3",
@@ -7925,7 +7925,7 @@
   "hero": "/cars/jaguar-xj-s-720.webp"
  },
  {
-  "id": "jaguar-xj-s-forza-edition-forza-edition",
+  "id": "jaguar-xj-s-forza-edition",
   "name": "Jaguar XJ-S Forza Edition",
   "make": "Jaguar",
   "model": "XJ-S Forza Edition",
@@ -7946,8 +7946,8 @@
   "carType": "Drift Cars",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/jaguar-xj-s-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/jaguar-xj-s-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/jaguar-xj-s-forza-edition-160.webp",
+  "hero": "/cars/jaguar-xj-s-forza-edition-720.webp"
  },
  {
   "id": "jaguar-xj220",
@@ -9200,7 +9200,7 @@
   "hero": "/cars/lexus-lfa-720.webp"
  },
  {
-  "id": "lexus-lfa-forza-edition-forza-edition",
+  "id": "lexus-lfa-forza-edition",
   "name": "Lexus LFA Forza Edition",
   "make": "Lexus",
   "model": "LFA Forza Edition",
@@ -9221,8 +9221,8 @@
   "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/lexus-lfa-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/lexus-lfa-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/lexus-lfa-forza-edition-160.webp",
+  "hero": "/cars/lexus-lfa-forza-edition-720.webp"
  },
  {
   "id": "lexus-rc-f",
@@ -9400,7 +9400,7 @@
   "hero": "/cars/lotus-evija-720.webp"
  },
  {
-  "id": "lotus-evija-forza-edition-forza-edition",
+  "id": "lotus-evija-forza-edition",
   "name": "Lotus Evija Forza Edition",
   "make": "Lotus",
   "model": "Evija Forza Edition",
@@ -9421,8 +9421,8 @@
   "carType": "Drift Cars",
   "drivetrain": "AWD",
   "engine": "Mid",
-  "thumb": "/cars/lotus-evija-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/lotus-evija-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/lotus-evija-forza-edition-160.webp",
+  "hero": "/cars/lotus-evija-forza-edition-720.webp"
  },
  {
   "id": "lotus-exige-cup-430",
@@ -9850,7 +9850,7 @@
   "hero": "/cars/mazda-mx-5-miata-1994-720.webp"
  },
  {
-  "id": "mazda-mx-5-miata-forza-edition-forza-edition",
+  "id": "mazda-mx-5-miata-forza-edition",
   "name": "Mazda MX-5 Miata Forza Edition",
   "make": "Mazda",
   "model": "MX-5 Miata Forza Edition",
@@ -9871,8 +9871,8 @@
   "carType": null,
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/mazda-mx-5-miata-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/mazda-mx-5-miata-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/mazda-mx-5-miata-forza-edition-160.webp",
+  "hero": "/cars/mazda-mx-5-miata-forza-edition-720.webp"
  },
  {
   "id": "mazda-mx-5-miata-rf",
@@ -9925,7 +9925,7 @@
   "hero": "/cars/mazda-rx-3-720.webp"
  },
  {
-  "id": "mazda-rx-3-forza-edition-forza-edition",
+  "id": "mazda-rx-3-forza-edition",
   "name": "Mazda RX-3 Forza Edition",
   "make": "Mazda",
   "model": "RX-3 Forza Edition",
@@ -9946,8 +9946,8 @@
   "carType": null,
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/mazda-rx-3-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/mazda-rx-3-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/mazda-rx-3-forza-edition-160.webp",
+  "hero": "/cars/mazda-rx-3-forza-edition-720.webp"
  },
  {
   "id": "mazda-rx-7-gsl-se",
@@ -10675,7 +10675,7 @@
   "hero": "/cars/mercedes-benz-190e-2-5-16-evolution-ii-720.webp"
  },
  {
-  "id": "mercedes-benz-190e-2-5-16-evolution-ii-forza-edition-forza-edition",
+  "id": "mercedes-benz-190e-2-5-16-evolution-ii-forza-edition",
   "name": "Mercedes-Benz 190E 2.5-16 Evolution II Forza Edition",
   "make": "Mercedes-Benz",
   "model": "190E 2.5-16 Evolution II Forza Edition",
@@ -10696,8 +10696,8 @@
   "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/mercedes-benz-190e-2-5-16-evolution-ii-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/mercedes-benz-190e-2-5-16-evolution-ii-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/mercedes-benz-190e-2-5-16-evolution-ii-forza-edition-160.webp",
+  "hero": "/cars/mercedes-benz-190e-2-5-16-evolution-ii-forza-edition-720.webp"
  },
  {
   "id": "mercedes-benz-300-sl-coupe",
@@ -11925,7 +11925,7 @@
   "hero": "/cars/nissan-gt-r-black-edition-r35-720.webp"
  },
  {
-  "id": "nissan-gt-r-black-edition-r35-forza-edition-forza-edition",
+  "id": "nissan-gt-r-black-edition-r35-forza-edition",
   "name": "Nissan GT-R Black Edition (R35) Forza Edition",
   "make": "Nissan",
   "model": "GT-R Black Edition (R35) Forza Edition",
@@ -11946,8 +11946,8 @@
   "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/nissan-gt-r-black-edition-r35-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/nissan-gt-r-black-edition-r35-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/nissan-gt-r-black-edition-r35-forza-edition-160.webp",
+  "hero": "/cars/nissan-gt-r-black-edition-r35-forza-edition-720.webp"
  },
  {
   "id": "nissan-gt-r-nismo-2024",
@@ -12150,7 +12150,7 @@
   "hero": "/cars/nissan-s-cargo-720.webp"
  },
  {
-  "id": "nissan-s-cargo-forza-edition-forza-edition",
+  "id": "nissan-s-cargo-forza-edition",
   "name": "Nissan S-Cargo Forza Edition",
   "make": "Nissan",
   "model": "S-Cargo Forza Edition",
@@ -12171,8 +12171,8 @@
   "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
-  "thumb": "/cars/nissan-s-cargo-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/nissan-s-cargo-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/nissan-s-cargo-forza-edition-160.webp",
+  "hero": "/cars/nissan-s-cargo-forza-edition-720.webp"
  },
  {
   "id": "nissan-safari-turbo",
@@ -13100,7 +13100,7 @@
   "hero": "/cars/porsche-3-917-lh-720.webp"
  },
  {
-  "id": "porsche-3-917-lh-forza-edition-forza-edition",
+  "id": "porsche-3-917-lh-forza-edition",
   "name": "Porsche #3 917 LH Forza Edition",
   "make": "Porsche",
   "model": "3 917 LH Forza Edition",
@@ -13121,8 +13121,8 @@
   "carType": "Extreme Track Toys",
   "drivetrain": "RWD",
   "engine": "Mid",
-  "thumb": "/cars/porsche-3-917-lh-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/porsche-3-917-lh-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/porsche-3-917-lh-forza-edition-160.webp",
+  "hero": "/cars/porsche-3-917-lh-forza-edition-720.webp"
  },
  {
   "id": "porsche-70-porsche-motorsport-935",
@@ -14500,7 +14500,7 @@
   "hero": "/cars/subaru-brz-2022-720.webp"
  },
  {
-  "id": "subaru-brz-2022-forza-edition-forza-edition",
+  "id": "subaru-brz-2022-forza-edition",
   "name": "Subaru BRZ Forza Edition",
   "make": "Subaru",
   "model": "BRZ (2022) Forza Edition",
@@ -14521,8 +14521,8 @@
   "carType": null,
   "drivetrain": "AWD",
   "engine": "Front",
-  "thumb": "/cars/subaru-brz-2022-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/subaru-brz-2022-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/subaru-brz-2022-forza-edition-160.webp",
+  "hero": "/cars/subaru-brz-2022-forza-edition-720.webp"
  },
  {
   "id": "subaru-impreza-22b-sti-version",
@@ -14750,7 +14750,7 @@
   "hero": "/cars/subaru-vivio-rx-r-720.webp"
  },
  {
-  "id": "subaru-vivio-rx-r-forza-edition-forza-edition",
+  "id": "subaru-vivio-rx-r-forza-edition",
   "name": "Subaru Vivio RX-R Forza Edition",
   "make": "Subaru",
   "model": "Vivio RX-R Forza Edition",
@@ -14771,8 +14771,8 @@
   "carType": "Extreme Track Toys",
   "drivetrain": "FWD",
   "engine": "Front",
-  "thumb": "/cars/subaru-vivio-rx-r-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/subaru-vivio-rx-r-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/subaru-vivio-rx-r-forza-edition-160.webp",
+  "hero": "/cars/subaru-vivio-rx-r-forza-edition-720.webp"
  },
  {
   "id": "subaru-wrx",
@@ -15675,7 +15675,7 @@
   "hero": "/cars/toyota-sprinter-trueno-gt-apex-720.webp"
  },
  {
-  "id": "toyota-sprinter-trueno-gt-apex-forza-edition-forza-edition",
+  "id": "toyota-sprinter-trueno-gt-apex-forza-edition",
   "name": "Toyota Sprinter Trueno GT-APEX Forza Edition",
   "make": "Toyota",
   "model": "Sprinter Trueno GT-APEX Forza Edition",
@@ -15696,8 +15696,8 @@
   "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/toyota-sprinter-trueno-gt-apex-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/toyota-sprinter-trueno-gt-apex-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/toyota-sprinter-trueno-gt-apex-forza-edition-160.webp",
+  "hero": "/cars/toyota-sprinter-trueno-gt-apex-forza-edition-720.webp"
  },
  {
   "id": "toyota-starlet-glanza-v",
@@ -15800,7 +15800,7 @@
   "hero": "/cars/toyota-tacoma-trd-pro-720.webp"
  },
  {
-  "id": "toyota-tacoma-trd-pro-forza-edition-forza-edition",
+  "id": "toyota-tacoma-trd-pro-forza-edition",
   "name": "Toyota Tacoma TRD Pro Forza Edition",
   "make": "Toyota",
   "model": "Tacoma TRD Pro Forza Edition",
@@ -15821,8 +15821,8 @@
   "carType": "Extreme Track Toys",
   "drivetrain": "AWD",
   "engine": "Front",
-  "thumb": "/cars/toyota-tacoma-trd-pro-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/toyota-tacoma-trd-pro-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/toyota-tacoma-trd-pro-forza-edition-160.webp",
+  "hero": "/cars/toyota-tacoma-trd-pro-forza-edition-720.webp"
  },
  {
   "id": "tvr-cerbera-speed-12",
@@ -16375,7 +16375,7 @@
   "hero": "/cars/wuling-sunshine-s-720.webp"
  },
  {
-  "id": "wuling-sunshine-s-forza-edition-forza-edition",
+  "id": "wuling-sunshine-s-forza-edition",
   "name": "Wuling Sunshine S Forza Edition",
   "make": "Wuling",
   "model": "Sunshine S Forza Edition",
@@ -16396,8 +16396,8 @@
   "carType": "Track Toys",
   "drivetrain": "RWD",
   "engine": "Front",
-  "thumb": "/cars/wuling-sunshine-s-forza-edition-forza-edition-160.webp",
-  "hero": "/cars/wuling-sunshine-s-forza-edition-forza-edition-720.webp"
+  "thumb": "/cars/wuling-sunshine-s-forza-edition-160.webp",
+  "hero": "/cars/wuling-sunshine-s-forza-edition-720.webp"
  },
  {
   "id": "gr-gr-gt-prototype-initial-drive",

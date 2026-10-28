@@ -78,7 +78,7 @@ function pageTitle(r: RawListRow): string {
 
 function displayName(r: RawListRow): string {
   const base = r.display ?? r.name
-  if (r.rarityCode === 'fe') return `${base} Forza Edition`
+  if (r.rarityCode === 'fe' && !/forza edition$/i.test(base)) return `${base} Forza Edition`
   if (r.unlockCode === 'wp') return `${base} 'Welcome Pack'`
   return base
 }

@@ -20,6 +20,10 @@ describe('makeCarIds', () => {
     const fe = { ...rows[0], rarityCode: 'fe' }
     expect(makeCarIds([rows[0], fe])).toEqual(['abarth-124-spider', 'abarth-124-spider-forza-edition'])
   })
+  test('forza edition whose wiki name already says so is not suffixed twice', () => {
+    const fe = { ...rows[0], name: 'Lotus Evija Forza Edition', rarityCode: 'fe' }
+    expect(makeCarIds([fe])).toEqual(['lotus-evija-forza-edition'])
+  })
   test('ids are deterministic and independent of the order of other rows', () => {
     const a = makeCarIds(rows)
     expect(makeCarIds(rows)).toEqual(a)
