@@ -1,0 +1,127 @@
+{{game|fm23=y|fh6=y}}
+{{CarInfobox
+|manufacturer = Acura
+|model = NSX Type S
+|image =
+<gallery>
+FH6 Acura NSX Type-S.png|Horizon
+FM23 Acura NSX Type S.png|Motorsport
+</gallery>
+|year = 2022
+|origin = usa
+|type = p
+|aspiration = t2h
+|disp = 3.5
+|engine = V6
+|elec = <small>Dual front electric motors & rear electric motor</small>
+|power = 600
+|torque = 492
+|layout = ma
+|weight = 3903
+|front = 42
+|gears = 9
+}}
+The 2022 '''Acura NSX Type S''' - abbreviated as "Acura NSX '22" - is a mid-engine, all-wheel drive hybrid supercar by [[Acura]].
+
+It is featured in [[Forza Motorsport (2023)|''Forza Motorsport'' (2023)]] since [[Forza Motorsport (2023)/Update 20|Update 20]] and ''[[Forza Horizon 6]]''.
+
+==Synopsis==
+The 2022 Acura NSX Type S is an upgraded version of the [[Acura NSX (2017)|base 2nd generation NSX]] that was created to celebrate the 2nd generation NSX's final year of production. Production was limited to 350 units produced in the 2022 model year.
+
+The NSX features upgrades to its powertrain, including enhanced turbochargers from the [[Acura 36 NSX GT3|NSX GT3]] Evo and retuned electric motors that bring up the power to {{power|600}} and {{torque|492}}, an increase of {{power|27}} and {{torque|16}} over prior models. The transmission has also been reprogrammed in the Sport and Sport+ mode for 50% faster upshifts, and in Track mode, the transmission allows for sooner downshifts. A new nose design and larger rear diffuser give the car improved aerodynamics over prior models.
+
+The NSX Type S also features various design and interior upgrades, such as Gloss Berlina Black outside mirrors, door handles, a dark exhaust finisher, Alcantara headliner and a new color option: Gotham Gray matte metallic. This makes the Type S the first Acura product to be available in a matte finish<ref>{{ref|https://web.archive.org/web/20211025005729/https://www.hondanews.ca/en/acura/press-release/Acura-Debuts-Limited-Production-600hp-NSX-Type-S-at-Monterey-Car-Week-|Acura Debuts Limited Production 600hp NSX Type S at Monterey Car Week (Archived)|hondanews.ca|06-25-2025}}</ref>.
+
+===Performance===
+The NSX Type S accelerates from 0-{{speed|60}} in 2.9 seconds, 0.2 seconds quicker than the base model, and speeds up to an electronically limited top speed of {{speed|191}}, with the Type S traveling 1/4 of a mile in 11 seconds.<ref>{{ref|https://www.caranddriver.com/reviews/a39862681/2022-acura-nsx-type-s-by-the-numbers/|Tested: 2022 Acura NSX Type S Bids a 600-HP Farewell|caranddriver.com|06-25-2025}}</ref>
+
+==Statistics==
+{{CarStats|fm23
+|6.1|3.7|3.3|6.3|737
+|price = 256,000|div = msgt
+|unlock = hubtour|hubtour = {{FM23HubReward|21|onupdate|20th Anniversary Tour}}
+|a60 = 2.900|a100 = 6.700
+|mile = 11.000|ts = 202.3
+|b60 = 104.9|b100 = 262.0
+|g60 = 1.17|g120 = 1.19
+}}
+{{CarStats|fh6
+|7.3|6.2|8.7|7.7|6.9|5.4|734
+|campaign = un|band = Blue|wheelspin = n
+|price = 193,000|div = msu|tier = e
+|a60 = 2.833|a100 = 6.495|ts = 203.6
+|b60 = 90.4|b100 = 222.8
+|g60 = 1.09|g120 = 1.16
+|mb = 0.61|ab = 0.37
+|ae = 0.808
+}}
+
+==Conversions==
+{{CarConversions|eng
+|fm23 = [[1.6L I4 - Turbo Rally (375 hp)|1.6L I4-T]], [[4.5L V8]], [[4.0L V8 - TT (603 hp)|4.0L V8-TT]], [[5.2L V10 (630 hp)|5.2L V10]], [[6.5L V12 (788 hp)|6.5L V12]]
+|fh6 = [[3.5L TT Hybrid]], [[5.2L V10 (602 hp)|5.2L V10]], [[6.5L V12 (700 hp)|6.5L V12]], [[Racing V12]], [[Racing 7.2L V8]] 
+}}
+{{CarConversions|drive
+|fm23 = RWD
+|fh6 = RWD Drivetrain
+}}
+{{CarConversions|body
+|fm23 = Widebody Kit
+|fh6 = Liberty Walk - Widebody Kit
+}}
+
+==Trivia==
+*Although quicker than the base model in real life, in ''Forza'', it is actually slower, due to the exaggerated torque figure of the 2017 NSX.
+*It can be customized with a Liberty Walk rear wing and also have its stock rear wing removed.
+*With the Liberty Walk Widebody Kit, the front bumper can not be customized.
+*In ''Forza Motorsport'' (2023), while originally announced in Update 20, it wasn't unlockable until after Update 21 released.
+*It was revealed for ''Forza Horizon 6'' on January 22, 2026.
+
+==Gallery==
+<gallery widths="200" spacing="small" hideaddbutton="true">
+FM23 Acura NSX Type S Front.jpg|''Forza Motorsport'' (2023){{GalleryNote|(Front)}}
+FM23 Acura NSX Type S Rear.jpg|''Forza Motorsport'' (2023){{GalleryNote|(Rear)}}
+FH6 Acura NSX Type S Front.jpg|''Forza Horizon 6''{{GalleryNote|(Front)}}
+FH6 Acura NSX Type S Rear.jpg|''Forza Horizon 6''{{GalleryNote|(Rear)}}
+</gallery>
+
+===Promotional===
+<gallery widths="200" spacing="small" hideaddbutton="true">
+FM23 Acura NSX Type S Promo 1.jpg|''Forza Motorsport'' (2023)
+FM23 Acura NSX Type S Promo 2.jpg|''Forza Motorsport'' (2023)
+FM23 Acura NSX Type S Promo 3.jpg|''Forza Motorsport'' (2023)
+FM23 Acura NSX Type S Promo 4.jpg|''Forza Motorsport'' (2023)
+FM23 Celica NSX Type S 911 GT2 22B Promo.jpg|''Forza Motorsport'' (2023){{GalleryNote|Acura NSX Type-S, Toyota Celica, Porsche 911 GT2, SUBARU Impreza 22B}}
+2022 Acura NSX Type S - Forza Motorsport|''Forza Motorsport'' (2023){{GalleryNote|Promotional Trailer}}
+FH6 Achievement WelcometoHorizon.jpg|''Forza Horizon 6''{{GalleryNote|"Welcome to Horizon" achievement}}
+FH6 Achievement MechingMyWayDowntown.jpg|''Forza Horizon 6''{{GalleryNote|"Meching My Way Downtown" achievement}}
+FH6 Acura NSX Type S Engine Promo.jpg|''Forza Horizon 6''{{GalleryNote|Engine}}
+FH6 Acura Promo.jpg|''Forza Horizon 6''{{GalleryNote|Acura cars}}
+FH6_Acura_NSX_Type_S_Promo_Trailer|''Forza Horizon 6''{{GalleryNote|Promotional Trailer}}
+</gallery>
+
+===Upgraded===
+<gallery widths="200" spacing="small" hideaddbutton="true">
+FH6 Acura NSX Type S Widebody Front.jpg|Liberty Walk Widebody Kit{{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Widebody Rear.jpg|Liberty Walk Widebody Kit{{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Liberty Walk Rear Wing.jpg|Liberty Walk Rear Wing{{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Remove Rear.jpg|Rear Wing Removed{{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Race Front.jpg|Race Parts (Front){{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Race Rear.jpg|Race Parts (Rear){{GalleryNote|''Forza Horizon 6''}}
+</gallery>
+
+===Forzavista===
+<gallery widths="200" spacing="small" hideaddbutton="true">
+FM23 Acura NSX Type S Interior.jpg|Interior{{GalleryNote|''Forza Motorsport'' (2023)}}
+FM23 Acura NSX Type S Dashboard.jpg|Dashboard{{GalleryNote|''Forza Motorsport'' (2023)}}
+FM23 Acura NSX Type S Engine & Trunk.jpg|Engine & Trunk{{GalleryNote|''Forza Motorsport'' (2023)}}
+FM23 Acura NSX Type S Frunk.jpg|Frunk{{GalleryNote|''Forza Motorsport'' (2023)}}
+FH6 Acura NSX Type S Interior.jpg|Interior{{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Dashboard.jpg|Dashboard{{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Engine.jpg|Engine & Trunk{{GalleryNote|''Forza Horizon 6''}}
+FH6 Acura NSX Type S Frunk.jpg|Frunk{{GalleryNote|''Forza Horizon 6''}}
+</gallery>
+
+==References==
+<references />
+{{AcuraNav}}
