@@ -28,10 +28,45 @@ describe('Garage', () => {
 
     await userEvent.click(screen.getByRole('button', { name: 'Add cars' }))
     await userEvent.type(screen.getByRole('searchbox', { name: 'Search all cars' }), 'Acura NSX Type S')
-    expect(await screen.findByText(/Own 1/)).toBeInTheDocument()
+    expect(await screen.findByText('In garage')).toBeInTheDocument()
     await userEvent.click(screen.getByRole('checkbox', { name: /Acura NSX Type S/ }))
+    await userEvent.click(screen.getByRole('button', { name: 'Add another copy' }))
     await userEvent.click(screen.getByRole('button', { name: 'Add 1 car' }))
     expect(await screen.findAllByRole('button', { name: /^Edit Acura NSX Type S/ })).toHaveLength(2)
+  })
+
+  test('ticking a car you own asks first; Cancel leaves it unticked', async () => {
+    await act(() => useStore.getState().addCars(['acura-nsx-type-s']))
+    renderUi(<GarageScreen />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Add cars' }))
+    await userEvent.type(screen.getByRole('searchbox', { name: 'Search all cars' }), 'Acura NSX Type S')
+    const row = await screen.findByRole('checkbox', { name: /Acura NSX Type S, .*in your garage/ })
+    await userEvent.click(row)
+    expect(screen.getByText('You already have this car. Add another copy?')).toBeInTheDocument()
+    expect(row).not.toBeChecked()
+    await userEvent.click(screen.getByRole('button', { name: 'Cancel adding a copy' }))
+    expect(screen.queryByText(/Add another copy\?/)).not.toBeInTheDocument()
+    expect(row).not.toBeChecked()
+    expect(screen.getByRole('button', { name: 'Select cars to add' })).toBeDisabled()
+
+    // Tapping the row again while asked cancels; only "Add another copy" adds.
+    await userEvent.click(row)
+    await userEvent.click(row)
+    expect(screen.queryByText(/Add another copy\?/)).not.toBeInTheDocument()
+    expect(row).not.toBeChecked()
+  })
+
+  test('Show narrows Add Cars to owned or not-owned cars', async () => {
+    await act(() => useStore.getState().addCars(['acura-nsx-type-s']))
+    renderUi(<GarageScreen />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Add cars' }))
+    await userEvent.type(screen.getByRole('searchbox', { name: 'Search all cars' }), 'Acura')
+    await userEvent.click(screen.getByRole('radio', { name: 'Owned' }))
+    expect(screen.getAllByRole('checkbox').map((c) => c.getAttribute('aria-label')?.split(',')[0])).toEqual(['Acura NSX Type S'])
+    await userEvent.click(screen.getByRole('radio', { name: 'Not owned' }))
+    const names = screen.getAllByRole('checkbox').map((c) => c.getAttribute('aria-label')?.split(',')[0])
+    expect(names).not.toContain('Acura NSX Type S')
+    expect(names.length).toBeGreaterThan(0)
   })
 
   test('a double tap on Add adds the cars once', async () => {

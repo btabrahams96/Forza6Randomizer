@@ -4,7 +4,7 @@
   height: 100%;
 }
 .add .filters-button {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   background: var(--surface-2);
 }
 .add__list {
@@ -77,8 +77,42 @@
   text-overflow: ellipsis;
 }
 .add__own {
+  align-self: flex-start;
+  margin-top: 3px;
+  padding: 2px 8px;
+  border-radius: 9px;
+  background: var(--accent-soft);
   color: var(--accent-text);
+  font-size: 12px;
   font-weight: 600;
+}
+.add__item {
+  border-bottom: 0.5px solid var(--sep);
+}
+.add__item .add__row {
+  border-bottom: 0;
+}
+.add__show {
+  margin: 0 0 12px;
+}
+.add__confirm {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0 12px 10px 88px;
+  padding: 10px 12px 4px;
+  border-radius: 10px;
+  background: var(--surface-3);
+}
+.add__confirm-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.add__confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
 }
 .add__check {
   flex: none;
